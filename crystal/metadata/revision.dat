@@ -1,0 +1,204 @@
+(Cell	crystal
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.7)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/13/21,14:38:21)
+
+			(User	Jimmy-X)
+
+			(Path	52_lib.crystal)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/13/21,15:28:39)
+
+			(User	Jimmy-X)
+
+			(Path	52_lib.crystal)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000c8bf5f9c)
+
+			(Primitives	1
+
+				(Primitive	CRYSTAL
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/13/21,14:38:21)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.crystal)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	CRYSTAL
+
+							(PackType	CRYSTAL)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	Crystal)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.7)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/13/21,14:38:21)
+
+					(User	Jimmy-X)
+
+					(Path	52_lib.crystal)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000005da55b65)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.7)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/13/21,14:38:21)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.crystal)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b6a0379)
+
+		)
+
+		(Checksum	000000001c2f037e)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.2-2016 p008 (v17-2-50K))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c6303ac)
+
+)
+

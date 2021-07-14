@@ -1,0 +1,22 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'CRYSTAL';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NUMBER='CRYSTAL';
+    VENDOR='*';
+    BODY_NAME='CRYSTAL';
+    PART_NAME='CRYSTAL';
+    JEDEC_TYPE='Crystal';
+    PHYS_DES_PREFIX='X';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+END.

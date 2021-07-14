@@ -1,0 +1,38 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'MLX90614';
+  pin
+    'SCL/VZ':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'SDA/PWM':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'VDD':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VSS':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NUMBER='MLX90614';
+    VENDOR='*';
+    BODY_NAME='MLX90614';
+    PART_NAME='MLX90614';
+    JEDEC_TYPE='MLX90614';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+END.
