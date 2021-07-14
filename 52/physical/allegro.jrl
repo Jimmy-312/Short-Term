@@ -1,64 +1,159 @@
 \t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Wed Jul 14 14:33:53 2021
-\t (00:00:01)         Host=JIMMY-STATION User=Jimmy-X Pid=23256 CPUs=8
-\t (00:00:01) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\短学期\designer\52.cpm -product Allegro_performance -option Allegro_PCB_HighSpeed_Option -option Allegro_PCB_Mini_Option -mpssession Jimmy-X_ProjectMgr19835 -mpshost Jimmy-Station
+\t (00:00:01)     Journal start - Wed Jul 14 21:43:37 2021
+\t (00:00:01)         Host=JIMMY-STATION User=Jimmy-X Pid=5348 CPUs=8
+\t (00:00:01) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\短学期\designer\52.cpm -product Allegro_performance -option Allegro_PCB_HighSpeed_Option -option Allegro_PCB_Mini_Option -mpssession Jimmy-X_ProjectMgr10940 -mpshost Jimmy-Station
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
 \t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/oled.dra
-\t (00:00:04) Grids are drawn 0.320, 0.320 apart for enhanced viewability.
-\i (00:00:04) trapsize 319
-\i (00:00:04) trapsize 325
-\t (00:00:04) Grids are drawn 0.320, 0.320 apart for enhanced viewability.
-\i (00:00:04) trapsize 325
-\i (00:00:05) generaledit 
-\i (00:00:21) pick grid 17.031 -31.803
-\t (00:00:21) last pick:  17.030 -31.800
-\i (00:00:27) add text 
-\t (00:00:27) Pick text location.
-\i (00:00:28) pick grid -14.155 18.290
-\t (00:00:28) last pick:  -14.150 18.290
-\t (00:00:28) Enter text string.
-\i (00:00:42) setwindow pcb
-\i (00:00:42) zoom in 1 
-\i (00:00:42) setwindow pcb
-\i (00:00:42) zoom in -13.116 18.485
-\t (00:00:42) Grids are drawn 0.160, 0.160 apart for enhanced viewability.
-\i (00:00:42) trapsize 162
-\i (00:00:43) zoom in 1 
-\i (00:00:43) setwindow pcb
-\i (00:00:43) zoom in -21.381 18.485
-\t (00:00:43) Grids are drawn 0.080, 0.080 apart for enhanced viewability.
-\i (00:00:43) trapsize 81
-\i (00:00:44) prepopup -16.101 20.483
-\i (00:00:45) done 
-\i (00:00:45) setwindow pcb
-\i (00:00:45) pick -14.150 18.290
-\i (00:00:45) setwindow pcb
-\i (00:00:45) generaledit 
-\i (00:00:47) pick grid -13.162 18.664
-\t (00:00:47) last pick:  -13.160 18.660
-\i (00:00:47) prepopup -13.162 18.664
-\i (00:00:50) pop dyn_option_select 'Change to layer@:@ASSEMBLY_TOP' 
-\i (00:00:50) change layer 
-\t (00:00:50) No DRC errors detected.
-\t (00:00:50) Changed 1 items out of 1 items found.
-\i (00:00:50) generaledit 
-\i (00:00:53) move 
-\t (00:00:53) last pick:  -14.150 18.290
-\t (00:00:53) Pick new location for the element(s).
-\i (00:00:55) pick grid -14.900 16.276
-\t (00:00:55) last pick:  -14.900 16.280
-\i (00:00:55) generaledit 
-\i (00:00:58) save 
-\i (00:00:59) fillin yes 
-\e (00:00:59) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
-\i (00:00:59) generaledit 
-\i (00:01:00) setwindow text
-\i (00:01:00) close 
-\i (00:01:01) setwindow pcb
-\i (00:01:01) exit 
-\e (00:01:01) Do you want to save the changes you made to C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/oled.dra?
-\i (00:01:03) fillin yes 
-\e (00:01:03) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
-\t (00:01:03)     Journal end - Wed Jul 14 14:34:55 2021
+\d (00:00:04) Design opened: C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/Potentiometer.dra
+\i (00:00:04) trapsize 62
+\t (00:00:04) Grids are drawn 0.100, 0.100 apart for enhanced viewability.
+\i (00:00:04) trapsize 63
+\t (00:00:04) Grids are drawn 0.100, 0.100 apart for enhanced viewability.
+\i (00:00:04) trapsize 63
+\i (00:00:04) generaledit 
+\i (00:00:07) shape add rect 
+\i (00:00:08) setwindow form.mini
+\i (00:00:08) FORM mini one_click YES 
+\i (00:00:14) FORM mini rec_width 9.500 
+\i (00:00:18) FORM mini rec_height 4.800 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) pick grid -4.837 2.329
+\t (00:00:33) last pick:  -4.850 2.350
+\i (00:00:35) prepopup 6.059 6.220
+\i (00:00:35) done 
+\i (00:00:35) generaledit 
+\i (00:00:38) pick grid 4.603 2.417
+\t (00:00:38) last pick:  4.600 2.400
+\i (00:00:38) prepopup 4.603 2.417
+\i (00:00:39) pick grid 3.925 2.329
+\t (00:00:39) last pick:  3.950 2.350
+\i (00:00:40) prepopup 3.975 2.266
+\i (00:00:44) pop dyn_option_select 'Change to layer@:@SILKSCREEN_TOP' 
+\i (00:00:44) change layer 
+\t (00:00:44) No DRC errors detected.
+\t (00:00:44) Changed 1 items out of 1 items found.
+\i (00:00:44) generaledit 
+\i (00:00:45) pick grid 7.126 -2.278
+\t (00:00:45) last pick:  7.150 -2.300
+\i (00:00:47) shape add rect 
+\i (00:00:58) setwindow form.mini
+\i (00:00:58) FORM mini rec_width 10.500 
+\i (00:01:00) FORM mini rec_height 5.800 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) pick grid -5.327 2.906
+\t (00:01:13) last pick:  -5.350 2.900
+\i (00:01:17) prepopup 7.603 2.480
+\i (00:01:18) done 
+\i (00:01:18) generaledit 
+\i (00:01:19) pick grid 5.117 2.681
+\t (00:01:19) last pick:  5.100 2.700
+\e (00:01:20) Command not found: Del
+\i (00:01:22) delete 
+\i (00:01:22) generaledit 
+\i (00:01:25) shape add rect 
+\i (00:01:30) setwindow form.mini
+\i (00:01:30) FORM mini rec_height 6.800 
+\i (00:01:34) FORM mini rec_width 11.500 
+\i (00:01:50) setwindow pcb
+\i (00:01:50) pick grid -5.829 3.358
+\t (00:01:50) last pick:  -5.850 3.350
+\i (00:01:51) prepopup -0.230 4.940
+\i (00:01:51) done 
+\i (00:01:52) generaledit 
+\i (00:01:56) pick grid 5.607 3.120
+\t (00:01:56) last pick:  5.600 3.100
+\i (00:01:59) prepopup 5.607 3.120
+\i (00:02:27) pop dyn_option_select 'Change to layer@:@PLACE_BOUND_TOP' 
+\i (00:02:27) change layer 
+\t (00:02:27) No DRC errors detected.
+\t (00:02:27) Changed 1 items out of 1 items found.
+\i (00:02:27) generaledit 
+\i (00:02:28) pick grid 7.816 0.898
+\t (00:02:28) last pick:  7.800 0.900
+\i (00:02:30) save 
+\i (00:02:31) fillin yes 
+\e (00:02:31) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:02:32) generaledit 
+\i (00:02:33) setwindow text
+\i (00:02:33) close 
+\i (00:02:35) setwindow pcb
+\i (00:02:35) zoom in 1 
+\i (00:02:35) setwindow pcb
+\i (00:02:35) zoom in -4.787 5.116
+\i (00:02:35) trapsize 31
+\i (00:02:37) shape add rect 
+\i (00:02:43) pick grid -5.829 3.327
+\t (00:02:43) last pick:  -5.850 3.350
+\i (00:02:44) prepopup -4.618 4.802
+\i (00:02:45) done 
+\i (00:02:45) generaledit 
+\i (00:02:47) pick grid -4.781 3.327
+\t (00:02:47) last pick:  -4.800 3.350
+\i (00:02:54) setwindow form.mini
+\i (00:02:54) FORM mini subclass DFA_BOUND_TOP 
+\i (00:02:56) setwindow pcb
+\i (00:02:56) prepopup 1.050 3.289
+\i (00:02:59) pop dyn_option_select 'Change to layer@:@DFA_BOUND_TOP' 
+\i (00:02:59) change layer 
+\t (00:02:59) No DRC errors detected.
+\t (00:02:59) Changed 1 items out of 1 items found.
+\i (00:02:59) generaledit 
+\i (00:03:00) pick grid 2.105 4.043
+\t (00:03:00) last pick:  2.100 4.050
+\i (00:03:22) setwindow form.mini
+\i (00:03:22) FORM mini subclass PLACE_BOUND_TOP 
+\i (00:03:28) setwindow pcb
+\i (00:03:28) save 
+\i (00:03:29) fillin yes 
+\e (00:03:29) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:03:30) generaledit 
+\i (00:03:31) setwindow text
+\i (00:03:31) close 
+\i (00:03:31) setwindow pcb
+\i (00:03:31) zoom out 1 
+\i (00:03:31) setwindow pcb
+\i (00:03:31) zoom out -1.668 3.873
+\i (00:03:31) trapsize 63
+\i (00:03:31) zoom out 1 
+\i (00:03:31) setwindow pcb
+\i (00:03:31) zoom out -2.069 3.723
+\t (00:03:31) Grids are drawn 0.200, 0.200 apart for enhanced viewability.
+\i (00:03:31) trapsize 126
+\i (00:03:31) zoom out 1 
+\i (00:03:31) setwindow pcb
+\i (00:03:31) zoom out 8.708 4.092
+\i (00:03:31) trapsize 126
+\i (00:03:31) zoom out 1 
+\i (00:03:31) setwindow pcb
+\i (00:03:31) zoom out 8.632 4.017
+\i (00:03:31) trapsize 126
+\i (00:03:31) zoom out 1 
+\i (00:03:31) setwindow pcb
+\i (00:03:31) zoom out 8.482 3.866
+\i (00:03:31) trapsize 126
+\i (00:03:32) zoom in 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom in -2.841 0.653
+\t (00:03:32) Grids are drawn 0.100, 0.100 apart for enhanced viewability.
+\i (00:03:32) trapsize 63
+\i (00:03:32) zoom in 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom in -1.297 0.628
+\i (00:03:32) trapsize 31
+\i (00:03:34) zoom out 1 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom out -2.608 2.003
+\i (00:03:34) trapsize 63
+\i (00:03:38) save 
+\i (00:03:39) fillin yes 
+\e (00:03:39) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:03:39) generaledit 
+\i (00:03:40) setwindow text
+\i (00:03:40) close 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) exit 
+\e (00:03:41) Do you want to save the changes you made to C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/Potentiometer.dra?
+\i (00:03:42) fillin yes 
+\e (00:03:42) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\t (00:03:42)     Journal end - Wed Jul 14 21:47:18 2021

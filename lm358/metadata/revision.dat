@@ -1,0 +1,204 @@
+(Cell	lm358
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/14/21,19:31:56)
+
+			(User	Jimmy-X)
+
+			(Path	52_lib.lm358)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/14/21,19:38:27)
+
+			(User	Jimmy-X)
+
+			(Path	52_lib.lm358)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000146fb52f)
+
+			(Primitives	1
+
+				(Primitive	LM358
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/14/21,19:31:56)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.lm358)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LM358
+
+							(PackType	LM358)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	LM358)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.3)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/14/21,19:31:56)
+
+					(User	Jimmy-X)
+
+					(Path	52_lib.lm358)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000449ad0cf)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/14/21,19:31:56)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.lm358)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001bbc03b8)
+
+		)
+
+		(Checksum	000000001d9603d6)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.2-2016 p008 (v17-2-50K))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bcf0382)
+
+)
+

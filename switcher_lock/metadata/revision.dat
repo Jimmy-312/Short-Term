@@ -1,0 +1,204 @@
+(Cell	switcher_lock
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/14/21,18:01:22)
+
+			(User	Jimmy-X)
+
+			(Path	52_lib.switcher_lock)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/14/21,18:08:47)
+
+			(User	Jimmy-X)
+
+			(Path	52_lib.switcher_lock)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	0000000049f763a2)
+
+			(Primitives	1
+
+				(Primitive	SWITCHER_LOCK
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/14/21,18:01:22)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.switcher_lock)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SWITCHER_LOCK
+
+							(PackType	SWITCHER_LOCK)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	Switcher_lock)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.3)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/14/21,18:01:22)
+
+					(User	Jimmy-X)
+
+					(Path	52_lib.switcher_lock)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000002fbfbf45)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/14/21,18:01:22)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.switcher_lock)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001bd5038a)
+
+		)
+
+		(Checksum	000000001c9103a9)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.2-2016 p008 (v17-2-50K))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bac037c)
+
+)
+

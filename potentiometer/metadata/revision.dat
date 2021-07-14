@@ -1,0 +1,204 @@
+(Cell	potentiometer
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/14/21,18:55:24)
+
+			(User	Jimmy-X)
+
+			(Path	52_lib.potentiometer)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/14/21,19:02:13)
+
+			(User	Jimmy-X)
+
+			(Path	52_lib.potentiometer)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000fc6edd46)
+
+			(Primitives	1
+
+				(Primitive	POTENTIOMETER
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/14/21,18:55:24)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.potentiometer)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	POTENTIOMETER
+
+							(PackType	POTENTIOMETER)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	Potentiometer)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.3)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/14/21,18:55:24)
+
+					(User	Jimmy-X)
+
+					(Path	52_lib.potentiometer)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000097287575)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/14/21,18:55:24)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.potentiometer)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001aff0389)
+
+		)
+
+		(Checksum	000000001d6303b3)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.2-2016 p008 (v17-2-50K))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ba70377)
+
+)
+
