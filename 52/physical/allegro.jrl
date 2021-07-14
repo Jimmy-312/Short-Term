@@ -1,0 +1,64 @@
+\t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed Jul 14 14:33:53 2021
+\t (00:00:01)         Host=JIMMY-STATION User=Jimmy-X Pid=23256 CPUs=8
+\t (00:00:01) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\短学期\designer\52.cpm -product Allegro_performance -option Allegro_PCB_HighSpeed_Option -option Allegro_PCB_Mini_Option -mpssession Jimmy-X_ProjectMgr19835 -mpshost Jimmy-Station
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/oled.dra
+\t (00:00:04) Grids are drawn 0.320, 0.320 apart for enhanced viewability.
+\i (00:00:04) trapsize 319
+\i (00:00:04) trapsize 325
+\t (00:00:04) Grids are drawn 0.320, 0.320 apart for enhanced viewability.
+\i (00:00:04) trapsize 325
+\i (00:00:05) generaledit 
+\i (00:00:21) pick grid 17.031 -31.803
+\t (00:00:21) last pick:  17.030 -31.800
+\i (00:00:27) add text 
+\t (00:00:27) Pick text location.
+\i (00:00:28) pick grid -14.155 18.290
+\t (00:00:28) last pick:  -14.150 18.290
+\t (00:00:28) Enter text string.
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in -13.116 18.485
+\t (00:00:42) Grids are drawn 0.160, 0.160 apart for enhanced viewability.
+\i (00:00:42) trapsize 162
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in -21.381 18.485
+\t (00:00:43) Grids are drawn 0.080, 0.080 apart for enhanced viewability.
+\i (00:00:43) trapsize 81
+\i (00:00:44) prepopup -16.101 20.483
+\i (00:00:45) done 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) pick -14.150 18.290
+\i (00:00:45) setwindow pcb
+\i (00:00:45) generaledit 
+\i (00:00:47) pick grid -13.162 18.664
+\t (00:00:47) last pick:  -13.160 18.660
+\i (00:00:47) prepopup -13.162 18.664
+\i (00:00:50) pop dyn_option_select 'Change to layer@:@ASSEMBLY_TOP' 
+\i (00:00:50) change layer 
+\t (00:00:50) No DRC errors detected.
+\t (00:00:50) Changed 1 items out of 1 items found.
+\i (00:00:50) generaledit 
+\i (00:00:53) move 
+\t (00:00:53) last pick:  -14.150 18.290
+\t (00:00:53) Pick new location for the element(s).
+\i (00:00:55) pick grid -14.900 16.276
+\t (00:00:55) last pick:  -14.900 16.280
+\i (00:00:55) generaledit 
+\i (00:00:58) save 
+\i (00:00:59) fillin yes 
+\e (00:00:59) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:00:59) generaledit 
+\i (00:01:00) setwindow text
+\i (00:01:00) close 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) exit 
+\e (00:01:01) Do you want to save the changes you made to C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/oled.dra?
+\i (00:01:03) fillin yes 
+\e (00:01:03) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\t (00:01:03)     Journal end - Wed Jul 14 14:34:55 2021

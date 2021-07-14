@@ -2,22 +2,23 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : Crystal.dra                                   )
+(    Drawing          : mlx90614.dra                                  )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Wed Jul 14 13:17:45 2021                      )
+(    Date/Time        : Wed Jul 14 14:18:53 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
     Directory = C:/Users/Jimmy-X/Desktop/¶ÌÑ§ÆÚ/designer/worklib/52/physical
-    Name      = crystal.psm
+    Name      = mlx90614.psm
     User      = Jimmy-X
     Machine   = JIMMY-STATION
 
 
 Create symbol started.
  
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
 
-Create symbol completed.
+ERROR(SPMHA1-291): Create symbol has been aborted.
 

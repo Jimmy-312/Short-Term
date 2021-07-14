@@ -1,0 +1,116 @@
+\t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed Jul 14 14:31:15 2021
+\t (00:00:01)         Host=JIMMY-STATION User=Jimmy-X Pid=22444 CPUs=8
+\t (00:00:01) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\短学期\designer\52.cpm -product Allegro_performance -option Allegro_PCB_HighSpeed_Option -option Allegro_PCB_Mini_Option -mpssession Jimmy-X_ProjectMgr19835 -mpshost Jimmy-Station
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/oled.dra
+\t (00:00:04) Grids are drawn 0.640, 0.640 apart for enhanced viewability.
+\i (00:00:04) trapsize 631
+\i (00:00:04) trapsize 649
+\t (00:00:04) Grids are drawn 0.640, 0.640 apart for enhanced viewability.
+\i (00:00:04) trapsize 649
+\i (00:00:04) trapsize 650
+\i (00:00:04) generaledit 
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -18.703 -8.966
+\t (00:00:06) Grids are drawn 0.320, 0.320 apart for enhanced viewability.
+\i (00:00:06) trapsize 325
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -24.681 -8.966
+\t (00:00:06) Grids are drawn 0.160, 0.160 apart for enhanced viewability.
+\i (00:00:06) trapsize 162
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out -10.498 -7.602
+\t (00:00:08) Grids are drawn 0.320, 0.320 apart for enhanced viewability.
+\i (00:00:08) trapsize 325
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in -25.590 -3.703
+\t (00:00:12) Grids are drawn 0.160, 0.160 apart for enhanced viewability.
+\i (00:00:12) trapsize 162
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in -27.618 -3.703
+\t (00:00:12) Grids are drawn 0.080, 0.080 apart for enhanced viewability.
+\i (00:00:12) trapsize 81
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out -17.564 -4.027
+\t (00:00:14) Grids are drawn 0.160, 0.160 apart for enhanced viewability.
+\i (00:00:14) trapsize 162
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out -8.015 -4.027
+\t (00:00:14) Grids are drawn 0.320, 0.320 apart for enhanced viewability.
+\i (00:00:14) trapsize 325
+\i (00:00:23) drag_start grid -22.277 14.165
+\i (00:00:24) drag_stop 24.373 -38.397
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom out 34.184 -4.937
+\t (00:00:28) Grids are drawn 0.640, 0.640 apart for enhanced viewability.
+\i (00:00:28) trapsize 650
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 99.026 -0.130
+\i (00:00:29) trapsize 650
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 99.026 -0.130
+\i (00:00:29) trapsize 650
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 99.026 -0.130
+\t (00:00:29) Grids are drawn 0.320, 0.320 apart for enhanced viewability.
+\i (00:00:29) trapsize 325
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in 34.184 -0.130
+\t (00:00:30) Grids are drawn 0.160, 0.160 apart for enhanced viewability.
+\i (00:00:30) trapsize 162
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out 2.269 -0.130
+\t (00:00:31) Grids are drawn 0.320, 0.320 apart for enhanced viewability.
+\i (00:00:31) trapsize 325
+\i (00:00:31) zoom in 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom in 34.184 -0.130
+\t (00:00:31) Grids are drawn 0.160, 0.160 apart for enhanced viewability.
+\i (00:00:31) trapsize 162
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out 2.269 -0.130
+\t (00:00:32) Grids are drawn 0.320, 0.320 apart for enhanced viewability.
+\i (00:00:32) trapsize 325
+\i (00:00:37) drag_start grid 0.658 -19.167
+\i (00:00:38) drag_stop 0.983 -15.073
+\i (00:00:38) drag_start grid 20.865 11.110
+\i (00:00:39) drag_stop -22.601 -35.929
+\i (00:00:42) move 
+\i (00:00:44) pick grid 0.204 -16.633
+\t (00:00:44) last pick:  0.200 -16.630
+\t (00:00:44) Element has no origin, using pick.
+\t (00:00:44) Element has no origin, using pick.
+\t (00:00:44) Element has no origin, using pick.
+\t (00:00:44) Pick new location for the element(s).
+\i (00:00:49) pick grid 0.334 -3.703
+\t (00:00:49) last pick:  0.330 -3.700
+\i (00:00:49) generaledit 
+\i (00:00:50) save 
+\i (00:00:51) fillin yes 
+\e (00:00:51) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:00:51) generaledit 
+\i (00:00:53) setwindow text
+\i (00:00:53) close 
+\i (00:02:26) setwindow pcb
+\i (00:02:26) exit 
+\e (00:02:26) Do you want to save the changes you made to C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/oled.dra?
+\i (00:02:28) fillin yes 
+\e (00:02:28) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\t (00:02:28)     Journal end - Wed Jul 14 14:33:42 2021
