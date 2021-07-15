@@ -1,100 +1,14 @@
 \t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Wed Jul 14 21:36:07 2021
-\t (00:00:01)         Host=JIMMY-STATION User=Jimmy-X Pid=23032 CPUs=8
-\t (00:00:01) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\短学期\designer\52.cpm -product Allegro_performance -option Allegro_PCB_HighSpeed_Option -option Allegro_PCB_Mini_Option -mpssession Jimmy-X_ProjectMgr10940 -mpshost Jimmy-Station
+\t (00:00:01)     Journal start - Thu Jul 15 13:24:45 2021
+\t (00:00:01)         Host=JIMMY-STATION User=Jimmy-X Pid=22440 CPUs=8
+\t (00:00:01) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\短学期\designer\52.cpm -product Allegro_performance -option Allegro_PCB_HighSpeed_Option -option Allegro_PCB_Mini_Option -mpssession Jimmy-X_ProjectMgr7037 -mpshost Jimmy-Station
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/LM358.dra
-\i (00:00:04) trapsize 5
-\i (00:00:04) trapsize 5
-\i (00:00:05) generaledit 
-\i (00:00:07) new 
-\i (00:00:11) newdrawfillin "Potentiometer.dra" "Package Symbol"
-\t (00:00:11) Starting new design...
-\i (00:00:11) trapsize 5
-\i (00:00:11) trapsize 5
-\i (00:00:11) generaledit 
-\i (00:05:04) define grid 
-\t (00:05:04) Spacing fields allow simple equations to aid calculations; prefix with =
-\i (00:05:04) generaledit 
-\i (00:05:06) setwindow form.grid
-\i (00:05:06) FORM grid display YES 
-\i (00:05:10) FORM grid non_etch non_etch_x_grids 0.05 
-\e (00:05:10) ERROR(SPMHA1-350): Illegal grid increment.
-\i (00:05:14) FORM grid non_etch non_etch_x_grids 0.05 
-\e (00:05:14) ERROR(SPMHA1-350): Illegal grid increment.
-\i (00:05:15) FORM grid done  
-\i (00:05:18) setwindow pcb
-\i (00:05:18) prmed 
-\i (00:05:19) setwindow form.prmedit
-\i (00:05:19) FORM prmedit design  
-\i (00:05:21) FORM prmedit units Millimeter 
-   (00:05:21) Accuracy or unit changes can cause design round-off issues. DRCs and physical changes should be checked.
-\i (00:05:22) fillin confirm
-\e (00:05:22) Change may cause round-off; run dbcheck.
-\i (00:05:24) FORM prmedit done  
-\w (00:05:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:05:24) setwindow pcb
-\i (00:05:24) trapsize 126
-\t (00:05:24) Performing DRC...
-\t (00:05:24) No DRC errors detected.
-\i (00:05:24) trapsize 122
-\i (00:05:24) trapsize 126
-\i (00:05:24) generaledit 
-\i (00:05:28) define grid 
-\t (00:05:28) Spacing fields allow simple equations to aid calculations; prefix with =
-\i (00:05:28) generaledit 
-\i (00:05:32) setwindow form.grid
-\i (00:05:32) FORM grid non_etch non_etch_x_grids 0.05 
-\i (00:05:36) FORM grid non_etch non_etch_y_grids 0.05 
-\i (00:05:39) FORM grid done  
-\t (00:05:39) Grids are drawn 0.200, 0.200 apart for enhanced viewability.
-\i (00:05:40) setwindow pcb
-\i (00:05:40) zoom in 1 
-\i (00:05:40) setwindow pcb
-\i (00:05:40) zoom in -3.142 2.285
-\t (00:05:40) Grids are drawn 0.100, 0.100 apart for enhanced viewability.
-\i (00:05:40) trapsize 63
-\i (00:05:40) zoom in 1 
-\i (00:05:40) setwindow pcb
-\i (00:05:40) zoom in -3.142 2.285
-\i (00:05:40) trapsize 31
-\i (00:05:41) zoom out 1 
-\i (00:05:41) setwindow pcb
-\i (00:05:41) zoom out -0.769 1.513
-\i (00:05:41) trapsize 63
-\i (00:05:46) add pin 
-\e (00:05:57) Range is 1 to 9999.
-\i (00:06:02) setwindow form.mini
-\i (00:06:02) FORM mini x_count 3 
-\i (00:06:12) FORM mini x_spacing 2.500 
-\i (00:06:12) FORM mini pad_browse  
-\i (00:06:24) fillin "Pad70cir45d"
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:06:24) Using 'PAD70CIR45D.pad'.
-\i (00:06:25) setwindow pcb
-\i (00:06:25) pick grid -6.280 0.760
-\t (00:06:25) last pick:  -6.300 0.750
-\t (00:06:25) Using 'PAD70CIR45D.pad'.
-\i (00:06:29) prepopup 0.448 4.312
-\i (00:06:30) done 
-\t (00:06:30) Exiting from Add Pin.
-\i (00:06:30) generaledit 
-\i (00:06:31) move 
-\t (00:06:31) Select element(s) to move.
-\i (00:06:31) drag_start grid -11.201 3.936
-\i (00:06:32) drag_stop 0.423 -3.357
-\i (00:06:32) pick grid -3.606 0.572
-\t (00:06:32) last pick:  -3.600 0.550
-\t (00:06:32) Pick new location for the element(s).
-\i (00:06:43) pick grid 0.185 -0.207
-\t (00:06:43) last pick:  0.200 -0.200
-\i (00:06:44) prepopup 0.247 5.354
-\i (00:06:45) done 
-\i (00:06:45) generaledit 
-\i (00:06:45) zoom out 1 
-\i (00:06:45) setwindow pcb
-\i (00:06:45) zoom out 0.411 3.999
-\t (00:06:45) Grids are drawn 0.200, 0.200 apart for enhanced viewability.
-\i (00:06:4
+\t (00:00:01) Opening existing design...
+\d (00:00:01) Design opened: C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/Socket2.dra
+\i (00:00:01) trapsize 62
+\i (00:00:01) trapsize 63
+\i (00:00:01) trapsize 63
+\i (00:00:01) generaledit 
+\i (00:00:02) exit 
+\t (00:00:02)     Journal end - Thu Jul 15 13:24:47 2021

@@ -1,0 +1,108 @@
+#ISCELL
+  standard b#20size#20page *
+  *
+#CELL
+  52_lib l7805 *
+  page1_i15
+#CELL
+  52_lib stc89c52 *
+  page1_i16
+#CELL
+  52_lib crystal *
+  page1_i32
+#CELL
+  52_lib led *
+  page1_i33
+#CELL
+  52_lib resistor *
+  page1_i36
+#CELL
+  52_lib resistor *
+  page1_i38
+#CELL
+  52_lib capacitance *
+  page1_i41
+#CELL
+  52_lib capacitance *
+  page1_i42
+#CELL
+  52_lib capacitance *
+  page1_i43
+#CELL
+  52_lib capacitance *
+  page1_i44
+#CELL
+  52_lib capacitance *
+  page1_i45
+#CELL
+  52_lib capacitance *
+  page1_i46
+#CELL
+  52_lib capacitance *
+  page1_i47
+#CELL
+  52_lib capacitance *
+  page1_i48
+#CELL
+  52_lib capacitance *
+  page1_i49
+#CELL
+  52_lib capacitance *
+  page1_i50
+#CELL
+  52_lib capacitance *
+  page1_i51
+#CELL
+  52_lib switch *
+  page1_i52
+#CELL
+  52_lib switch_lock *
+  page1_i53
+#CELL
+  52_lib socket2 *
+  page1_i54
+#CELL
+  52_lib mlx90614 *
+  page1_i55
+#CELL
+  52_lib socket6 *
+  page1_i57
+#CELL
+  52_lib socket5 *
+  page1_i58
+#CELL
+  52_lib lcd1602 *
+  page1_i59
+#CELL
+  52_lib potentiometer *
+  page1_i60
+#CELL
+  52_lib resistor *
+  page1_i61
+#CELL
+  52_lib led *
+  page1_i62
+#CELL
+  52_lib buzz *
+  page1_i63
+#CELL
+  52_lib resistor *
+  page1_i64
+#CELL
+  52_lib switch *
+  page1_i66
+#CELL
+  52_lib resistor *
+  page1_i67
+#CELL
+  52_lib switch *
+  page1_i68
+#CELL
+  52_lib resistor *
+  page1_i69
+#CELL
+  52_lib switch *
+  page1_i70
+#CELL
+  52_lib resistor *
+  page1_i71

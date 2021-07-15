@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.3)
+		(Revision	0.0.6)
 
 		(ModificationStatus	NULL)
 
@@ -35,6 +35,74 @@
 	)
 
 	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.3)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/14/21,10:22:37)
+
+					(User	Jimmy-X)
+
+					(Path	52_lib.resistor)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a89c5f52)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/14/21,10:22:37)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.resistor)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d4703b8)
+
+		)
 
 		(View	Chips
 
@@ -116,75 +184,7 @@
 
 		)
 
-		(View	Symbol
-
-			(RevisionInfoBlock	
-
-				(Baselined	0)
-
-				(Revision	0.0.3)
-
-				(ModificationStatus	NULL)
-
-				(Status	Created)
-
-				(ErrorStatus	0)
-
-				(CreateInfo	
-
-					(Time	07/14/21,10:22:37)
-
-					(User	Jimmy-X)
-
-					(Path	52_lib.resistor)
-
-				)
-
-			)
-
-			(Symbols	1
-
-				(Symbol	sym_1
-
-					(Symbol_Type	Normal)
-
-					(Max_Size	0)
-
-					(Checksum	00000000a89c5f52)
-
-					(RevisionInfoBlock	
-
-						(Baselined	0)
-
-						(Revision	0.0.3)
-
-						(ModificationStatus	NULL)
-
-						(Status	Created)
-
-						(ErrorStatus	0)
-
-						(CreateInfo	
-
-							(Time	07/14/21,10:22:37)
-
-							(User	Jimmy-X)
-
-							(Path	52_lib.resistor)
-
-						)
-
-					)
-
-				)
-
-			)
-
-			(Checksum	000000001bb0035a)
-
-		)
-
-		(Checksum	000000001c66039f)
+		(Checksum	000000001c1303b3)
 
 	)
 
@@ -194,11 +194,11 @@
 
 		(Version	17.2-2016 p008 (v17-2-50K))
 
-		(License	PCB_librarian_expert)
+		(License	Allegro_performance)
 
 	)
 
-	(Checksum	000000001b900383)
+	(Checksum	000000001b820371)
 
 )
 

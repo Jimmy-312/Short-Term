@@ -1,0 +1,32 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'BUZZ';
+  pin
+    '+':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    '-':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NUMBER='BUZZ';
+    VENDOR='*';
+    BODY_NAME='BUZZ';
+    PART_NAME='BUZZ';
+    JEDEC_TYPE='Buzz';
+    PHYS_DES_PREFIX='B';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+END.

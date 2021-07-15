@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.6)
+		(Revision	0.0.8)
 
 		(ModificationStatus	NULL)
 
@@ -42,7 +42,7 @@
 
 				(Baselined	0)
 
-				(Revision	0.0.5)
+				(Revision	0.0.7)
 
 				(ModificationStatus	NULL)
 
@@ -70,13 +70,13 @@
 
 					(Max_Size	0)
 
-					(Checksum	00000000034c80af)
+					(Checksum	000000003705824f)
 
 					(RevisionInfoBlock	
 
 						(Baselined	0)
 
-						(Revision	0.0.5)
+						(Revision	0.0.7)
 
 						(ModificationStatus	NULL)
 
@@ -100,7 +100,7 @@
 
 			)
 
-			(Checksum	000000001b7403aa)
+			(Checksum	000000001a560354)
 
 		)
 
@@ -184,7 +184,7 @@
 
 		)
 
-		(Checksum	000000001b8a0387)
+		(Checksum	000000001bdc03b1)
 
 	)
 
@@ -198,7 +198,7 @@
 
 	)
 
-	(Checksum	000000001c3b037f)
+	(Checksum	000000001d9b03d1)
 
 )
 
