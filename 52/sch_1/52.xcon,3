@@ -5,15 +5,15 @@
     <schemaVersion>17.2</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2021-07-15T17:31:44</modificationTime>
+    <modificationTime>2021-07-15T17:55:17</modificationTime>
     <savedLibrary>52_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="52" view="sch_1">
       <lastids>
-        <instanceid>83</instanceid>
-        <netid>63</netid>
-        <insttermid>298</insttermid>
+        <instanceid>84</instanceid>
+        <netid>64</netid>
+        <insttermid>300</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -783,6 +783,10 @@
           <id>N63</id>
           <name>sta</name>
         </net>
+        <net>
+          <id>N64</id>
+          <name>fun</name>
+        </net>
       </nets>
       <aliases>
       </aliases>
@@ -1065,6 +1069,7 @@
               <id>M110</id>
               <termid>T33</termid>
               <connections>
+                <connection net="N64" />
               </connections>
             </pin>
             <pin>
@@ -2453,7 +2458,7 @@
               <id>M294</id>
               <termid>T69</termid>
               <connections>
-                <connection net="N63" />
+                <connection net="N64" />
               </connections>
             </pin>
             <pin>
@@ -2501,7 +2506,40 @@
               <id>M298</id>
               <termid>T60</termid>
               <connections>
-                <connection net="N63" />
+                <connection net="N64" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
+        <instance>
+          <id>I84</id>
+          <cellid>S8</cellid>
+          <name>page1_i72</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M299</id>
+              <termid>T59</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M300</id>
+              <termid>T60</termid>
+              <connections>
               </connections>
             </pin>
           </pins>
@@ -2538,6 +2576,7 @@
               <net ref="d5"></net>
               <net ref="d6"></net>
               <net ref="d7"></net>
+              <net ref="fun"></net>
               <net ref="gnd"></net>
               <net ref="lcde"></net>
               <net ref="led"></net>
@@ -2596,6 +2635,7 @@
               <instance ref="i69"></instance>
               <instance ref="i70"></instance>
               <instance ref="i71"></instance>
+              <instance ref="i72"></instance>
             </instances>
           </page>
         </pages>

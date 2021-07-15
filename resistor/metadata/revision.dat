@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.6)
+		(Revision	0.0.8)
 
 		(ModificationStatus	NULL)
 
@@ -42,7 +42,7 @@
 
 				(Baselined	0)
 
-				(Revision	0.0.3)
+				(Revision	0.0.5)
 
 				(ModificationStatus	NULL)
 
@@ -70,13 +70,13 @@
 
 					(Max_Size	0)
 
-					(Checksum	00000000a89c5f52)
+					(Checksum	000000001adf5283)
 
 					(RevisionInfoBlock	
 
 						(Baselined	0)
 
-						(Revision	0.0.3)
+						(Revision	0.0.5)
 
 						(ModificationStatus	NULL)
 
@@ -100,7 +100,7 @@
 
 			)
 
-			(Checksum	000000001d4703b8)
+			(Checksum	000000001d6203af)
 
 		)
 
@@ -184,7 +184,7 @@
 
 		)
 
-		(Checksum	000000001c1303b3)
+		(Checksum	000000001b3a0380)
 
 	)
 
@@ -194,11 +194,11 @@
 
 		(Version	17.2-2016 p008 (v17-2-50K))
 
-		(License	Allegro_performance)
+		(License	PCB_librarian_expert)
 
 	)
 
-	(Checksum	000000001b820371)
+	(Checksum	000000001c160373)
 
 )
 
