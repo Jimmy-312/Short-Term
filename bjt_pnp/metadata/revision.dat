@@ -1,0 +1,204 @@
+(Cell	bjt_pnp
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/16/21,11:43:40)
+
+			(User	10714)
+
+			(Path	test_lib.bjt_pnp)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/16/21,11:56:53)
+
+			(User	10714)
+
+			(Path	test_lib.bjt_pnp)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000976dd04a)
+
+			(Primitives	1
+
+				(Primitive	BJT_PNP
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/16/21,11:43:40)
+
+							(User	10714)
+
+							(Path	test_lib.bjt_pnp)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	BJT_PNP
+
+							(PackType	BJT_PNP)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	BJT_PNP)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.4)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/16/21,11:43:40)
+
+					(User	10714)
+
+					(Path	test_lib.bjt_pnp)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000097a06add)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/16/21,11:43:40)
+
+							(User	10714)
+
+							(Path	test_lib.bjt_pnp)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cd903ad)
+
+		)
+
+		(Checksum	000000001d0103da)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.2-2016 p008 (v17-2-50K))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bab039f)
+
+)
+

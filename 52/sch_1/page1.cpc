@@ -86,9 +86,6 @@
   52_lib buzz *
   page1_i63
 #CELL
-  52_lib resistor *
-  page1_i64
-#CELL
   52_lib switch *
   page1_i66
 #CELL
@@ -133,3 +130,12 @@
 #CELL
   52_lib at24c02 *
   page1_i81
+#CELL
+  52_lib oled *
+  page1_i82
+#CELL
+  52_lib resistor *
+  page1_i83
+#CELL
+  52_lib bjt_pnp *
+  page1_i84

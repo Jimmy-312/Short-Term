@@ -17,7 +17,7 @@ primitive 'OLED';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'D0':
+    'SCL':
       PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
       NO_LOAD_CHECK='Both';
@@ -25,7 +25,7 @@ primitive 'OLED';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'D1':
+    'SDA':
       PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
       NO_LOAD_CHECK='Both';
@@ -59,10 +59,10 @@ primitive 'OLED';
       ALLOW_CONNECT='TRUE';
   end_pin;
   body
+    PART_NAME='OLED';
     PART_NUMBER='OLED';
     VENDOR='*';
     BODY_NAME='OLED';
-    PART_NAME='OLED';
     JEDEC_TYPE='OLED';
     PHYS_DES_PREFIX='OLED';
     CLASS='IC';

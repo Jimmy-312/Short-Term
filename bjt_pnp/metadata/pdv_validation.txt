@@ -1,0 +1,1 @@
+SPLBPD-170,Cell 'bjt_pnp':Pin(s) E,B,C is (are) not present in any package or symbol. You can choose Pins - Add from the Package Pin page and delete these pins. If the HAS_FIXED_SIZE value has been reduced, reload the part.,Warning

@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.1)
+		(Revision	0.0.2)
 
 		(ModificationStatus	NULL)
 
@@ -26,9 +26,77 @@
 
 	(Views	
 
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/13/21,18:48:38)
+
+					(User	10714)
+
+					(Path	test_lib.lcd1602)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e1b2658a)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/13/21,18:48:38)
+
+							(User	10714)
+
+							(Path	test_lib.lcd1602)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cdd03af)
+
+		)
+
 		(View	Chips
 
-			(Checksum	0000000023af22ad)
+			(Checksum	00000000e78a22a8)
 
 			(Primitives	1
 
@@ -38,7 +106,7 @@
 
 						(Baselined	0)
 
-						(Revision	0.0.1)
+						(Revision	0.0.2)
 
 						(ModificationStatus	NULL)
 
@@ -106,75 +174,7 @@
 
 		)
 
-		(View	Symbol
-
-			(RevisionInfoBlock	
-
-				(Baselined	0)
-
-				(Revision	0.0.1)
-
-				(ModificationStatus	NULL)
-
-				(Status	Created)
-
-				(ErrorStatus	0)
-
-				(CreateInfo	
-
-					(Time	07/13/21,18:48:38)
-
-					(User	10714)
-
-					(Path	test_lib.lcd1602)
-
-				)
-
-			)
-
-			(Symbols	1
-
-				(Symbol	sym_1
-
-					(Symbol_Type	Normal)
-
-					(Max_Size	0)
-
-					(Checksum	00000000e00b6594)
-
-					(RevisionInfoBlock	
-
-						(Baselined	0)
-
-						(Revision	0.0.1)
-
-						(ModificationStatus	NULL)
-
-						(Status	Created)
-
-						(ErrorStatus	0)
-
-						(CreateInfo	
-
-							(Time	07/13/21,18:48:38)
-
-							(User	10714)
-
-							(Path	test_lib.lcd1602)
-
-						)
-
-					)
-
-				)
-
-			)
-
-			(Checksum	000000001c10037d)
-
-		)
-
-		(Checksum	000000001b4e0374)
+		(Checksum	000000001a270327)
 
 	)
 
@@ -188,7 +188,7 @@
 
 	)
 
-	(Checksum	000000001c32037b)
+	(Checksum	000000001b320348)
 
 )
 

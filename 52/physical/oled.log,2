@@ -2,9 +2,9 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : oled.dra                                      )
+(    Drawing          : OLED.dra                                      )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Wed Jul 14 14:33:42 2021                      )
+(    Date/Time        : Fri Jul 16 12:12:24 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -18,7 +18,6 @@ Create Symbol of type: PACKAGE
 
 Create symbol started.
  
- ERROR(SPMHCS-1): Symbol is missing a refdes. 
 
-ERROR(SPMHA1-291): Create symbol has been aborted.
+Create symbol completed.
 
