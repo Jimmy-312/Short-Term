@@ -5,15 +5,15 @@
     <schemaVersion>17.2</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2021-07-15T18:05:32</modificationTime>
+    <modificationTime>2021-07-16T10:45:11</modificationTime>
     <savedLibrary>52_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="52" view="sch_1">
       <lastids>
-        <instanceid>92</instanceid>
+        <instanceid>93</instanceid>
         <netid>64</netid>
-        <insttermid>316</insttermid>
+        <insttermid>328</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -430,24 +430,24 @@
           </parameters>
           <terms>
             <term>
-              <id>T80</id>
-              <name>scl/vz</name>
+              <id>T123</id>
+              <name>gnd</name>
               <direction>output</direction>
             </term>
             <term>
-              <id>T81</id>
-              <name>sda/pwm</name>
+              <id>T124</id>
+              <name>scl</name>
               <direction>output</direction>
             </term>
             <term>
-              <id>T82</id>
-              <name>vdd</name>
-              <direction>input</direction>
+              <id>T125</id>
+              <name>sda</name>
+              <direction>output</direction>
             </term>
             <term>
-              <id>T83</id>
-              <name>vss</name>
-              <direction>input</direction>
+              <id>T126</id>
+              <name>vcc</name>
+              <direction>output</direction>
             </term>
           </terms>
         </cell>
@@ -657,6 +657,56 @@
             <term>
               <id>T122</id>
               <name>-</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S22</id>
+          <library>52_lib</library>
+          <name>at24c02</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T127</id>
+              <name>a0</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T128</id>
+              <name>a1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T129</id>
+              <name>a2</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T130</id>
+              <name>gnd</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T131</id>
+              <name>scl</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T132</id>
+              <name>sda</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T133</id>
+              <name>vcc</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T134</id>
+              <name>wp</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -1770,31 +1820,31 @@
           </powers>
           <pins>
             <pin>
-              <id>M228</id>
-              <termid>T80</termid>
+              <id>M317</id>
+              <termid>T123</termid>
+              <connections>
+                <connection net="N8" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M318</id>
+              <termid>T124</termid>
               <connections>
                 <connection net="N43" />
               </connections>
             </pin>
             <pin>
-              <id>M229</id>
-              <termid>T81</termid>
+              <id>M319</id>
+              <termid>T125</termid>
               <connections>
                 <connection net="N44" />
               </connections>
             </pin>
             <pin>
-              <id>M230</id>
-              <termid>T82</termid>
+              <id>M320</id>
+              <termid>T126</termid>
               <connections>
                 <connection net="N3" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M231</id>
-              <termid>T83</termid>
-              <connections>
-                <connection net="N8" />
               </connections>
             </pin>
           </pins>
@@ -2190,7 +2240,7 @@
               <id>M274</id>
               <termid>T122</termid>
               <connections>
-                <connection net="N8" />
+                <connection net="N42" />
               </connections>
             </pin>
           </pins>
@@ -2218,7 +2268,7 @@
               <id>M275</id>
               <termid>T59</termid>
               <connections>
-                <connection net="N42" />
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
@@ -2799,6 +2849,83 @@
           <portinterfaces>
           </portinterfaces>
         </instance>
+        <instance>
+          <id>I93</id>
+          <cellid>S22</cellid>
+          <name>page1_i81</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M321</id>
+              <termid>T127</termid>
+              <connections>
+                <connection net="N8" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M322</id>
+              <termid>T128</termid>
+              <connections>
+                <connection net="N8" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M323</id>
+              <termid>T129</termid>
+              <connections>
+                <connection net="N8" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M324</id>
+              <termid>T130</termid>
+              <connections>
+                <connection net="N8" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M325</id>
+              <termid>T131</termid>
+              <connections>
+                <connection net="N43" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M326</id>
+              <termid>T132</termid>
+              <connections>
+                <connection net="N44" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M327</id>
+              <termid>T133</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M328</id>
+              <termid>T134</termid>
+              <connections>
+                <connection net="N8" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2890,6 +3017,7 @@
               <instance ref="i78"></instance>
               <instance ref="i79"></instance>
               <instance ref="i80"></instance>
+              <instance ref="i81"></instance>
             </instances>
           </page>
         </pages>

@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.3)
+		(Revision	0.0.4)
 
 		(ModificationStatus	NULL)
 
@@ -35,6 +35,74 @@
 	)
 
 	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/14/21,23:14:29)
+
+					(User	Jimmy-X)
+
+					(Path	52_lib.socket5)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e0b192b9)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/14/21,23:14:29)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.socket5)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d0003af)
+
+		)
 
 		(View	Chips
 
@@ -116,75 +184,7 @@
 
 		)
 
-		(View	Symbol
-
-			(RevisionInfoBlock	
-
-				(Baselined	0)
-
-				(Revision	0.0.2)
-
-				(ModificationStatus	NULL)
-
-				(Status	Created)
-
-				(ErrorStatus	0)
-
-				(CreateInfo	
-
-					(Time	07/14/21,23:14:29)
-
-					(User	Jimmy-X)
-
-					(Path	52_lib.socket5)
-
-				)
-
-			)
-
-			(Symbols	1
-
-				(Symbol	sym_1
-
-					(Symbol_Type	Normal)
-
-					(Max_Size	0)
-
-					(Checksum	00000000e0b192b9)
-
-					(RevisionInfoBlock	
-
-						(Baselined	0)
-
-						(Revision	0.0.2)
-
-						(ModificationStatus	NULL)
-
-						(Status	Created)
-
-						(ErrorStatus	0)
-
-						(CreateInfo	
-
-							(Time	07/14/21,23:14:29)
-
-							(User	Jimmy-X)
-
-							(Path	52_lib.socket5)
-
-						)
-
-					)
-
-				)
-
-			)
-
-			(Checksum	000000001d7103e8)
-
-		)
-
-		(Checksum	000000001bae037e)
+		(Checksum	000000001cbe038b)
 
 	)
 
@@ -198,7 +198,7 @@
 
 	)
 
-	(Checksum	000000001d7103d9)
+	(Checksum	000000001d7d03d9)
 
 )
 

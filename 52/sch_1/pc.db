@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.2-2016 p007 (v17-2-50G) 3/10/2016 on Thu Jul 15 18:05:32 2021
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.2-2016 p007 (v17-2-50G) 3/10/2016 on Fri Jul 16 10:45:12 2021
 #ISCELL
   standard b#20size#20page *
   *
@@ -131,3 +131,6 @@
 #CELL
   52_lib resistor *
   page1_i80
+#CELL
+  52_lib at24c02 *
+  page1_i81

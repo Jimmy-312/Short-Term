@@ -1,0 +1,204 @@
+(Cell	at24c02
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/16/21,09:50:02)
+
+			(User	Jimmy-X)
+
+			(Path	52_lib.at24c02)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/16/21,10:13:10)
+
+			(User	Jimmy-X)
+
+			(Path	52_lib.at24c02)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.4)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/16/21,09:50:02)
+
+					(User	Jimmy-X)
+
+					(Path	52_lib.at24c02)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c5cfc9ba)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/16/21,09:50:02)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.at24c02)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001f070441)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000b10fb37c)
+
+			(Primitives	1
+
+				(Primitive	AT24C02
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/16/21,09:50:02)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.at24c02)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	AT24C02
+
+							(PackType	AT24C02)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	AT24C02)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001cc903db)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.2-2016 p008 (v17-2-50K))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cff03da)
+
+)
+

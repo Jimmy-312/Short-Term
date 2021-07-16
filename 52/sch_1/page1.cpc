@@ -130,3 +130,6 @@
 #CELL
   52_lib resistor *
   page1_i80
+#CELL
+  52_lib at24c02 *
+  page1_i81

@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.2)
+		(Revision	0.0.8)
 
 		(ModificationStatus	NULL)
 
@@ -36,9 +36,77 @@
 
 	(Views	
 
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.5)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/14/21,23:24:22)
+
+					(User	Jimmy-X)
+
+					(Path	52_lib.socket6)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000232aa849)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/14/21,23:24:22)
+
+							(User	Jimmy-X)
+
+							(Path	52_lib.socket6)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ba3037f)
+
+		)
+
 		(View	Chips
 
-			(Checksum	00000000a1395ea3)
+			(Checksum	00000000c8345ea3)
 
 			(Primitives	1
 
@@ -48,7 +116,7 @@
 
 						(Baselined	0)
 
-						(Revision	0.0.1)
+						(Revision	0.0.2)
 
 						(ModificationStatus	NULL)
 
@@ -116,75 +184,7 @@
 
 		)
 
-		(View	Symbol
-
-			(RevisionInfoBlock	
-
-				(Baselined	0)
-
-				(Revision	0.0.2)
-
-				(ModificationStatus	NULL)
-
-				(Status	Created)
-
-				(ErrorStatus	0)
-
-				(CreateInfo	
-
-					(Time	07/14/21,23:24:22)
-
-					(User	Jimmy-X)
-
-					(Path	52_lib.socket6)
-
-				)
-
-			)
-
-			(Symbols	1
-
-				(Symbol	sym_1
-
-					(Symbol_Type	Normal)
-
-					(Max_Size	0)
-
-					(Checksum	00000000b615a849)
-
-					(RevisionInfoBlock	
-
-						(Baselined	0)
-
-						(Revision	0.0.2)
-
-						(ModificationStatus	NULL)
-
-						(Status	Created)
-
-						(ErrorStatus	0)
-
-						(CreateInfo	
-
-							(Time	07/14/21,23:24:22)
-
-							(User	Jimmy-X)
-
-							(Path	52_lib.socket6)
-
-						)
-
-					)
-
-				)
-
-			)
-
-			(Checksum	000000001bc703b6)
-
-		)
-
-		(Checksum	000000001cbe03a9)
+		(Checksum	000000001ccc0380)
 
 	)
 
@@ -198,7 +198,7 @@
 
 	)
 
-	(Checksum	000000001da603d9)
+	(Checksum	000000001d4703a6)
 
 )
 
