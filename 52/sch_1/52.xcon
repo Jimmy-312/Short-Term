@@ -5,15 +5,15 @@
     <schemaVersion>17.2</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2021-07-16T21:03:50</modificationTime>
+    <modificationTime>2021-07-17T09:29:49</modificationTime>
     <savedLibrary>52_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="52" view="sch_1">
       <lastids>
-        <instanceid>96</instanceid>
-        <netid>71</netid>
-        <insttermid>343</insttermid>
+        <instanceid>97</instanceid>
+        <netid>72</netid>
+        <insttermid>346</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -804,10 +804,6 @@
           <name>gnd</name>
         </net>
         <net>
-          <id>N12</id>
-          <name>unnamed_1_l7805_i15_1</name>
-        </net>
-        <net>
           <id>N14</id>
           <name>unnamed_1_led_i33_2</name>
         </net>
@@ -931,6 +927,10 @@
           <id>N71</id>
           <name>state</name>
         </net>
+        <net>
+          <id>N72</id>
+          <name>unnamed_1_capacitance_i43_1</name>
+        </net>
       </nets>
       <aliases>
       </aliases>
@@ -943,48 +943,6 @@
       <netinterfaces>
       </netinterfaces>
       <instances>
-        <instance>
-          <id>I15</id>
-          <cellid>S10</cellid>
-          <name>page1_i15</name>
-          <parameters>
-          </parameters>
-          <masks>
-          </masks>
-          <powers>
-          </powers>
-          <pins>
-            <pin>
-              <id>M75</id>
-              <termid>T63</termid>
-              <connections>
-                <connection net="N12" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M76</id>
-              <termid>T64</termid>
-              <connections>
-                <connection net="N8" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M77</id>
-              <termid>T65</termid>
-              <connections>
-                <connection net="N3" />
-              </connections>
-            </pin>
-          </pins>
-          <differentialpins>
-          </differentialpins>
-          <differentialbuspins>
-          </differentialbuspins>
-          <portgroups>
-          </portgroups>
-          <portinterfaces>
-          </portinterfaces>
-        </instance>
         <instance>
           <id>I16</id>
           <cellid>S2</cellid>
@@ -1466,7 +1424,7 @@
               <id>M216</id>
               <termid>T66</termid>
               <connections>
-                <connection net="N12" />
+                <connection net="N72" />
               </connections>
             </pin>
             <pin>
@@ -1571,7 +1529,7 @@
               <id>M222</id>
               <termid>T66</termid>
               <connections>
-                <connection net="N12" />
+                <connection net="N72" />
               </connections>
             </pin>
             <pin>
@@ -1640,7 +1598,7 @@
               <id>M226</id>
               <termid>T66</termid>
               <connections>
-                <connection net="N12" />
+                <connection net="N72" />
               </connections>
             </pin>
             <pin>
@@ -1745,7 +1703,7 @@
               <id>M198</id>
               <termid>T66</termid>
               <connections>
-                <connection net="N12" />
+                <connection net="N72" />
               </connections>
             </pin>
             <pin>
@@ -1858,7 +1816,7 @@
               <id>M209</id>
               <termid>T77</termid>
               <connections>
-                <connection net="N12" />
+                <connection net="N72" />
               </connections>
             </pin>
           </pins>
@@ -3139,6 +3097,48 @@
           <portinterfaces>
           </portinterfaces>
         </instance>
+        <instance>
+          <id>I97</id>
+          <cellid>S10</cellid>
+          <name>page1_i85</name>
+          <parameters>
+          </parameters>
+          <masks>
+          </masks>
+          <powers>
+          </powers>
+          <pins>
+            <pin>
+              <id>M344</id>
+              <termid>T63</termid>
+              <connections>
+                <connection net="N72" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M345</id>
+              <termid>T64</termid>
+              <connections>
+                <connection net="N8" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M346</id>
+              <termid>T65</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+          <differentialpins>
+          </differentialpins>
+          <differentialbuspins>
+          </differentialbuspins>
+          <portgroups>
+          </portgroups>
+          <portinterfaces>
+          </portinterfaces>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -3183,7 +3183,7 @@
               <net ref="txd"></net>
               <net ref="unnamed_1_bjtpnp_i84_1"></net>
               <net ref="unnamed_1_bjtpnp_i84_2"></net>
-              <net ref="unnamed_1_l7805_i15_1"></net>
+              <net ref="unnamed_1_capacitance_i43_1"></net>
               <net ref="unnamed_1_lcd1602_i59_vl"></net>
               <net ref="unnamed_1_led_i33_2"></net>
               <net ref="unnamed_1_led_i62_2"></net>
@@ -3193,7 +3193,6 @@
               <net ref="xtal2"></net>
             </nets>
             <instances>
-              <instance ref="i15"></instance>
               <instance ref="i16"></instance>
               <instance ref="i32"></instance>
               <instance ref="i33"></instance>
@@ -3239,6 +3238,7 @@
               <instance ref="i82"></instance>
               <instance ref="i83"></instance>
               <instance ref="i84"></instance>
+              <instance ref="i85"></instance>
             </instances>
           </page>
         </pages>

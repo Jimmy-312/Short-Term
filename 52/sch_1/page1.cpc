@@ -2,9 +2,6 @@
   standard b#20size#20page *
   *
 #CELL
-  52_lib l7805 *
-  page1_i15
-#CELL
   52_lib stc89c52 *
   page1_i16
 #CELL
@@ -139,3 +136,6 @@
 #CELL
   52_lib bjt_pnp *
   page1_i84
+#CELL
+  52_lib l7805 *
+  page1_i85

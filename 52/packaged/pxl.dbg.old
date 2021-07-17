@@ -1,0 +1,45 @@
+Log File: C:\Users\Jimmy-X\AppData\Local\Temp\sduo.
+Markers File: C:\Users\Jimmy-X\AppData\Local\Temp\sduo.1
+Debug File: C:\Users\Jimmy-X\AppData\Local\Temp\sduo.3
+     Debug[0] := TRUE
+Elapsed time since start = (00:00:00)
+
+ **************************************************************
+ *  End processing project file and command line  (00:00:00)  *
+ **************************************************************
+
+
+ *************************
+ *  Loading State Files  *
+ *************************
+
+Elapsed time since start = (00:00:02)
+
+ *****************************************
+ *  End loading State Files  (00:00:00)  *
+ *****************************************
+
+
+ ****************************************
+ *  Starting to assign physical parts.  *
+ ****************************************
+
+Elapsed time since start = (00:00:02)
+
+ ***********************************************
+ *  End assigning physical parts.  (00:00:00)  *
+ ***********************************************
+
+
+ ***************
+ *  Packaging  *
+ ***************
+
+Elapsed time since start = (00:00:02)
+
+ *******************************
+ *  End packaging  (00:00:00)  *
+ *******************************
+
+DDB_INFO: State file for design 52 successfully written.
+DDB_INFO: Pst files for design 52 successfully written.

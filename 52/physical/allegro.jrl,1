@@ -1,14 +1,19 @@
-\t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Fri Jul 16 12:21:06 2021
-\t (00:00:01)         Host=JIMMY-STATION User=Jimmy-X Pid=14164 CPUs=8
-\t (00:00:01) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\短学期\designer\52.cpm -product PCB_librarian_expert -mpssession Jimmy-X_ProjectMgr30444 -mpshost Jimmy-Station
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/switch.dra
-\i (00:00:05) trapsize 61
-\i (00:00:05) trapsize 62
-\i (00:00:05) trapsize 62
-\i (00:00:06) generaledit 
-\i (00:00:51) exit 
-\t (00:00:51)     Journal end - Fri Jul 16 12:21:56 2021
+\t (00:00:02) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Sat Jul 17 09:33:14 2021
+\t (00:00:02)         Host=JIMMY-STATION User=Jimmy-X Pid=18640 CPUs=8
+\t (00:00:02) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\短学期\designer\52.cpm -product PCB_librarian_expert -mpssession Jimmy-X_ProjectMgr15416 -mpshost Jimmy-Station
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Starting new design...
+\i (00:00:03) trapsize 517
+\i (00:00:03) trapsize 526
+\i (00:00:03) trapsize 703
+\i (00:00:03) trapsize 704
+\i (00:00:03) generaledit 
+\i (00:00:15) drag_start grid 14692.1 7444.5
+\i (00:00:15) drag_stop 8091.9 10399.8
+\i (00:00:29) open 
+\i (00:01:33) fillin "menu_cancel"
+\i (00:01:33) generaledit 
+\i (00:01:35) exit 
+\t (00:01:35)     Journal end - Sat Jul 17 09:34:47 2021

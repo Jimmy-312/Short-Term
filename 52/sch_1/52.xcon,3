@@ -5,14 +5,14 @@
     <schemaVersion>17.2</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2021-07-16T21:02:18</modificationTime>
+    <modificationTime>2021-07-16T21:03:50</modificationTime>
     <savedLibrary>52_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="52" view="sch_1">
       <lastids>
         <instanceid>96</instanceid>
-        <netid>69</netid>
+        <netid>71</netid>
         <insttermid>343</insttermid>
       </lastids>
       <cells>
@@ -923,6 +923,14 @@
           <id>N69</id>
           <name>en</name>
         </net>
+        <net>
+          <id>N70</id>
+          <name>3v3</name>
+        </net>
+        <net>
+          <id>N71</id>
+          <name>state</name>
+        </net>
       </nets>
       <aliases>
       </aliases>
@@ -1105,12 +1113,14 @@
               <id>M95</id>
               <termid>T18</termid>
               <connections>
+                <connection net="N70" />
               </connections>
             </pin>
             <pin>
               <id>M96</id>
               <termid>T19</termid>
               <connections>
+                <connection net="N71" />
               </connections>
             </pin>
             <pin>
@@ -1981,6 +1991,7 @@
               <id>M242</id>
               <termid>T94</termid>
               <connections>
+                <connection net="N71" />
               </connections>
             </pin>
             <pin>
@@ -2029,6 +2040,7 @@
               <id>M246</id>
               <termid>T98</termid>
               <connections>
+                <connection net="N70" />
               </connections>
             </pin>
             <pin>
@@ -3142,6 +3154,7 @@
             <physicalPageNumber>1</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
+              <net ref="3v3"></net>
               <net ref="buzz"></net>
               <net ref="d0"></net>
               <net ref="d1"></net>
@@ -3166,6 +3179,7 @@
               <net ref="sda"></net>
               <net ref="set"></net>
               <net ref="sta"></net>
+              <net ref="state"></net>
               <net ref="txd"></net>
               <net ref="unnamed_1_bjtpnp_i84_1"></net>
               <net ref="unnamed_1_bjtpnp_i84_2"></net>

@@ -5,14 +5,14 @@
     <schemaVersion>17.2</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2021-07-16T20:55:18</modificationTime>
+    <modificationTime>2021-07-16T21:02:18</modificationTime>
     <savedLibrary>52_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="52" view="sch_1">
       <lastids>
         <instanceid>96</instanceid>
-        <netid>68</netid>
+        <netid>69</netid>
         <insttermid>343</insttermid>
       </lastids>
       <cells>
@@ -918,6 +918,10 @@
         <net>
           <id>N68</id>
           <name>unnamed_1_bjtpnp_i84_2</name>
+        </net>
+        <net>
+          <id>N69</id>
+          <name>en</name>
         </net>
       </nets>
       <aliases>
@@ -1956,6 +1960,7 @@
               <id>M239</id>
               <termid>T91</termid>
               <connections>
+                <connection net="N69" />
               </connections>
             </pin>
             <pin>
@@ -3146,6 +3151,7 @@
               <net ref="d5"></net>
               <net ref="d6"></net>
               <net ref="d7"></net>
+              <net ref="en"></net>
               <net ref="fun"></net>
               <net ref="gnd"></net>
               <net ref="lcde"></net>
