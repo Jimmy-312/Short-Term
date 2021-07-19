@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : Potentiometer.dra                             )
-(    Software Version : 17.2P028                                      )
-(    Date/Time        : Wed Jul 14 21:41:30 2021                      )
+(    Drawing          : pcb.brd                                       )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Jul 17 19:08:32 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  3
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

@@ -1,8 +1,8 @@
-Log File: C:\Users\Jimmy-X\AppData\Local\Temp\sdus.
-Markers File: C:\Users\Jimmy-X\AppData\Local\Temp\sdus.1
-Debug File: C:\Users\Jimmy-X\AppData\Local\Temp\sdus.3
+Log File: C:\Users\Jimmy-X\AppData\Local\Temp\sp0c.
+Markers File: C:\Users\Jimmy-X\AppData\Local\Temp\sp0c.1
+Debug File: C:\Users\Jimmy-X\AppData\Local\Temp\sp0c.3
      Debug[0] := TRUE
-Elapsed time since start = (00:00:01)
+Elapsed time since start = (00:00:00)
 
  **************************************************************
  *  End processing project file and command line  (00:00:00)  *
@@ -13,7 +13,7 @@ Elapsed time since start = (00:00:01)
  *  Loading State Files  *
  *************************
 
-Elapsed time since start = (00:00:02)
+Elapsed time since start = (00:00:01)
 
  *****************************************
  *  End loading State Files  (00:00:00)  *
@@ -24,7 +24,7 @@ Elapsed time since start = (00:00:02)
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:02)
+Elapsed time since start = (00:00:01)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -35,7 +35,7 @@ Elapsed time since start = (00:00:02)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:02)
+Elapsed time since start = (00:00:01)
 
  *******************************
  *  End packaging  (00:00:00)  *

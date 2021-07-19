@@ -1,0 +1,53 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : pcb.brd                                       )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Sat Jul 17 19:21:24 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U1 / STC89C52-41020001,STC89C52 / DIP-40-100-600 at (7757.00 13638.00)
+         Placed symbol:  LCD / LCD1602-15020001,LCD1602 / LCD1602 at (9214.00 13908.00)
+         Placed symbol:  AT1 / AT24C02-43010006,AT24C02 / AT24C02 at (7193.00 12392.00)
+         Placed symbol:  OLED1 / OLED-43010001,OLED / OLED at (6788.85 11572.58)
+         Placed symbol:  SWL1 / SWITCH_LOCK-16050001,SWITCH_LOA / SWITCH_LOCK at (7236.49 10804.34)
+         Placed symbol:  P4 / SOCKET6-14050002,SOCKET6 / SOCKET6 at (7032.00 10513.27)
+         Placed symbol:  P3 / SOCKET5-14050001,SOCKET5 / SOCKET5 at (7072.00 10285.27)
+         Placed symbol:  SW3 / SWITCH-16100002,SWITCH / SWITCH at (7163.65 9968.29)
+         Placed symbol:  SW1 / SWITCH-16100002,SWITCH / SWITCH at (7163.65 9566.59)
+         Placed symbol:  SW2 / SWITCH-16100002,SWITCH / SWITCH at (7163.65 9164.89)
+         Placed symbol:  SW4 / SWITCH-16100002,SWITCH / SWITCH at (7652.09 14880.72)
+         Placed symbol:  P2 / MLX90614-43020001,MLX90614 / MLX90614 at (8156.94 14958.68)
+         Placed symbol:  D1 / L7805-43010004,L7805 / L7805 at (7827.93 14476.00)
+         Placed symbol:  RP / POTENTIOMETER-07080001,POTENTIA / POTENTIOMETER at (9266.24 14811.83)
+         Placed symbol:  BJT1 / BJT_PNP-15050001,BJT_PNP / BJT_PNP at (996.68 2276.00)
+         Placed symbol:  L2 / LED-15020001,LED / LED at (10042.87 14811.43)
+         Placed symbol:  L1 / LED-15020001,LED / LED at (10326.46 14811.43)
+         Placed symbol:  C3 / CAPACITANCE-08070001,10U / CAPACITANCE at (10771.86 14776.00)
+         Placed symbol:  BZ1 / BUZZ-43010005,BUZZ / BUZZ at (5665.89 12080.19)
+         Placed symbol:  C5 / CAPACITANCE-08070001,10U / CAPACITANCE at (5877.70 11460.38)
+         Placed symbol:  R6 / RESISTOR-07010001,1K / RESISTOR at (5917.70 11272.38)
+         Placed symbol:  R4 / RESISTOR-07010001,1K / RESISTOR at (5917.70 11104.38)
+         Placed symbol:  R2 / RESISTOR-07010003,10K / RESISTOR at (5917.70 10936.38)
+         Placed symbol:  R7 / RESISTOR-07010001,1K / RESISTOR at (5917.70 10768.38)
+         Placed symbol:  R3 / RESISTOR-07010004,330 / RESISTOR at (5917.70 10600.38)
+         Placed symbol:  P1 / SOCKET2-14050003,SOCKET2 / SOCKET2 at (6037.70 10422.38)
+         Placed symbol:  X1 / CRYSTAL-12010001,12.000MHZ / CRYSTAL at (5945.42 10209.42)
+         Placed symbol:  C8 / CAPACITANCE-08070004,0.1U / CAPACITANCE at (5877.70 9991.97)
+         Placed symbol:  R1 / RESISTOR-07010004,330 / RESISTOR at (5917.70 9803.97)
+         Placed symbol:  C7 / CAPACITANCE-08070004,0.1U / CAPACITANCE at (5877.70 9615.97)
+         Placed symbol:  C2 / CAPACITANCE-08070002,30P / CAPACITANCE at (5877.70 9407.97)
+         Placed symbol:  C1 / CAPACITANCE-08070002,30P / CAPACITANCE at (5877.70 9199.97)
+         Placed symbol:  R5 / RESISTOR-07010001,1K / RESISTOR at (5917.70 9011.97)
+         Placed symbol:  C10 / CAPACITANCE-08070001,10U / CAPACITANCE at (5877.70 8823.97)
+
+
+Placed 34 of 34 applicable (34 total) symbols.
+
+-----------------------------------------------------------------------
+

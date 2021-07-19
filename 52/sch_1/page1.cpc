@@ -24,12 +24,6 @@
   page1_i42
 #CELL
   52_lib capacitance *
-  page1_i43
-#CELL
-  52_lib capacitance *
-  page1_i44
-#CELL
-  52_lib capacitance *
   page1_i45
 #CELL
   52_lib capacitance *
@@ -37,12 +31,6 @@
 #CELL
   52_lib capacitance *
   page1_i47
-#CELL
-  52_lib capacitance *
-  page1_i48
-#CELL
-  52_lib capacitance *
-  page1_i49
 #CELL
   52_lib capacitance *
   page1_i50
@@ -100,30 +88,6 @@
 #CELL
   52_lib resistor *
   page1_i71
-#CELL
-  52_lib resistor *
-  page1_i73
-#CELL
-  52_lib resistor *
-  page1_i74
-#CELL
-  52_lib resistor *
-  page1_i75
-#CELL
-  52_lib resistor *
-  page1_i76
-#CELL
-  52_lib resistor *
-  page1_i77
-#CELL
-  52_lib resistor *
-  page1_i78
-#CELL
-  52_lib resistor *
-  page1_i79
-#CELL
-  52_lib resistor *
-  page1_i80
 #CELL
   52_lib at24c02 *
   page1_i81

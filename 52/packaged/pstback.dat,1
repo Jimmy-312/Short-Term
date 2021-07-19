@@ -1,4 +1,4 @@
-{ Packager-XL run on 17-Jul-2021 AT 09:29:57 }
+{ Packager-XL run on 17-Jul-2021 AT 19:16:42 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@\52_lib\.\52\(sch_1):page1";
 BODY = "STC89C52","I16": #LOCATION = "U1" !CDS_LOCATION = "U1" &SEC = "1" #&CDS_SEC = "1";
@@ -57,12 +57,6 @@ BODY = "CAPACITANCE","I41": #LOCATION = "C1" !CDS_LOCATION = "C1" &SEC = "1" #&C
 BODY = "CAPACITANCE","I42": #LOCATION = "C2" !CDS_LOCATION = "C2" &SEC = "1" #&CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPACITANCE","I43": #LOCATION = "C4" !CDS_LOCATION = "C4" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPACITANCE","I44": #LOCATION = "C11" !CDS_LOCATION = "C11" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPACITANCE","I45": #LOCATION = "C3" !CDS_LOCATION = "C3" &SEC = "1" #&CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
@@ -70,12 +64,6 @@ BODY = "CAPACITANCE","I46": #LOCATION = "C5" !CDS_LOCATION = "C5" &SEC = "1" #&C
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPACITANCE","I47": #LOCATION = "C10" !CDS_LOCATION = "C10" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPACITANCE","I48": #LOCATION = "C6" !CDS_LOCATION = "C6" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "CAPACITANCE","I49": #LOCATION = "C9" !CDS_LOCATION = "C9" &SEC = "1" #&CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "CAPACITANCE","I50": #LOCATION = "C8" !CDS_LOCATION = "C8" &SEC = "1" #&CDS_SEC = "1";
@@ -172,30 +160,6 @@ BODY = "SWITCH","I70": #LOCATION = "SW4" !CDS_LOCATION = "SW4" &SEC = "1" #&CDS_
 "3":   PN = "3"  !CDS_PN = "3";
 "4":   PN = "4"  !CDS_PN = "4";
 BODY = "RESISTOR","I71": #LOCATION = "R7" !CDS_LOCATION = "R7" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "RESISTOR","I73": #LOCATION = "R10" !CDS_LOCATION = "R10" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "RESISTOR","I74": #LOCATION = "R9" !CDS_LOCATION = "R9" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "RESISTOR","I75": #LOCATION = "R11" !CDS_LOCATION = "R11" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "RESISTOR","I76": #LOCATION = "R12" !CDS_LOCATION = "R12" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "RESISTOR","I77": #LOCATION = "R13" !CDS_LOCATION = "R13" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "RESISTOR","I78": #LOCATION = "R14" !CDS_LOCATION = "R14" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "RESISTOR","I79": #LOCATION = "R15" !CDS_LOCATION = "R15" &SEC = "1" #&CDS_SEC = "1";
-"1":   PN = "1"  !CDS_PN = "1";
-"2":   PN = "2"  !CDS_PN = "2";
-BODY = "RESISTOR","I80": #LOCATION = "R8" !CDS_LOCATION = "R8" &SEC = "1" #&CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 BODY = "AT24C02","I81": #LOCATION = "AT1" !CDS_LOCATION = "AT1" &SEC = "1" #&CDS_SEC = "1";

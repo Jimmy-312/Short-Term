@@ -1,0 +1,689 @@
+FILE_TYPE=EXPANDEDPARTLIST;
+{ Packager-XL run on 17-Jul-2021 AT 21:21:50 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='52';
+ POST_TIME='17-Jul-2021 AT 21:21:50';
+ SOURCE_TOOL='PACKAGER_XL';
+END_DIRECTIVES;
+
+PART_NAME
+ AT1 'AT24C02-43010006,AT24C02':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I81@52_LIB.AT24C02(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i81@\52_lib\.at24c02(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i81@\52_lib\.at24c02(chips)',
+ PATH='I81',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='43010006',
+ PHYS_PAGE='1',
+ XY='(500,2800)',
+ ROT='0',
+ VER='1',
+ LOCATION='AT1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='AT24C02-43010006,AT24C02',
+ VALUE='AT24C02',
+ PRIM_FILE='./worklib/at24c02/chips/chips.prt';
+
+PART_NAME
+ BJT1 'BJT_PNP-15050001,BJT_PNP':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I84@52_LIB.BJT_PNP(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i84@\52_lib\.bjt_pnp(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i84@\52_lib\.bjt_pnp(chips)',
+ PATH='I84',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='15050001',
+ PHYS_PAGE='1',
+ XY='(-1100,3900)',
+ ROT='0',
+ VER='1',
+ LOCATION='BJT1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='BJT_PNP-15050001,BJT_PNP',
+ VALUE='BJT_PNP',
+ PRIM_FILE='./worklib/bjt_pnp/chips/chips.prt';
+
+PART_NAME
+ BZ1 'BUZZ-43010005,BUZZ':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I63@52_LIB.BUZZ(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i63@\52_lib\.buzz(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i63@\52_lib\.buzz(chips)',
+ PATH='I63',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='43010005',
+ PHYS_PAGE='1',
+ XY='(-800,4000)',
+ ROT='6',
+ VER='1',
+ LOCATION='BZ1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='BUZZ-43010005,BUZZ',
+ VALUE='BUZZ',
+ PRIM_FILE='./worklib/buzz/chips/chips.prt';
+
+PART_NAME
+ C1 'CAPACITANCE-08070002,30P':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I41@52_LIB.CAPACITANCE(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i41@\52_lib\.capacitance(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i41@\52_lib\.capacitance(chips)',
+ PATH='I41',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='08070002',
+ PHYS_PAGE='1',
+ XY='(-3350,4750)',
+ ROT='1',
+ VER='1',
+ LOCATION='C1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='CAPACITANCE-08070002,30P',
+ VALUE='30P',
+ PRIM_FILE='./worklib/capacitance/chips/chips.prt';
+
+PART_NAME
+ C2 'CAPACITANCE-08070002,30P':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I42@52_LIB.CAPACITANCE(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i42@\52_lib\.capacitance(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i42@\52_lib\.capacitance(chips)',
+ PATH='I42',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='08070002',
+ PHYS_PAGE='1',
+ XY='(-3350,4000)',
+ ROT='1',
+ VER='1',
+ LOCATION='C2',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='CAPACITANCE-08070002,30P',
+ VALUE='30P',
+ PRIM_FILE='./worklib/capacitance/chips/chips.prt';
+
+PART_NAME
+ C3 'CAPACITANCE-08070001,10U':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I45@52_LIB.CAPACITANCE(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i45@\52_lib\.capacitance(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i45@\52_lib\.capacitance(chips)',
+ PATH='I45',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='08070001',
+ PHYS_PAGE='1',
+ XY='(-3000,1950)',
+ ROT='1',
+ VER='1',
+ LOCATION='C3',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='CAPACITANCE-08070001,10U',
+ VALUE='10U',
+ PRIM_FILE='./worklib/capacitance/chips/chips.prt';
+
+PART_NAME
+ C5 'CAPACITANCE-08070001,10U':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I46@52_LIB.CAPACITANCE(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i46@\52_lib\.capacitance(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i46@\52_lib\.capacitance(chips)',
+ PATH='I46',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='08070001',
+ PHYS_PAGE='1',
+ XY='(400,4750)',
+ ROT='0',
+ VER='1',
+ LOCATION='C5',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='CAPACITANCE-08070001,10U',
+ VALUE='10U',
+ PRIM_FILE='./worklib/capacitance/chips/chips.prt';
+
+PART_NAME
+ C7 'CAPACITANCE-08070004,0.1U':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I51@52_LIB.CAPACITANCE(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i51@\52_lib\.capacitance(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i51@\52_lib\.capacitance(chips)',
+ PATH='I51',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='08070004',
+ PHYS_PAGE='1',
+ XY='(1300,4750)',
+ ROT='0',
+ VER='1',
+ LOCATION='C7',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='CAPACITANCE-08070004,0.1U',
+ VALUE='0.1U',
+ PRIM_FILE='./worklib/capacitance/chips/chips.prt';
+
+PART_NAME
+ C8 'CAPACITANCE-08070004,0.1U':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I50@52_LIB.CAPACITANCE(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i50@\52_lib\.capacitance(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i50@\52_lib\.capacitance(chips)',
+ PATH='I50',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='08070004',
+ PHYS_PAGE='1',
+ XY='(1900,4750)',
+ ROT='0',
+ VER='1',
+ LOCATION='C8',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='CAPACITANCE-08070004,0.1U',
+ VALUE='0.1U',
+ PRIM_FILE='./worklib/capacitance/chips/chips.prt';
+
+PART_NAME
+ C10 'CAPACITANCE-08070001,10U':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I47@52_LIB.CAPACITANCE(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i47@\52_lib\.capacitance(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i47@\52_lib\.capacitance(chips)',
+ PATH='I47',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='08070001',
+ PHYS_PAGE='1',
+ XY='(2800,4750)',
+ ROT='0',
+ VER='1',
+ LOCATION='C10',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='CAPACITANCE-08070001,10U',
+ VALUE='10U',
+ PRIM_FILE='./worklib/capacitance/chips/chips.prt';
+
+PART_NAME
+ D1 'L7805-43010004,L7805':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I85@52_LIB.L7805(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i85@\52_lib\.l7805(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i85@\52_lib\.l7805(chips)',
+ PATH='I85',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='43010004',
+ PHYS_PAGE='1',
+ XY='(1600,5150)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='L7805-43010004,L7805',
+ VALUE='L7805',
+ PRIM_FILE='./worklib/l7805/chips/chips.prt';
+
+PART_NAME
+ L1 'LED-15020001,LED':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I33@52_LIB.LED(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i33@\52_lib\.led(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i33@\52_lib\.led(chips)',
+ PATH='I33',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='15020001',
+ PHYS_PAGE='1',
+ XY='(-2750,3200)',
+ ROT='7',
+ VER='1',
+ LOCATION='L1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='LED-15020001,LED',
+ VALUE='LED',
+ PRIM_FILE='./worklib/led/chips/chips.prt';
+
+PART_NAME
+ L2 'LED-15020001,LED':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I62@52_LIB.LED(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i62@\52_lib\.led(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i62@\52_lib\.led(chips)',
+ PATH='I62',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='15020001',
+ PHYS_PAGE='1',
+ XY='(-2700,800)',
+ ROT='7',
+ VER='1',
+ LOCATION='L2',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='LED-15020001,LED',
+ VALUE='LED',
+ PRIM_FILE='./worklib/led/chips/chips.prt';
+
+PART_NAME
+ LCD 'LCD1602-15020001,LCD1602':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I59@52_LIB.LCD1602(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i59@\52_lib\.lcd1602(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i59@\52_lib\.lcd1602(chips)',
+ PATH='I59',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='15020001',
+ PHYS_PAGE='1',
+ XY='(650,3450)',
+ ROT='0',
+ VER='1',
+ LOCATION='LCD',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='LCD1602-15020001,LCD1602',
+ VALUE='LCD1602',
+ PRIM_FILE='./worklib/lcd1602/chips/chips.prt';
+
+PART_NAME
+ OLED1 'OLED-43010001,OLED':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I82@52_LIB.OLED(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i82@\52_lib\.oled(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i82@\52_lib\.oled(chips)',
+ PATH='I82',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='43010001',
+ PHYS_PAGE='1',
+ XY='(700,1900)',
+ ROT='1',
+ VER='1',
+ LOCATION='OLED1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='OLED-43010001,OLED',
+ VALUE='OLED',
+ PRIM_FILE='./worklib/oled/chips/chips.prt';
+
+PART_NAME
+ P1 'SOCKET2-14050003,SOCKET2':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I54@52_LIB.SOCKET2(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i54@\52_lib\.socket2(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i54@\52_lib\.socket2(chips)',
+ PATH='I54',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='14050003',
+ PHYS_PAGE='1',
+ XY='(-1350,4950)',
+ ROT='6',
+ VER='1',
+ LOCATION='P1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='SOCKET2-14050003,SOCKET2',
+ VALUE='SOCKET2',
+ PRIM_FILE='./worklib/socket2/chips/chips.prt';
+
+PART_NAME
+ P2 'MLX90614-43020001,MLX90614':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I55@52_LIB.MLX90614(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i55@\52_lib\.mlx90614(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i55@\52_lib\.mlx90614(chips)',
+ PATH='I55',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='43020001',
+ PHYS_PAGE='1',
+ XY='(2900,3650)',
+ ROT='0',
+ VER='1',
+ LOCATION='P2',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='MLX90614-43020001,MLX90614',
+ VALUE='MLX90614',
+ PRIM_FILE='./worklib/mlx90614/chips/chips.prt';
+
+PART_NAME
+ P3 'SOCKET5-14050001,SOCKET5':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I58@52_LIB.SOCKET5(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i58@\52_lib\.socket5(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i58@\52_lib\.socket5(chips)',
+ PATH='I58',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='14050001',
+ PHYS_PAGE='1',
+ XY='(1700,3650)',
+ ROT='1',
+ VER='1',
+ LOCATION='P3',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='SOCKET5-14050001,SOCKET5',
+ VALUE='SOCKET5',
+ PRIM_FILE='./worklib/socket5/chips/chips.prt';
+
+PART_NAME
+ P4 'SOCKET6-14050002,SOCKET6':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I57@52_LIB.SOCKET6(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i57@\52_lib\.socket6(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i57@\52_lib\.socket6(chips)',
+ PATH='I57',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='14050002',
+ PHYS_PAGE='1',
+ XY='(2300,3600)',
+ ROT='1',
+ VER='1',
+ LOCATION='P4',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='SOCKET6-14050002,SOCKET6',
+ VALUE='SOCKET6',
+ PRIM_FILE='./worklib/socket6/chips/chips.prt';
+
+PART_NAME
+ R1 'RESISTOR-07010004,330':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I36@52_LIB.RESISTOR(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i36@\52_lib\.resistor(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i36@\52_lib\.resistor(chips)',
+ PATH='I36',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='07010004',
+ PHYS_PAGE='1',
+ XY='(-3250,3200)',
+ ROT='1',
+ VER='1',
+ LOCATION='R1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='RESISTOR-07010004,330',
+ VALUE='330',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ R2 'RESISTOR-07010003,10K':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I38@52_LIB.RESISTOR(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i38@\52_lib\.resistor(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i38@\52_lib\.resistor(chips)',
+ PATH='I38',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='07010003',
+ PHYS_PAGE='1',
+ XY='(-2250,1950)',
+ ROT='1',
+ VER='1',
+ LOCATION='R2',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='RESISTOR-07010003,10K',
+ VALUE='10K',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ R3 'RESISTOR-07010004,330':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I61@52_LIB.RESISTOR(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i61@\52_lib\.resistor(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i61@\52_lib\.resistor(chips)',
+ PATH='I61',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='07010004',
+ PHYS_PAGE='1',
+ XY='(-3200,800)',
+ ROT='1',
+ VER='1',
+ LOCATION='R3',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='RESISTOR-07010004,330',
+ VALUE='330',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ R4 'RESISTOR-07010001,1K':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I83@52_LIB.RESISTOR(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i83@\52_lib\.resistor(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i83@\52_lib\.resistor(chips)',
+ PATH='I83',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='07010001',
+ PHYS_PAGE='1',
+ XY='(-1550,3900)',
+ ROT='1',
+ VER='1',
+ LOCATION='R4',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='RESISTOR-07010001,1K',
+ VALUE='1K',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ R5 'RESISTOR-07010001,1K':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I69@52_LIB.RESISTOR(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i69@\52_lib\.resistor(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i69@\52_lib\.resistor(chips)',
+ PATH='I69',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='07010001',
+ PHYS_PAGE='1',
+ XY='(-1550,3250)',
+ ROT='1',
+ VER='1',
+ LOCATION='R5',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='RESISTOR-07010001,1K',
+ VALUE='1K',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ R6 'RESISTOR-07010001,1K':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I67@52_LIB.RESISTOR(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i67@\52_lib\.resistor(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i67@\52_lib\.resistor(chips)',
+ PATH='I67',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='07010001',
+ PHYS_PAGE='1',
+ XY='(-1250,1050)',
+ ROT='1',
+ VER='1',
+ LOCATION='R6',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='RESISTOR-07010001,1K',
+ VALUE='1K',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ R7 'RESISTOR-07010001,1K':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I71@52_LIB.RESISTOR(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i71@\52_lib\.resistor(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i71@\52_lib\.resistor(chips)',
+ PATH='I71',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='07010001',
+ PHYS_PAGE='1',
+ XY='(-950,2050)',
+ ROT='1',
+ VER='1',
+ LOCATION='R7',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='RESISTOR-07010001,1K',
+ VALUE='1K',
+ PRIM_FILE='./worklib/resistor/chips/chips.prt';
+
+PART_NAME
+ RP 'POTENTIOMETER-07080001,POTENTIA':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I60@52_LIB.POTENTIOMETER(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i60@\52_lib\.potentiometer(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i60@\52_lib\.potentiometer(chips)',
+ PATH='I60',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='07080001',
+ PHYS_PAGE='1',
+ XY='(50,3700)',
+ ROT='7',
+ VER='1',
+ LOCATION='RP',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='POTENTIOMETER-07080001,POTENTIA',
+ VALUE='POTENTIOMETER',
+ PRIM_FILE='./worklib/potentiometer/chips/chips.prt';
+
+PART_NAME
+ SW1 'SWITCH-16100002,SWITCH':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I52@52_LIB.SWITCH(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i52@\52_lib\.switch(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i52@\52_lib\.switch(chips)',
+ PATH='I52',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='16100002',
+ PHYS_PAGE='1',
+ XY='(-3000,2450)',
+ ROT='3',
+ VER='1',
+ LOCATION='SW1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='SWITCH-16100002,SWITCH',
+ VALUE='SWITCH',
+ PRIM_FILE='./worklib/switch/chips/chips.prt';
+
+PART_NAME
+ SW2 'SWITCH-16100002,SWITCH':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I68@52_LIB.SWITCH(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i68@\52_lib\.switch(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i68@\52_lib\.switch(chips)',
+ PATH='I68',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='16100002',
+ PHYS_PAGE='1',
+ XY='(-1000,3300)',
+ ROT='3',
+ VER='1',
+ LOCATION='SW2',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='SWITCH-16100002,SWITCH',
+ VALUE='SWITCH',
+ PRIM_FILE='./worklib/switch/chips/chips.prt';
+
+PART_NAME
+ SW3 'SWITCH-16100002,SWITCH':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I66@52_LIB.SWITCH(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i66@\52_lib\.switch(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i66@\52_lib\.switch(chips)',
+ PATH='I66',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='16100002',
+ PHYS_PAGE='1',
+ XY='(-700,1100)',
+ ROT='3',
+ VER='1',
+ LOCATION='SW3',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='SWITCH-16100002,SWITCH',
+ VALUE='SWITCH',
+ PRIM_FILE='./worklib/switch/chips/chips.prt';
+
+PART_NAME
+ SW4 'SWITCH-16100002,SWITCH':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I70@52_LIB.SWITCH(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i70@\52_lib\.switch(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i70@\52_lib\.switch(chips)',
+ PATH='I70',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='16100002',
+ PHYS_PAGE='1',
+ XY='(-400,2100)',
+ ROT='3',
+ VER='1',
+ LOCATION='SW4',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='SWITCH-16100002,SWITCH',
+ VALUE='SWITCH',
+ PRIM_FILE='./worklib/switch/chips/chips.prt';
+
+PART_NAME
+ SWL1 'SWITCH_LOCK-16050001,SWITCH_LOA':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I53@52_LIB.SWITCH_LOCK(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i53@\52_lib\.switch_lock(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i53@\52_lib\.switch_lock(chips)',
+ PATH='I53',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='16050001',
+ PHYS_PAGE='1',
+ XY='(-550,4750)',
+ ROT='1',
+ VER='1',
+ LOCATION='SWL1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='SWITCH_LOCK-16050001,SWITCH_LOA',
+ VALUE='SWITCH_LOCK',
+ PRIM_FILE='./worklib/switch_lock/chips/chips.prt';
+
+PART_NAME
+ U1 'STC89C52-41020001,STC89C52':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I16@52_LIB.STC89C52(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i16@\52_lib\.stc89c52(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i16@\52_lib\.stc89c52(chips)',
+ PATH='I16',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='41020001',
+ PHYS_PAGE='1',
+ XY='(2100,850)',
+ ROT='0',
+ VER='1',
+ LOCATION='U1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='STC89C52-41020001,STC89C52',
+ VALUE='STC89C52',
+ PRIM_FILE='./worklib/stc89c52/chips/chips.prt';
+
+PART_NAME
+ X1 'CRYSTAL-12010001,12.000MHZ':;
+
+SECTION_NUMBER 1
+ '@52_LIB.52(SCH_1):PAGE1_I32@52_LIB.CRYSTAL(CHIPS)':
+ C_PATH='@\52_lib\.\52\(sch_1):page1_i32@\52_lib\.crystal(chips)',
+ P_PATH='@\52_lib\.\52\(sch_1):page1_i32@\52_lib\.crystal(chips)',
+ PATH='I32',
+ DRAWING='@52_LIB.52(SCH_1):PAGE1',
+ CODE='12010001',
+ PHYS_PAGE='1',
+ XY='(-3100,4350)',
+ ROT='0',
+ VER='1',
+ LOCATION='X1',
+ CDS_LIB='52_lib',
+ CDS_PART_NAME='CRYSTAL-12010001,12.000MHZ',
+ VALUE='12.000MHZ',
+ PRIM_FILE='./worklib/crystal/chips/chips.prt';
+
+END.

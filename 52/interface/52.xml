@@ -1,0 +1,17 @@
+<schema xmlns="http://www.cadence.com/spb/csschema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cadence.com/spb/csschema ConIBDSSchema001.xsd">
+ <header>
+  <schemaVersion>17.2</schemaVersion>
+  <creatorTool>concepthdl</creatorTool>
+  <modifierTool>concepthdl</modifierTool>
+  <modificationTime>2021-07-17T21:39:53</modificationTime>
+  <savedLibrary>52_lib</savedLibrary>
+ </header>
+ <design schemaType="nameBased" name="52">
+  <netgroups>
+  </netgroups>
+  <netinterfaces>
+  </netinterfaces>
+ </design>
+</schema>

@@ -1,0 +1,580 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  3V3          pins ADDED TO this new net
+                                 P3.1           U1.38          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BUZZ         pins ADDED TO this new net
+                                 R4.1           U1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D0           pins ADDED TO this new net
+                                 LCD.7          U1.21          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D1           pins ADDED TO this new net
+                                 LCD.8          U1.22          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D2           pins ADDED TO this new net
+                                 LCD.9          U1.23          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D3           pins ADDED TO this new net
+                                 LCD.10         U1.24          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D4           pins ADDED TO this new net
+                                 LCD.11         U1.25          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D5           pins ADDED TO this new net
+                                 LCD.12         U1.26          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D6           pins ADDED TO this new net
+                                 LCD.13         U1.27          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D7           pins ADDED TO this new net
+                                 LCD.14         U1.28          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  EN           pins ADDED TO this new net
+                                 P4.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FUN          pins ADDED TO this new net
+                                 R7.2           SW4.2          U1.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 AT1.1          AT1.2          AT1.3          
+                                 AT1.4          AT1.7          BJT1.3         
+                                 C1.1           C2.1           C5.2           
+                                 C7.2           C8.2           D1.2           
+                                 L1.1           LCD.1          LCD.16         
+                                 OLED1.1        OLED1.7        P1.2           
+                                 P2.2           P3.4           P4.4           
+                                 R2.2           RP.1           SW2.4          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 SW3.4          SW4.4          U1.20          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LCDE         pins ADDED TO this new net
+                                 LCD.6          U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED          pins ADDED TO this new net
+                                 L2.1           U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RES          pins ADDED TO this new net
+                                 OLED1.5        U1.39          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RS           pins ADDED TO this new net
+                                 LCD.4          U1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RST          pins ADDED TO this new net
+                                 C3.2           R2.1           SW1.4          
+                                 U1.9           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RW           pins ADDED TO this new net
+                                 LCD.5          U1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RXD          pins ADDED TO this new net
+                                 P3.2           P4.3           U1.10          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SA           pins ADDED TO this new net
+                                 OLED1.6        U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCL          pins ADDED TO this new net
+                                 AT1.6          OLED1.3        P2.3           
+                                 U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDA          pins ADDED TO this new net
+                                 AT1.5          OLED1.4        P2.4           
+                                 U1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SET          pins ADDED TO this new net
+                                 R5.2           SW2.2          U1.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  STA          pins ADDED TO this new net
+                                 R6.2           SW3.2          U1.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  STATE        pins ADDED TO this new net
+                                 P4.1           U1.37          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TXD          pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 P3.3           P4.2           U1.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_BJTPNP_I84_1 pins ADDED TO this new net
+                                 BJT1.1         BZ1.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_BJTPNP_I84_2 pins ADDED TO this new net
+                                 BJT1.2         R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_CAPACITANCE_I46_1 pins ADDED TO this new net
+                                 C5.1           C7.1           D1.1           
+                                 SWL1.6         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_LCD1602_I59_VL pins ADDED TO this new net
+                                 LCD.3          RP.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_LED_I33_2 pins ADDED TO this new net
+                                 L1.2           R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_LED_I62_2 pins ADDED TO this new net
+                                 L2.2           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_1_SOCKET2_I54_V pins ADDED TO this new net
+                                 P1.1           SWL1.5         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 AT1.8          BZ1.1          C3.1           
+                                 C8.1           C10.1          D1.3           
+                                 LCD.2          LCD.15         OLED1.2        
+                                 P2.1           P3.5           P4.5           
+                                 R1.1           R3.1           R5.1           
+                                 R6.1           R7.1           RP.3           
+                                 SW1.2          U1.31          U1.40          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XTAL1        pins ADDED TO this new net
+                                 C2.2           U1.19          X1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  XTAL2        pins ADDED TO this new net
+                                 C1.2           U1.18          X1.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ AT24C02-43010006,AT24C02
+ BJT_PNP-15050001,BJT_PNP
+ BUZZ-43010005,BUZZ
+ CAPACITANCE-08070001,10U
+ CAPACITANCE-08070002,30P
+ CAPACITANCE-08070004,0.1U
+ CRYSTAL-12010001,12.000MHZ
+ L7805-43010004,L7805
+ LCD1602-15020001,LCD1602
+ LED-15020001,LED
+ MLX90614-43020001,MLX90614
+ OLED-43010001,OLED
+ POTENTIOMETER-07080001,POTENTIA
+ RESISTOR-07010001,1K
+ RESISTOR-07010003,10K
+ RESISTOR-07010004,330
+ SOCKET2-14050003,SOCKET2
+ SOCKET5-14050001,SOCKET5
+ SOCKET6-14050002,SOCKET6
+ STC89C52-41020001,STC89C52
+ SWITCH-16100002,SWITCH
+ SWITCH_LOCK-16050001,SWITCH_LOA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ AT1                 AT24C02-43010006,AT24C02 
+ BJT1                BJT_PNP-15050001,BJT_PNP 
+ BZ1                 BUZZ-43010005,BUZZ    
+ C1                  CAPACITANCE-08070002,30P 
+ C2                  CAPACITANCE-08070002,30P 
+ C3                  CAPACITANCE-08070001,10U 
+ C5                  CAPACITANCE-08070001,10U 
+ C7                  CAPACITANCE-08070004,0.1U 
+ C8                  CAPACITANCE-08070004,0.1U 
+ C10                 CAPACITANCE-08070001,10U 
+ D1                  L7805-43010004,L7805  
+ L1                  LED-15020001,LED      
+ L2                  LED-15020001,LED      
+ LCD                 LCD1602-15020001,LCD1602 
+ OLED1               OLED-43010001,OLED    
+ P1                  SOCKET2-14050003,SOCKET2 
+ P2                  MLX90614-43020001,MLX90614 
+ P3                  SOCKET5-14050001,SOCKET5 
+ P4                  SOCKET6-14050002,SOCKET6 
+ R1                  RESISTOR-07010004,330 
+ R2                  RESISTOR-07010003,10K 
+ R3                  RESISTOR-07010004,330 
+ R4                  RESISTOR-07010001,1K  
+ R5                  RESISTOR-07010001,1K  
+ R6                  RESISTOR-07010001,1K  
+ R7                  RESISTOR-07010001,1K  
+ RP                  POTENTIOMETER-07080001,POTENTIA 
+ SW1                 SWITCH-16100002,SWITCH 
+ SW2                 SWITCH-16100002,SWITCH 
+ SW3                 SWITCH-16100002,SWITCH 
+ SW4                 SWITCH-16100002,SWITCH 
+ SWL1                SWITCH_LOCK-16050001,SWITCH_LOA 
+ U1                  STC89C52-41020001,STC89C52 
+ X1                  CRYSTAL-12010001,12.000MHZ 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ AT1.7                          HARD_LOCATION  
+ AT1.7                          NO_SWAP_GATE_E 
+ AT1.7                          PRIM_FILE      ./worklib/at24c02/chips/chips.prt
+ BJT1.3                         HARD_LOCATION  
+ BJT1.3                         NO_SWAP_GATE_E 
+ BJT1.3                         PRIM_FILE      ./worklib/bjt_pnp/chips/chips.prt
+ BZ1.2                          HARD_LOCATION  
+ BZ1.2                          NO_SWAP_GATE_E 
+ BZ1.2                          PRIM_FILE      ./worklib/buzz/chips/chips.prt
+ C1.2                           HARD_LOCATION  
+ C1.2                           NO_SWAP_GATE_E 
+ C1.2                           PRIM_FILE      ./worklib/capacitance/chips/chips.prt
+ C2.2                           HARD_LOCATION  
+ C2.2                           NO_SWAP_GATE_E 
+ C2.2                           PRIM_FILE      ./worklib/capacitance/chips/chips.prt
+ C3.2                           HARD_LOCATION  
+ C3.2                           NO_SWAP_GATE_E 
+ C3.2                           PRIM_FILE      ./worklib/capacitance/chips/chips.prt
+ C5.2                           HARD_LOCATION  
+ C5.2                           NO_SWAP_GATE_E 
+ C5.2                           PRIM_FILE      ./worklib/capacitance/chips/chips.prt
+ C7.2                           HARD_LOCATION  
+ C7.2                           NO_SWAP_GATE_E 
+ C7.2                           PRIM_FILE      ./worklib/capacitance/chips/chips.prt
+ C8.2                           HARD_LOCATION  
+ C8.2                           NO_SWAP_GATE_E 
+ C8.2                           PRIM_FILE      ./worklib/capacitance/chips/chips.prt
+ C10.2                          HARD_LOCATION  
+ C10.2                          NO_SWAP_GATE_E 
+ C10.2                          PRIM_FILE      ./worklib/capacitance/chips/chips.prt
+ D1.3                           PRIM_FILE      ./worklib/l7805/chips/chips.prt
+ L1.2                           HARD_LOCATION  
+ L1.2                           NO_SWAP_GATE_E 
+ L1.2                           PRIM_FILE      ./worklib/led/chips/chips.prt
+ L2.2                           HARD_LOCATION  
+ L2.2                           NO_SWAP_GATE_E 
+ L2.2                           PRIM_FILE      ./worklib/led/chips/chips.prt
+ LCD.3                          HARD_LOCATION  
+ LCD.3                          NO_SWAP_GATE_E 
+ LCD.3                          PRIM_FILE      ./worklib/lcd1602/chips/chips.prt
+ OLED1.2                        HARD_LOCATION  
+ OLED1.2                        NO_SWAP_GATE_E 
+ OLED1.2                        PRIM_FILE      ./worklib/oled/chips/chips.prt
+ P1.1                           HARD_LOCATION  
+ P1.1                           NO_SWAP_GATE_E 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ P1.1                           PRIM_FILE      ./worklib/socket2/chips/chips.prt
+ P2.1                           HARD_LOCATION  
+ P2.1                           NO_SWAP_GATE_E 
+ P2.1                           PRIM_FILE      ./worklib/mlx90614/chips/chips.prt
+ P3.2                           HARD_LOCATION  
+ P3.2                           NO_SWAP_GATE_E 
+ P3.2                           PRIM_FILE      ./worklib/socket5/chips/chips.prt
+ P4.5                           HARD_LOCATION  
+ P4.5                           NO_SWAP_GATE_E 
+ P4.5                           PRIM_FILE      ./worklib/socket6/chips/chips.prt
+ R1.2                           HARD_LOCATION  
+ R1.2                           NO_SWAP_GATE_E 
+ R1.2                           PRIM_FILE      ./worklib/resistor/chips/chips.prt
+ R2.2                           HARD_LOCATION  
+ R2.2                           NO_SWAP_GATE_E 
+ R2.2                           PRIM_FILE      ./worklib/resistor/chips/chips.prt
+ R3.2                           HARD_LOCATION  
+ R3.2                           NO_SWAP_GATE_E 
+ R3.2                           PRIM_FILE      ./worklib/resistor/chips/chips.prt
+ R4.2                           HARD_LOCATION  
+ R4.2                           NO_SWAP_GATE_E 
+ R4.2                           PRIM_FILE      ./worklib/resistor/chips/chips.prt
+ R5.2                           HARD_LOCATION  
+ R5.2                           NO_SWAP_GATE_E 
+ R5.2                           PRIM_FILE      ./worklib/resistor/chips/chips.prt
+ R6.2                           HARD_LOCATION  
+ R6.2                           NO_SWAP_GATE_E 
+ R6.2                           PRIM_FILE      ./worklib/resistor/chips/chips.prt
+ R7.2                           HARD_LOCATION  
+ R7.2                           NO_SWAP_GATE_E 
+ R7.2                           PRIM_FILE      ./worklib/resistor/chips/chips.prt
+ RP.2                           HARD_LOCATION  
+ RP.2                           NO_SWAP_GATE_E 
+ RP.2                           PRIM_FILE      ./worklib/potentiometer/chips/chips.prt
+ SW1.4                          HARD_LOCATION  
+ SW1.4                          NO_SWAP_GATE_E 
+ SW1.4                          PRIM_FILE      ./worklib/switch/chips/chips.prt
+ SW2.4                          HARD_LOCATION  
+ SW2.4                          NO_SWAP_GATE_E 
+ SW2.4                          PRIM_FILE      ./worklib/switch/chips/chips.prt
+ SW3.4                          HARD_LOCATION  
+ SW3.4                          NO_SWAP_GATE_E 
+ SW3.4                          PRIM_FILE      ./worklib/switch/chips/chips.prt
+ SW4.4                          HARD_LOCATION  
+ SW4.4                          NO_SWAP_GATE_E 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SW4.4                          PRIM_FILE      ./worklib/switch/chips/chips.prt
+ SWL1.6                         HARD_LOCATION  
+ SWL1.6                         NO_SWAP_GATE_E 
+ SWL1.6                         PRIM_FILE      ./worklib/switch_lock/chips/chips.prt
+ U1.18                          HARD_LOCATION  
+ U1.18                          NO_SWAP_GATE_E 
+ U1.18                          PRIM_FILE      ./worklib/stc89c52/chips/chips.prt
+ X1.2                           HARD_LOCATION  
+ X1.2                           NO_SWAP_GATE_E 
+ X1.2                           PRIM_FILE      ./worklib/crystal/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ AT1.1                          CDS_PINID      A0
+ AT1.2                          CDS_PINID      A1
+ AT1.3                          CDS_PINID      A2
+ AT1.4                          CDS_PINID      GND
+ AT1.5                          CDS_PINID      SDA
+ AT1.6                          CDS_PINID      SCL
+ AT1.7                          CDS_PINID      WP
+ AT1.8                          CDS_PINID      VCC
+ BJT1.1                         CDS_PINID      \1\
+ BJT1.2                         CDS_PINID      \2\
+ BJT1.3                         CDS_PINID      \3\
+ BZ1.1                          CDS_PINID      \+\
+ BZ1.2                          CDS_PINID      \-\
+ C1.1                           CDS_PINID      \1\
+ C1.2                           CDS_PINID      \2\
+ C2.1                           CDS_PINID      \1\
+ C2.2                           CDS_PINID      \2\
+ C3.1                           CDS_PINID      \1\
+ C3.2                           CDS_PINID      \2\
+ C5.1                           CDS_PINID      \1\
+ C5.2                           CDS_PINID      \2\
+ C7.1                           CDS_PINID      \1\
+ C7.2                           CDS_PINID      \2\
+ C8.1                           CDS_PINID      \1\
+ C8.2                           CDS_PINID      \2\
+ C10.1                          CDS_PINID      \1\
+ C10.2                          CDS_PINID      \2\
+ D1.1                           CDS_PINID      \1/input\
+ D1.2                           CDS_PINID      \2/gnd\
+ D1.3                           CDS_PINID      \3/ouput\
+ L1.1                           CDS_PINID      \1\
+ L1.2                           CDS_PINID      \2\
+ L2.1                           CDS_PINID      \1\
+ L2.2                           CDS_PINID      \2\
+ LCD.1                          CDS_PINID      GND
+ LCD.2                          CDS_PINID      VCC
+ LCD.3                          CDS_PINID      VL
+ LCD.4                          CDS_PINID      RS
+ LCD.5                          CDS_PINID      \r/w\
+ LCD.6                          CDS_PINID      E
+ LCD.7                          CDS_PINID      D0
+ LCD.8                          CDS_PINID      D1
+ LCD.9                          CDS_PINID      D2
+ LCD.10                         CDS_PINID      D3
+ LCD.11                         CDS_PINID      D4
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ LCD.12                         CDS_PINID      D5
+ LCD.13                         CDS_PINID      D6
+ LCD.14                         CDS_PINID      D7
+ LCD.15                         CDS_PINID      BLA
+ LCD.16                         CDS_PINID      BLK
+ OLED1.1                        CDS_PINID      GND
+ OLED1.2                        CDS_PINID      VCC
+ OLED1.3                        CDS_PINID      SCL
+ OLED1.4                        CDS_PINID      SDA
+ OLED1.5                        CDS_PINID      RES
+ OLED1.6                        CDS_PINID      DC
+ OLED1.7                        CDS_PINID      CS
+ P1.1                           CDS_PINID      \v+\
+ P1.2                           CDS_PINID      GND
+ P2.1                           CDS_PINID      VCC
+ P2.2                           CDS_PINID      GND
+ P2.3                           CDS_PINID      SCL
+ P2.4                           CDS_PINID      SDA
+ P3.1                           CDS_PINID      \3v3\
+ P3.2                           CDS_PINID      TXD
+ P3.3                           CDS_PINID      RXD
+ P3.4                           CDS_PINID      GND
+ P3.5                           CDS_PINID      \+5v\
+ P4.1                           CDS_PINID      STATE
+ P4.2                           CDS_PINID      RXD
+ P4.3                           CDS_PINID      TXD
+ P4.4                           CDS_PINID      GND
+ P4.5                           CDS_PINID      VCC
+ P4.6                           CDS_PINID      EN
+ R1.1                           CDS_PINID      \1\
+ R1.2                           CDS_PINID      \2\
+ R2.1                           CDS_PINID      \1\
+ R2.2                           CDS_PINID      \2\
+ R3.1                           CDS_PINID      \1\
+ R3.2                           CDS_PINID      \2\
+ R4.1                           CDS_PINID      \1\
+ R4.2                           CDS_PINID      \2\
+ R5.1                           CDS_PINID      \1\
+ R5.2                           CDS_PINID      \2\
+ R6.1                           CDS_PINID      \1\
+ R6.2                           CDS_PINID      \2\
+ R7.1                           CDS_PINID      \1\
+ R7.2                           CDS_PINID      \2\
+ RP.1                           CDS_PINID      CCW
+ RP.2                           CDS_PINID      WIPER
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ RP.3                           CDS_PINID      CW
+ SW1.1                          CDS_PINID      \1\
+ SW1.2                          CDS_PINID      \2\
+ SW1.3                          CDS_PINID      \3\
+ SW1.4                          CDS_PINID      \4\
+ SW2.1                          CDS_PINID      \1\
+ SW2.2                          CDS_PINID      \2\
+ SW2.3                          CDS_PINID      \3\
+ SW2.4                          CDS_PINID      \4\
+ SW3.1                          CDS_PINID      \1\
+ SW3.2                          CDS_PINID      \2\
+ SW3.3                          CDS_PINID      \3\
+ SW3.4                          CDS_PINID      \4\
+ SW4.1                          CDS_PINID      \1\
+ SW4.2                          CDS_PINID      \2\
+ SW4.3                          CDS_PINID      \3\
+ SW4.4                          CDS_PINID      \4\
+ SWL1.1                         CDS_PINID      \1\
+ SWL1.2                         CDS_PINID      \2\
+ SWL1.3                         CDS_PINID      \3\
+ SWL1.4                         CDS_PINID      \4\
+ SWL1.5                         CDS_PINID      \5\
+ SWL1.6                         CDS_PINID      \6\
+ U1.1                           CDS_PINID      \p1.0/t2\
+ U1.2                           CDS_PINID      \p1.1/t2ex\
+ U1.3                           CDS_PINID      \p1.2\
+ U1.4                           CDS_PINID      \p1.3\
+ U1.5                           CDS_PINID      \p1.4\
+ U1.6                           CDS_PINID      \p1.5\
+ U1.7                           CDS_PINID      \p1.6\
+ U1.8                           CDS_PINID      \p1.7\
+ U1.9                           CDS_PINID      RST
+ U1.10                          CDS_PINID      \p3.0/rxd\
+ U1.11                          CDS_PINID      \p3.1/txd\
+ U1.12                          CDS_PINID      \p3.2/into*\
+ U1.13                          CDS_PINID      \p3.3/int1*\
+ U1.14                          CDS_PINID      \p3.4/to\
+ U1.15                          CDS_PINID      \p3.5/t1\
+ U1.16                          CDS_PINID      \p3.6/wr*\
+ U1.17                          CDS_PINID      \p3.7/rd*\
+ U1.18                          CDS_PINID      XTAL2
+ U1.19                          CDS_PINID      XTAL1
+ U1.20                          CDS_PINID      GND
+ U1.21                          CDS_PINID      \p2.0/a8\
+ U1.22                          CDS_PINID      \p2.1/a9\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd        |
+|                                                    Sat Jul 17 19:10:24 2021  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U1.23                          CDS_PINID      \p2.2/a10\
+ U1.24                          CDS_PINID      \p2.3/a11\
+ U1.25                          CDS_PINID      \p2.4/a12\
+ U1.26                          CDS_PINID      \p2.5/a13\
+ U1.27                          CDS_PINID      \p2.6/a14\
+ U1.28                          CDS_PINID      \p2.7/a15\
+ U1.29                          CDS_PINID      \psen*\
+ U1.30                          CDS_PINID      ALE
+ U1.31                          CDS_PINID      \ea*\
+ U1.32                          CDS_PINID      \p0.7/ad7\
+ U1.33                          CDS_PINID      \p0.6/ad6\
+ U1.34                          CDS_PINID      \p0.5/ad5\
+ U1.35                          CDS_PINID      \p0.4/ad4\
+ U1.36                          CDS_PINID      \p0.3/ad3\
+ U1.37                          CDS_PINID      \p0.2/ad2\
+ U1.38                          CDS_PINID      \p0.1/ad1\
+ U1.39                          CDS_PINID      \p0.0/ad0\
+ U1.40                          CDS_PINID      VCC
+ X1.1                           CDS_PINID      \1\
+ X1.2                           CDS_PINID      \2\
+|------------------------------------------------------------------------------|
+|       Nets changed          :     132                                        |
+|       Comp definitions added:      22                                        |
+|       Components added      :      34                                        |
+|       Pin property added    :     155                                        |
+|       Slot property added   :     100                                        |
+|                                                                              |
+|   Total ECO changes reported:     443                                        |
+|------------------------------------------------------------------------------|

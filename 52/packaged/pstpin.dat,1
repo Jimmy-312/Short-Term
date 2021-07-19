@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 17-Jul-2021 AT 09:29:57 }
-TIME=' COMPILATION ON 17-Jul-2021 AT 09:29:57';
+{ Packager-XL run on 17-Jul-2021 AT 19:16:42 }
+TIME=' COMPILATION ON 17-Jul-2021 AT 19:16:42';
 primitive 'AT24C02-43010006,AT24C02';body 'AT24C02';
     'A0':'(1)';
     'A1':'(2)';
@@ -25,10 +25,6 @@ primitive 'CAPACITANCE-08070001,10U';body 'CAPACITANCE';
     '2':'(2)';
 end_primitive;
 primitive 'CAPACITANCE-08070002,30P';body 'CAPACITANCE';
-    '1':'(1)';
-    '2':'(2)';
-end_primitive;
-primitive 'CAPACITANCE-08070003,0.33U';body 'CAPACITANCE';
     '1':'(1)';
     '2':'(2)';
 end_primitive;

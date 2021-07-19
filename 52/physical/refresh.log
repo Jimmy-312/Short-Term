@@ -1,0 +1,79 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : pcb.brd                                       )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Jul 17 19:12:11 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Sat Jul 17 19:12:11 2021				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'C:/Users/Jimmy-X/Desktop/短学期/designer/pcb.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'YES'
+Update symbol padstacks                = 'NO'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/ 
+
+
+------ Symbol Refresh Messages ------
+
+'DIP-40-100-600'  symbol refreshed successfully.
+'LCD1602'  symbol refreshed successfully.
+'AT24C02'  symbol refreshed successfully.
+'OLED'  symbol refreshed successfully.
+'SWITCH_LOCK'  symbol refreshed successfully.
+'SOCKET6'  symbol refreshed successfully.
+'SOCKET5'  symbol refreshed successfully.
+'SWITCH'  symbol refreshed successfully.
+'MLX90614'  symbol refreshed successfully.
+'BJT_PNP'  symbol refreshed successfully.
+'L7805'  symbol refreshed successfully.
+'POTENTIOMETER'  symbol refreshed successfully.
+'CRYSTAL'  symbol refreshed successfully.
+'LED'  symbol refreshed successfully.
+'CAPACITANCE'  symbol refreshed successfully.
+'RESISTOR'  symbol refreshed successfully.
+'BUZZ'  symbol refreshed successfully.
+'SOCKET2'  symbol refreshed successfully.
+'AB00'  symbol refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 19 out 19
+    Design updated.
+

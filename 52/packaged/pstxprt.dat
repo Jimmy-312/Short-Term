@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 17-Jul-2021 AT 09:31:54 }
+{ Packager-XL run on 17-Jul-2021 AT 21:39:52 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='52';
- POST_TIME='17-Jul-2021 AT 09:31:54';
+ POST_TIME='17-Jul-2021 AT 21:39:52';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -128,26 +128,6 @@ SECTION_NUMBER 1
  PRIM_FILE='./worklib/capacitance/chips/chips.prt';
 
 PART_NAME
- C4 'CAPACITANCE-08070002,30P':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I43@52_LIB.CAPACITANCE(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i43@\52_lib\.capacitance(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i43@\52_lib\.capacitance(chips)',
- PATH='I43',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='08070002',
- PHYS_PAGE='1',
- XY='(-50,4750)',
- ROT='0',
- VER='1',
- LOCATION='C4',
- CDS_LIB='52_lib',
- CDS_PART_NAME='CAPACITANCE-08070002,30P',
- VALUE='30P',
- PRIM_FILE='./worklib/capacitance/chips/chips.prt';
-
-PART_NAME
  C5 'CAPACITANCE-08070001,10U':;
 
 SECTION_NUMBER 1
@@ -165,26 +145,6 @@ SECTION_NUMBER 1
  CDS_LIB='52_lib',
  CDS_PART_NAME='CAPACITANCE-08070001,10U',
  VALUE='10U',
- PRIM_FILE='./worklib/capacitance/chips/chips.prt';
-
-PART_NAME
- C6 'CAPACITANCE-08070003,0.33U':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I48@52_LIB.CAPACITANCE(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i48@\52_lib\.capacitance(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i48@\52_lib\.capacitance(chips)',
- PATH='I48',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='08070003',
- PHYS_PAGE='1',
- XY='(850,4750)',
- ROT='0',
- VER='1',
- LOCATION='C6',
- CDS_LIB='52_lib',
- CDS_PART_NAME='CAPACITANCE-08070003,0.33U',
- VALUE='0.33U',
  PRIM_FILE='./worklib/capacitance/chips/chips.prt';
 
 PART_NAME
@@ -228,26 +188,6 @@ SECTION_NUMBER 1
  PRIM_FILE='./worklib/capacitance/chips/chips.prt';
 
 PART_NAME
- C9 'CAPACITANCE-08070003,0.33U':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I49@52_LIB.CAPACITANCE(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i49@\52_lib\.capacitance(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i49@\52_lib\.capacitance(chips)',
- PATH='I49',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='08070003',
- PHYS_PAGE='1',
- XY='(2350,4750)',
- ROT='0',
- VER='1',
- LOCATION='C9',
- CDS_LIB='52_lib',
- CDS_PART_NAME='CAPACITANCE-08070003,0.33U',
- VALUE='0.33U',
- PRIM_FILE='./worklib/capacitance/chips/chips.prt';
-
-PART_NAME
  C10 'CAPACITANCE-08070001,10U':;
 
 SECTION_NUMBER 1
@@ -265,26 +205,6 @@ SECTION_NUMBER 1
  CDS_LIB='52_lib',
  CDS_PART_NAME='CAPACITANCE-08070001,10U',
  VALUE='10U',
- PRIM_FILE='./worklib/capacitance/chips/chips.prt';
-
-PART_NAME
- C11 'CAPACITANCE-08070002,30P':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I44@52_LIB.CAPACITANCE(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i44@\52_lib\.capacitance(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i44@\52_lib\.capacitance(chips)',
- PATH='I44',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='08070002',
- PHYS_PAGE='1',
- XY='(3250,4750)',
- ROT='0',
- VER='1',
- LOCATION='C11',
- CDS_LIB='52_lib',
- CDS_PART_NAME='CAPACITANCE-08070002,30P',
- VALUE='30P',
  PRIM_FILE='./worklib/capacitance/chips/chips.prt';
 
 PART_NAME
@@ -604,166 +524,6 @@ SECTION_NUMBER 1
  CDS_LIB='52_lib',
  CDS_PART_NAME='RESISTOR-07010001,1K',
  VALUE='1K',
- PRIM_FILE='./worklib/resistor/chips/chips.prt';
-
-PART_NAME
- R8 'RESISTOR-07010003,10K':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I80@52_LIB.RESISTOR(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i80@\52_lib\.resistor(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i80@\52_lib\.resistor(chips)',
- PATH='I80',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='07010003',
- PHYS_PAGE='1',
- XY='(2600,2150)',
- ROT='0',
- VER='1',
- LOCATION='R8',
- CDS_LIB='52_lib',
- CDS_PART_NAME='RESISTOR-07010003,10K',
- VALUE='10K',
- PRIM_FILE='./worklib/resistor/chips/chips.prt';
-
-PART_NAME
- R9 'RESISTOR-07010003,10K':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I74@52_LIB.RESISTOR(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i74@\52_lib\.resistor(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i74@\52_lib\.resistor(chips)',
- PATH='I74',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='07010003',
- PHYS_PAGE='1',
- XY='(2750,2150)',
- ROT='0',
- VER='1',
- LOCATION='R9',
- CDS_LIB='52_lib',
- CDS_PART_NAME='RESISTOR-07010003,10K',
- VALUE='10K',
- PRIM_FILE='./worklib/resistor/chips/chips.prt';
-
-PART_NAME
- R10 'RESISTOR-07010003,10K':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I73@52_LIB.RESISTOR(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i73@\52_lib\.resistor(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i73@\52_lib\.resistor(chips)',
- PATH='I73',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='07010003',
- PHYS_PAGE='1',
- XY='(2900,2150)',
- ROT='0',
- VER='1',
- LOCATION='R10',
- CDS_LIB='52_lib',
- CDS_PART_NAME='RESISTOR-07010003,10K',
- VALUE='10K',
- PRIM_FILE='./worklib/resistor/chips/chips.prt';
-
-PART_NAME
- R11 'RESISTOR-07010003,10K':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I75@52_LIB.RESISTOR(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i75@\52_lib\.resistor(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i75@\52_lib\.resistor(chips)',
- PATH='I75',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='07010003',
- PHYS_PAGE='1',
- XY='(3050,2150)',
- ROT='0',
- VER='1',
- LOCATION='R11',
- CDS_LIB='52_lib',
- CDS_PART_NAME='RESISTOR-07010003,10K',
- VALUE='10K',
- PRIM_FILE='./worklib/resistor/chips/chips.prt';
-
-PART_NAME
- R12 'RESISTOR-07010003,10K':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I76@52_LIB.RESISTOR(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i76@\52_lib\.resistor(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i76@\52_lib\.resistor(chips)',
- PATH='I76',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='07010003',
- PHYS_PAGE='1',
- XY='(3200,2150)',
- ROT='0',
- VER='1',
- LOCATION='R12',
- CDS_LIB='52_lib',
- CDS_PART_NAME='RESISTOR-07010003,10K',
- VALUE='10K',
- PRIM_FILE='./worklib/resistor/chips/chips.prt';
-
-PART_NAME
- R13 'RESISTOR-07010003,10K':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I77@52_LIB.RESISTOR(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i77@\52_lib\.resistor(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i77@\52_lib\.resistor(chips)',
- PATH='I77',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='07010003',
- PHYS_PAGE='1',
- XY='(3350,2150)',
- ROT='0',
- VER='1',
- LOCATION='R13',
- CDS_LIB='52_lib',
- CDS_PART_NAME='RESISTOR-07010003,10K',
- VALUE='10K',
- PRIM_FILE='./worklib/resistor/chips/chips.prt';
-
-PART_NAME
- R14 'RESISTOR-07010003,10K':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I78@52_LIB.RESISTOR(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i78@\52_lib\.resistor(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i78@\52_lib\.resistor(chips)',
- PATH='I78',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='07010003',
- PHYS_PAGE='1',
- XY='(3500,2150)',
- ROT='0',
- VER='1',
- LOCATION='R14',
- CDS_LIB='52_lib',
- CDS_PART_NAME='RESISTOR-07010003,10K',
- VALUE='10K',
- PRIM_FILE='./worklib/resistor/chips/chips.prt';
-
-PART_NAME
- R15 'RESISTOR-07010003,10K':;
-
-SECTION_NUMBER 1
- '@52_LIB.52(SCH_1):PAGE1_I79@52_LIB.RESISTOR(CHIPS)':
- C_PATH='@\52_lib\.\52\(sch_1):page1_i79@\52_lib\.resistor(chips)',
- P_PATH='@\52_lib\.\52\(sch_1):page1_i79@\52_lib\.resistor(chips)',
- PATH='I79',
- DRAWING='@52_LIB.52(SCH_1):PAGE1',
- CODE='07010003',
- PHYS_PAGE='1',
- XY='(3650,2150)',
- ROT='0',
- VER='1',
- LOCATION='R15',
- CDS_LIB='52_lib',
- CDS_PART_NAME='RESISTOR-07010003,10K',
- VALUE='10K',
  PRIM_FILE='./worklib/resistor/chips/chips.prt';
 
 PART_NAME

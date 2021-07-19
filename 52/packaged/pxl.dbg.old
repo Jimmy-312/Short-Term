@@ -1,6 +1,6 @@
-Log File: C:\Users\Jimmy-X\AppData\Local\Temp\sduo.
-Markers File: C:\Users\Jimmy-X\AppData\Local\Temp\sduo.1
-Debug File: C:\Users\Jimmy-X\AppData\Local\Temp\sduo.3
+Log File: C:\Users\Jimmy-X\AppData\Local\Temp\sot0.
+Markers File: C:\Users\Jimmy-X\AppData\Local\Temp\sot0.1
+Debug File: C:\Users\Jimmy-X\AppData\Local\Temp\sot0.3
      Debug[0] := TRUE
 Elapsed time since start = (00:00:00)
 
@@ -13,7 +13,7 @@ Elapsed time since start = (00:00:00)
  *  Loading State Files  *
  *************************
 
-Elapsed time since start = (00:00:02)
+Elapsed time since start = (00:00:01)
 
  *****************************************
  *  End loading State Files  (00:00:00)  *
@@ -24,7 +24,7 @@ Elapsed time since start = (00:00:02)
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:02)
+Elapsed time since start = (00:00:01)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -35,7 +35,7 @@ Elapsed time since start = (00:00:02)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:02)
+Elapsed time since start = (00:00:01)
 
  *******************************
  *  End packaging  (00:00:00)  *

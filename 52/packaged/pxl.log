@@ -6,7 +6,7 @@
     Packager-XL 17.2-2016 p006 (v17-2-50F) WIN32 3/8/2016 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Sat Jul 17 09:31:55 2021
+    Run on Sat Jul 17 21:39:52 2021
 
 
  **********************************************
@@ -175,9 +175,9 @@ Loading ./worklib/52/packaged/pxl.state.
 
 INFO(SPCOPK-1442): No errors detected
 INFO(SPCOPK-1444): No warnings detected
-    Start time    9:31:54
-    End time      9:31:56
-    Elapsed time  0:00:02
+    Start time   21:39:52
+    End time     21:39:53
+    Elapsed time  0:00:01
 
  ***************************************************************************
  *  Packager-XL execution done.

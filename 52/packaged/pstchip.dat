@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 17-Jul-2021 AT 09:31:54 }
+{ Packager-XL run on 17-Jul-2021 AT 21:39:52 }
 primitive 'AT24C02-43010006,AT24C02';
   pin
     'A0':
@@ -219,39 +219,6 @@ primitive 'CAPACITANCE-08070002,30P';
       PARENT_PART_TYPE='CAPACITANCE';
       PARENT_PPT='CAPACITANCE';
       PARENT_PPT_PART='CAPACITANCE-08070002,30P';
-  end_body;
-end_primitive;
-primitive 'CAPACITANCE-08070003,0.33U';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-      PART_NAME='CAPACITANCE';
-      PART_NUMBER='CAPACITANCE';
-      VENDOR='*';
-      BODY_NAME='CAPACITANCE';
-      JEDEC_TYPE='CAPACITANCE';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      DESCRIPTION='0.33u';
-      PARENT_PART_TYPE='CAPACITANCE';
-      PARENT_PPT='CAPACITANCE';
-      PARENT_PPT_PART='CAPACITANCE-08070003,0.33U';
   end_body;
 end_primitive;
 primitive 'CAPACITANCE-08070004,0.1U';
