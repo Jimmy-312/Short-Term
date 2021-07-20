@@ -1,4 +1,4 @@
-C51 COMPILER V9.01   MAIN                                                                  07/20/2021 16:33:21 PAGE 1   
+C51 COMPILER V9.01   MAIN                                                                  07/20/2021 20:01:47 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
@@ -29,173 +29,210 @@ line level    source
   20          void start(void);
   21          void stop(void);
   22          uint getTemp(void);
-  23          void busy(void);
+  23          uchar busy(void);
   24          void cmd_w(uchar cmd);
   25          void init1602(void);
-  26          
-  27          void main()
-  28          {
-  29   1              //send_bit(1);
-  30   1      }
-  31          
-  32          void delay(uint n)
-  33          {
-  34   1              uint i;
-  35   1              for(i=0;i<n;i++)
-  36   1              {
-  37   2                      _nop_();
-  38   2              }
-  39   1      }
-  40          
-  41          void send_bit(uchar dat)
-  42          {
-  43   1              SDA=dat;                                                                         
-  44   1              _nop_();
-  45   1              SCL=1;                                                           
-  46   1              delay(8);
-  47   1              SCL=0;
-  48   1              delay(8);
-  49   1      }
-  50          
-  51          uchar read_bit(void)
-  52          {
-  53   1              uchar rdata;
-  54   1              SDA=1;                                                 
-  55   1              SCL=1;                                                   
-C51 COMPILER V9.01   MAIN                                                                  07/20/2021 16:33:21 PAGE 2   
+  26          void dat_wrt(uchar dat); 
+  27          void LCD_print(uchar *str);
+  28          
+  29          uint temp;
+  30          
+  31          void main()
+  32          {
+  33   1              init1602();
+  34   1              temp=getTemp();
+  35   1              LCD_print("hello,world!");
+  36   1              while(1);
+  37   1      }
+  38          
+  39          void delay(uint n)
+  40          {
+  41   1              uint i;
+  42   1              for(i=0;i<n;i++)
+  43   1              {
+  44   2                      _nop_();
+  45   2              }
+  46   1      }
+  47          
+  48          void send_bit(uchar dat)
+  49          {
+  50   1              SDA=dat;                                                                         
+  51   1              _nop_();
+  52   1              SCL=1;                                                           
+  53   1              delay(8);
+  54   1              SCL=0;
+  55   1              delay(8);
+C51 COMPILER V9.01   MAIN                                                                  07/20/2021 20:01:47 PAGE 2   
 
-  56   1              delay(8);
-  57   1              rdata=SDA;                                             
-  58   1              _nop_();
-  59   1              SCL=0;
-  60   1              delay(8);
-  61   1              return rdata;
-  62   1      }
-  63          
-  64          void SendByte(uchar dat)
-  65          {
-  66   1          uchar i,n=2,rdata;                                               
-  67   1              Send:
-  68   1              for(i=0;i<8;i++)                                       
-  69   1              {                                  
-  70   2                      send_bit(dat&0x80);                                            
-  71   2                      dat=dat<<1;                                            
-  72   2              }
-  73   1              rdata=read_bit();                                                  
-  74   1              if(rdata==1)                                          
-  75   1              {
-  76   2                      stop();
-  77   2                      if(n!=0)
-  78   2                      {
-  79   3                              n--;                                            
-  80   3                              goto Repeat;                                     
-  81   3                      }  
-  82   2          }
-  83   1              goto Exit;
-  84   1              Repeat:
-  85   1              start();                                                      
-  86   1              goto Send;                                              
-  87   1              Exit: ;                                                        
-  88   1      }
-  89          
-  90          uchar ReadByte(void)
-  91          {
-  92   1              uchar i,dat,rbit;
-  93   1              dat=0;                                                        
-  94   1              for(i=0;i<8;i++)
-  95   1              {
-  96   2                      dat=dat<<1;                                                  
-  97   2                      rbit=read_bit();                                                 
-  98   2                      dat+=rbit;                                           
-  99   2              }                                                   
- 100   1              send_bit(0);
- 101   1              return dat;                                              
- 102   1      }
- 103          
- 104          void start(void)                                        
- 105          {
- 106   1              SDA=1;
- 107   1              delay(4);
- 108   1              SCL=1;
- 109   1              delay(4);
- 110   1              SDA=0;
- 111   1              delay(4);
- 112   1              SCL=0;
- 113   1              delay(4);
- 114   1      }
- 115          
- 116          void stop(void)                                               
- 117          {
-C51 COMPILER V9.01   MAIN                                                                  07/20/2021 16:33:21 PAGE 3   
+  56   1      }
+  57          
+  58          uchar read_bit(void)
+  59          {
+  60   1              uchar rdata;
+  61   1              SDA=1;                                                 
+  62   1              SCL=1;                                                   
+  63   1              delay(8);
+  64   1              rdata=SDA;                                             
+  65   1              _nop_();
+  66   1              SCL=0;
+  67   1              delay(8);
+  68   1              return rdata;
+  69   1      }
+  70          
+  71          void SendByte(uchar dat)
+  72          {
+  73   1          uchar i,n=2,rdata;                                               
+  74   1              Send:
+  75   1              for(i=0;i<8;i++)                                       
+  76   1              {                                  
+  77   2                      send_bit(dat&0x80);                                            
+  78   2                      dat=dat<<1;                                            
+  79   2              }
+  80   1              rdata=read_bit();                                                  
+  81   1              if(rdata==1)                                          
+  82   1              {
+  83   2                      stop();
+  84   2                      if(n!=0)
+  85   2                      {
+  86   3                              n--;                                            
+  87   3                              goto Repeat;                                     
+  88   3                      }  
+  89   2          }
+  90   1              goto Exit;
+  91   1              Repeat:
+  92   1              start();                                                      
+  93   1              goto Send;                                              
+  94   1              Exit: ;                                                        
+  95   1      }
+  96          
+  97          uchar ReadByte(void)
+  98          {
+  99   1              uchar i,dat,rbit;
+ 100   1              dat=0;                                                        
+ 101   1              for(i=0;i<8;i++)
+ 102   1              {
+ 103   2                      dat=dat<<1;                                                  
+ 104   2                      rbit=read_bit();                                                 
+ 105   2                      dat+=rbit;                                           
+ 106   2              }                                                   
+ 107   1              send_bit(0);
+ 108   1              return dat;                                              
+ 109   1      }
+ 110          
+ 111          void start(void)                                        
+ 112          {
+ 113   1              SDA=1;
+ 114   1              delay(4);
+ 115   1              SCL=1;
+ 116   1              delay(4);
+ 117   1              SDA=0;
+C51 COMPILER V9.01   MAIN                                                                  07/20/2021 20:01:47 PAGE 3   
 
- 118   1              SCL=0;
- 119   1              delay(4);
- 120   1              SDA=0;
- 121   1              delay(4);
- 122   1              SCL=1;
- 123   1              delay(4);
- 124   1              SDA=1;
- 125   1      }
- 126          
- 127          uint getTemp(void)
- 128          {
- 129   1              uchar tempL,tempH,error;
- 130   1              SCL=0;
- 131   1              start();
- 132   1              SendByte(0x00); //Send address, default:0x00;
- 133   1              SendByte(0x07);
- 134   1              start();
- 135   1              SendByte(0x01);
- 136   1              tempL=ReadByte();
- 137   1              tempH=ReadByte();
- 138   1              error=ReadByte();
- 139   1              stop();
- 140   1              return tempL+tempH*256;
- 141   1      }
- 142          
- 143          void cmd_w(uchar cmd)                                  
- 144          {
- 145   1              LCDE=0;
- 146   1              busy();                                                 
- 147   1              P2=cmd;                                                 
- 148   1              RS=0;                                                    
- 149   1              RW=0;                                                    
- 150   1              LCDE=1;                                               
- 151   1              LCDE=0;
- 152   1      }
- 153          
- 154          void init1602(void)                            
- 155          {
- 156   1              cmd_w(0x01);                                 //Clean
- 157   1              cmd_w(0x0c);                                 //Inital Settings
- 158   1              cmd_w(0x06);
- 159   1              cmd_w(0x38);  
- 160   1      }
- 161                                         
- 162          
- 163          void busy(void)                                 //LCD is busy ?
- 164          {
- 165   1              uchar flag=0x80;                                    
- 166   1              while(flag&0x80)                          
- 167   1              {
- 168   2                      P1=0xff;
- 169   2                      RS=0;                                               
- 170   2                      RW=1;                                             
- 171   2                      LCDE=1;                                       
- 172   2                      flag=P1;                                       
- 173   2                      LCDE=0;
- 174   2              }
- 175   1      }
+ 118   1              delay(4);
+ 119   1              SCL=0;
+ 120   1              delay(4);
+ 121   1      }
+ 122          
+ 123          void stop(void)                                               
+ 124          {
+ 125   1              SCL=0;
+ 126   1              delay(4);
+ 127   1              SDA=0;
+ 128   1              delay(4);
+ 129   1              SCL=1;
+ 130   1              delay(4);
+ 131   1              SDA=1;
+ 132   1      }
+ 133          
+ 134          uint getTemp(void)
+ 135          {
+ 136   1              uchar tempL,tempH,error;
+ 137   1              SCL=0;
+ 138   1              start();
+ 139   1              SendByte(0x00); //Send address, default:0x00;
+ 140   1              SendByte(0x07);
+ 141   1              start();
+ 142   1              SendByte(0x01);
+ 143   1              tempL=ReadByte();
+ 144   1              tempH=ReadByte();
+ 145   1              error=ReadByte();
+ 146   1              stop();
+ 147   1              return tempL+tempH*256;
+ 148   1      }
+ 149          
+ 150          void cmd_w(uchar cmd)                                  
+ 151          {
+ 152   1              LCDE=0;
+ 153   1              busy();                                                 
+ 154   1              P2=cmd;                                                 
+ 155   1              RS=0;                                                    
+ 156   1              RW=0;                                                    
+ 157   1              LCDE=1;                                               
+ 158   1              LCDE=0;
+ 159   1      }
+ 160          
+ 161          void init1602(void)                            
+ 162          {
+ 163   1              cmd_w(0x01);                                 //Clean
+ 164   1              cmd_w(0x0c);                                 //Inital Settings
+ 165   1              cmd_w(0x06);
+ 166   1              cmd_w(0x38);  
+ 167   1      }
+ 168                                         
+ 169          
+ 170          uchar busy(void)                                 //LCD is busy ?
+ 171          {
+ 172   1              uchar flag=0x80;                                    
+ 173   1              while(flag&0x80)                          
+ 174   1              {
+ 175   2                      P1=0xff;
+ 176   2                      RS=0;                                               
+ 177   2                      RW=1;                                             
+ 178   2                      LCDE=1;                                       
+ 179   2                      flag=P2;                                       
+C51 COMPILER V9.01   MAIN                                                                  07/20/2021 20:01:47 PAGE 4   
+
+ 180   2                      LCDE=0;
+ 181   2              }
+ 182   1              return flag;
+ 183   1      }
+ 184          
+ 185          void dat_w(uchar dat)                                  
+ 186          {
+ 187   1              uchar flag;
+ 188   1              flag=busy();                                               
+ 189   1              LCDE=0;
+ 190   1              if(flag==16)
+ 191   1              {
+ 192   2                  RS=0;                                               
+ 193   2                  RW=0;                                                 
+ 194   2                  P2=0xC0;                                        
+ 195   2                  LCDE=1;                                               
+ 196   2                  LCDE=0;
+ 197   2              }
+ 198   1              RS=1;                                                       
+ 199   1              RW=0;                                                       
+ 200   1              P2=dat;                                               
+ 201   1              LCDE=1;                                                   
+ 202   1              LCDE=0;
+ 203   1      }
+ 204          
+ 205          void LCD_print(uchar *str)                                      
+ 206          {
+ 207   1              while(*str!='\0')                                   
+ 208   1              {
+ 209   2                      dat_w(*str);                                  
+ 210   2                      str++;                                                
+ 211   2              }
+ 212   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =    291    ----
-C51 COMPILER V9.01   MAIN                                                                  07/20/2021 16:33:21 PAGE 4   
-
-   CONSTANT SIZE    =   ----    ----
+   CODE SIZE        =    362    ----
+   CONSTANT SIZE    =     13    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
-   DATA SIZE        =   ----       6
+   DATA SIZE        =      2       6
    IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----    ----
 END OF MODULE INFORMATION.

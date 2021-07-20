@@ -1,0 +1,56 @@
+Allegro Design Entry HDL 17.2-2016 p007 (v17-2-50G) 3/10/2016
+Copyright 2011 Cadence Design Systems, Inc
+
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-2065): The PLOT_DPI directive defines the Dots Per Inch setting used by the printer for printing. Ensure that you specify a positive integer value for the directive.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1737): Reading C:\Users\Jimmy-X\Desktop\short_term\designer\cds.lib file.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1445): Reading 52.SCH.1.1 into drawing #1.
+INFO(SPCOCN-195): The following file will be used to identify the list of modules to be excluded: 'C:\Cadence17\Cadence\Cadence_SPB_17.2-2016\share\cdssetup\xmodules.dat'.
+INFO(SPCOCN-1445): Reading 52.SCH.1.1 into drawing #1.
+zoom 
+; 
+WARNING(SPCOCN-503): The specified stroke shape '10399' is not recognized. Ensure that you specify a known shape.
+zoom left; 
+zoom right; 
+WARNING(SPCOCN-503): The specified stroke shape '65509' is not recognized. Ensure that you specify a known shape.
+zoom right; 
+WARNING(SPCOCN-503): The specified stroke shape '35989' is not recognized. Ensure that you specify a known shape.
+zoom fit; 
+zoom 
+; 
+zoom left; 
+zoom left; 
+zoom left; 
+zoom left; 
+zoom left; 
+zoom left; 
+zoom left; 
+zoom left; 
+select 
+WARNING(SPCOCN-1200): Using group A
+WARNING(SPCOCN-1196): Group  "A" is empty.
+; 
+zoom fit; 
+zoom 
+; 
+zoom fit; 

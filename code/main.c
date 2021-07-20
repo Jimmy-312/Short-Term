@@ -20,13 +20,20 @@ uchar ReadByte(void);
 void start(void);
 void stop(void);
 uint getTemp(void);
-void busy(void);
+uchar busy(void);
 void cmd_w(uchar cmd);
 void init1602(void);
+void dat_wrt(uchar dat); 
+void LCD_print(uchar *str);
+
+uint temp;
 
 void main()
 {
-	//send_bit(1);
+	init1602();
+	temp=getTemp();
+	LCD_print("hello,world!");
+	while(1);
 }
 
 void delay(uint n)
@@ -160,7 +167,7 @@ void init1602(void)
 }
                                
 
-void busy(void)                                 //LCD is busy ?
+uchar busy(void)                                 //LCD is busy ?
 {
 	uchar flag=0x80;                                    
 	while(flag&0x80)                          
@@ -169,7 +176,37 @@ void busy(void)                                 //LCD is busy ?
 		RS=0;                                               
 		RW=1;                                             
 		LCDE=1;                                       
-		flag=P1;                                       
+		flag=P2;                                       
 		LCDE=0;
+	}
+	return flag;
+}
+
+void dat_w(uchar dat)                                  
+{
+	uchar flag;
+	flag=busy();                                               
+	LCDE=0;
+	if(flag==16)
+	{
+	    RS=0;                                               
+	    RW=0;                                                 
+	    P2=0xC0;                                        
+	    LCDE=1;                                               
+	    LCDE=0;
+	}
+	RS=1;                                                       
+	RW=0;                                                       
+	P2=dat;                                               
+	LCDE=1;                                                   
+	LCDE=0;
+}
+
+void LCD_print(uchar *str)                                      
+{
+	while(*str!='\0')                                   
+	{
+		dat_w(*str);                                  
+		str++;                                                
 	}
 }
