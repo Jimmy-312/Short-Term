@@ -1,0 +1,14 @@
+\t (00:00:07) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Mon Jul 19 16:34:43 2021
+\t (00:00:07)         Host=JIMMY-STATION User=Jimmy-X Pid=33092 CPUs=8
+\t (00:00:07) CmdLine= c:\cadence17\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe C:\Users\Jimmy-X\Desktop\短学期\designer\pcb.brd
+\t (00:00:07) 
+   (00:00:07) Loading axlcore.cxt 
+\t (00:00:09) Opening existing design...
+\d (00:00:09) Design opened: C:/Users/Jimmy-X/Desktop/短学期/designer/pcb.brd
+\i (00:00:09) trapsize 1729
+\i (00:00:09) trapsize 1759
+\i (00:00:09) trapsize 1759
+\i (00:00:10) generaledit 
+\i (00:00:11) exit 
+\t (00:00:11)     Journal end - Mon Jul 19 16:34:47 2021

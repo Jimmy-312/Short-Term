@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:shoppingCart xmlns:sc="http://www.cadence.com/SPB/shopping_cart" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" checksum="0">
+	<component cell="oled" library="52_lib" partname="OLED" partno="" quantity="1" >
+		<property name="CODE"  value="43010001"/>
+		<property name="VALUE"  value="OLED"/>
+	</component>
+	<component cell="l7805" library="52_lib" partname="L7805" partno="" quantity="1" >
+		<property name="CODE"  value="43010001"/>
+		<property name="VALUE"  value="L7805"/>
+	</component>
+	<component cell="stc89c52" library="52_lib" partname="STC89C52" partno="" quantity="1" >
+		<property name="CODE"  value="41020001"/>
+		<property name="VALUE"  value="STC89C52"/>
+	</component>
+	<component cell="resistor" library="52_lib" partname="RESISTOR" partno="" quantity="1" >
+		<property name="CODE"  value="07010001"/>
+		<property name="VALUE"  value="Resistor"/>
+	</component>
+	<component cell="crystal" library="52_lib" partname="CRYSTAL" partno="" quantity="1" >
+		<property name="CODE"  value="12010001"/>
+		<property name="VALUE"  value="CRYSTAL"/>
+	</component>
+	<component cell="transformer" library="52_lib" partname="TRANSFORMER" partno="" quantity="1" >
+		<property name="CODE"  value="08070001"/>
+		<property name="VALUE"  value="Transformer"/>
+	</component>
+	<component cell="led" library="52_lib" partname="LED" partno="" quantity="1" >
+		<property name="CODE"  value="15020001"/>
+		<property name="VALUE"  value="LED"/>
+	</component>
+	<component cell="switcher" library="52_lib" partname="SWITCHER" partno="" quantity="1" >
+		<property name="CODE"  value="16100001"/>
+		<property name="VALUE"  value="SWITCHER"/>
+	</component>
+	<component cell="switcher_lock" library="52_lib" partname="SWITCHER_LOCK" partno="" quantity="1" >
+		<property name="CODE"  value="16050001"/>
+		<property name="VALUE"  value="SWITCHER_LOCK"/>
+	</component>
+	<component cell="c_30p" library="52_lib" partname="C_30P" partno="" quantity="1" >
+		<property name="CODE"  value="08070001"/>
+		<property name="VALUE"  value="30p"/>
+	</component>
+	<component cell="crystal" library="52_lib" partname="CRYSTAL" partno="" quantity="1" >
+		<property name="CODE"  value="12010001"/>
+		<property name="VALUE"  value="12.000MHz"/>
+	</component>
+	<component cell="resistor_330" library="52_lib" partname="RESISTOR_330" partno="" quantity="1" >
+		<property name="CODE"  value="07010001"/>
+		<property name="VALUE"  value="330"/>
+	</component>
+	<component cell="transformer" library="52_lib" partname="TRANSFORMER" partno="" quantity="1" >
+		<property name="CODE"  value="08070001"/>
+		<property name="VALUE"  value="10U"/>
+	</component>
+	<component cell="resistor_10k" library="52_lib" partname="RESISTOR_10K" partno="" quantity="1" >
+		<property name="CODE"  value="07010001"/>
+		<property name="VALUE"  value="10K"/>
+	</component>
+	<component cell="resistor_4_7k" library="52_lib" partname="RESISTOR_4_7K" partno="" quantity="1" >
+		<property name="CODE"  value="07010001"/>
+		<property name="VALUE"  value="4.7K"/>
+	</component>
+	<component cell="resistor" library="52_lib" partname="RESISTOR" partno="" quantity="1" >
+		<property name="CODE"  value="07010001"/>
+		<property name="VALUE"  value="1K"/>
+	</component>
+	<component cell="transformer" library="52_lib" partname="TRANSFORMER" partno="" quantity="1" >
+		<property name="CODE"  value="08070002"/>
+		<property name="VALUE"  value="30p"/>
+	</component>
+	<component cell="resistor" library="52_lib" partname="RESISTOR" partno="" quantity="1" >
+		<property name="CODE"  value="07010004"/>
+		<property name="VALUE"  value="330"/>
+	</component>
+	<component cell="resistor" library="52_lib" partname="RESISTOR" partno="" quantity="1" >
+		<property name="CODE"  value="07010003"/>
+		<property name="VALUE"  value="10K"/>
+	</component>
+	<component cell="resistor" library="52_lib" partname="RESISTOR" partno="" quantity="1" >
+		<property name="CODE"  value="07010002"/>
+		<property name="VALUE"  value="4.7K"/>
+	</component>
+	<component cell="transformer" library="52_lib" partname="TRANSFORMER" partno="" quantity="1" >
+		<property name="CODE"  value="08070003"/>
+		<property name="VALUE"  value="0.33u"/>
+	</component>
+	<component cell="transformer" library="52_lib" partname="TRANSFORMER" partno="" quantity="1" >
+		<property name="CODE"  value="08070004"/>
+		<property name="VALUE"  value="0.1u"/>
+	</component>
+	<component cell="capacitance" library="52_lib" partname="CAPACITANCE" partno="" quantity="1" >
+		<property name="CODE"  value="08070002"/>
+		<property name="VALUE"  value="30p"/>
+	</component>
+	<component cell="capacitance" library="52_lib" partname="CAPACITANCE" partno="" quantity="1" >
+		<property name="CODE"  value="08070001"/>
+		<property name="VALUE"  value="10u"/>
+	</component>
+	<component cell="capacitance" library="52_lib" partname="CAPACITANCE" partno="" quantity="1" >
+		<property name="CODE"  value="08070003"/>
+		<property name="VALUE"  value="0.33u"/>
+	</component>
+	<component cell="capacitance" library="52_lib" partname="CAPACITANCE" partno="" quantity="1" >
+		<property name="CODE"  value="08070004"/>
+		<property name="VALUE"  value="0.1u"/>
+	</component>
+	<component cell="switch" library="52_lib" partname="SWITCH" partno="" quantity="1" >
+		<property name="CODE"  value="16100002"/>
+		<property name="VALUE"  value="SWITCH"/>
+	</component>
+	<component cell="switch_lock" library="52_lib" partname="SWITCH_LOCK" partno="" quantity="1" >
+		<property name="CODE"  value="16050001"/>
+		<property name="VALUE"  value="SWITCH_LOCK"/>
+	</component>
+	<component cell="socket2" library="52_lib" partname="SOCKET2" partno="" quantity="1" >
+		<property name="CODE"  value="14050003"/>
+		<property name="VALUE"  value="Socket2"/>
+	</component>
+	<component cell="mlx90614" library="52_lib" partname="MLX90614" partno="" quantity="1" >
+		<property name="CODE"  value="43020001"/>
+		<property name="VALUE"  value="MLX90614"/>
+	</component>
+	<component cell="socket6" library="52_lib" partname="SOCKET6" partno="" quantity="1" >
+		<property name="CODE"  value="14050002"/>
+		<property name="VALUE"  value="Socket6"/>
+	</component>
+	<component cell="socket5" library="52_lib" partname="SOCKET5" partno="" quantity="1" >
+		<property name="CODE"  value="14050001"/>
+		<property name="VALUE"  value="Socket5"/>
+	</component>
+	<component cell="lcd1602" library="52_lib" partname="LCD1602" partno="" quantity="1" >
+		<property name="CODE"  value="15020001"/>
+		<property name="VALUE"  value="LCD1602"/>
+	</component>
+	<component cell="potentiometer" library="52_lib" partname="POTENTIOMETER" partno="" quantity="1" >
+		<property name="CODE"  value="07080001"/>
+		<property name="VALUE"  value="Potentiometer"/>
+	</component>
+	<component cell="buzz" library="52_lib" partname="BUZZ" partno="" quantity="1" >
+		<property name="CODE"  value="43010005"/>
+		<property name="VALUE"  value="Buzz"/>
+	</component>
+	<component cell="resistor" library="52_lib" partname="RESISTOR" partno="" quantity="1" >
+		<property name="CODE"  value="07010005"/>
+		<property name="VALUE"  value="100"/>
+	</component>
+	<component cell="at24c02" library="52_lib" partname="AT24C02" partno="" quantity="1" >
+		<property name="CODE"  value="43010006"/>
+		<property name="VALUE"  value="AT24C02"/>
+	</component>
+	<component cell="bjt_pnp" library="52_lib" partname="BJT_PNP" partno="" quantity="1" >
+		<property name="CODE"  value="15050001"/>
+		<property name="VALUE"  value="BJT_PNP"/>
+	</component>
+	<component cell="l7805" library="52_lib" partname="L7805" partno="" quantity="1" >
+		<property name="CODE"  value="43010004"/>
+		<property name="VALUE"  value="L7805"/>
+	</component>
+</sc:shoppingCart>

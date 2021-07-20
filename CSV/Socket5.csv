@@ -1,0 +1,12 @@
+part_number,Socket5,,,,
+class,DISCRETE,,,,
+PHYS_DES_PREFIX,Socket5,,,,
+vendor,*,,,,
+body_name,Socket5,,,,
+jedec_type,Socket5,,,,
+PIN_NUMBER,PIN_NAME,PIN_TYPE,SYMBOL,PIN_LOCATION,PIN_POSITION
+1,3V3,UNSPEC,1,TOP,0
+2,TXD,UNSPEC,1,TOP,2
+3,RXD,UNSPEC,1,TOP,4
+4,GND,UNSPEC,1,TOP,6
+5,+5V,UNSPEC,1,TOP,8

@@ -1,0 +1,14 @@
+\t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Jul 20 12:20:39 2021
+\t (00:00:01)         Host=JIMMY-STATION User=Jimmy-X Pid=27316 CPUs=8
+\t (00:00:01) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\短学期\designer\52.cpm -product Allegro_performance -option Allegro_PCB_HighSpeed_Option -option Allegro_PCB_Mini_Option -mpssession Jimmy-X_ProjectMgr4222 -mpshost Jimmy-Station
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/pcb.brd
+\i (00:00:06) trapsize 1729
+\i (00:00:06) trapsize 1759
+\i (00:00:06) trapsize 1759
+\i (00:00:07) generaledit 
+\i (00:00:55) exit 
+\t (00:00:56)     Journal end - Tue Jul 20 12:21:34 2021

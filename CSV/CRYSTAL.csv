@@ -1,0 +1,9 @@
+part_number,Crystal,,,,
+class,DISCRETE,,,,
+PHYS_DES_PREFIX,X,,,,
+vendor,*,,,,
+body_name,Crystal,,,,
+jedec_type,Crystal,,,,
+PIN_NUMBER,PIN_NAME,PIN_TYPE,SYMBOL,PIN_LOCATION,PIN_POSITION
+1,1,UNSPEC,1,TOP,0
+2,2,UNSPEC,1,BOTTOM,0

@@ -1,0 +1,62 @@
+Allegro Design Entry HDL 17.2-2016 p007 (v17-2-50G) 3/10/2016
+Copyright 2011 Cadence Design Systems, Inc
+
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-2065): The PLOT_DPI directive defines the Dots Per Inch setting used by the printer for printing. Ensure that you specify a positive integer value for the directive.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1737): Reading C:\Users\Jimmy-X\Desktop\¶ÌÑ§ÆÚ\designer\cds.lib file.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1445): Reading 52.SCH.1.1 into drawing #1.
+INFO(SPCOCN-195): The following file will be used to identify the list of modules to be excluded: 'C:\Cadence17\Cadence\Cadence_SPB_17.2-2016\share\cdssetup\xmodules.dat'.
+INFO(SPCOCN-1445): Reading 52.SCH.1.1 into drawing #1.
+INFO(SPCOCN-1507): Adding version 1 of part L7805 from library 52_lib
+INFO(SPCOCN-1001): Component: I15 selected.
+INFO(SPCOCN-1001): Component: I85 selected.
+WARNING(SPCOCN-982): The operation could not be performed because no object on the drawing was selected.
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <52_lib>52.SCH.1.1:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 17.2-2016 p007 (v17-2-50G)
+
+Netlisting block 52
+
+Processing page 1
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading 52.SCH.1.1 into drawing #1.
+INFO(SPCOCN-1445): Reading 52.SCH.1.1 into drawing #1.
+zoom fit; 
+zoom left; 
+zoom fit; 
+zoom fit; 
+zoom 
+; 
+zoom fit; 
+zoom 
+; 
+INFO(SPCOCN-1445): Reading 52.SCH.1.1 into drawing #1.

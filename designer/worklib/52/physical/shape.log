@@ -1,0 +1,80 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(     SHAPE LOG                                                       )
+(                                                                     )
+(    Drawing          : pcb.brd                                       )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Tue Jul 20 11:33:20 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ Shape net:    VCC
+ Parameter minimum area: 0.000625 (sq in)
+
+ Shape origin: (7420.01 8685.01)
+
+ Shape area:    11.754499 (sq in)
+
+ Shape origin: (7709.01 12170.02)
+
+ Shape area:    0.004000 (sq in)
+
+ Shape origin: (8741.50 10921.89)
+
+ Shape area:    0.112012 (sq in)
+
+ Shape origin: (8000.36 11610.02)
+
+ Shape area:    0.020103 (sq in)
+
+ Shape origin: (7980.36 11510.02)
+
+ Shape area:    0.017703 (sq in)
+
+ Shape origin: (7960.36 11410.02)
+
+ Shape area:    0.017703 (sq in)
+
+ Shape origin: (7935.36 11310.02)
+
+ Shape area:    0.018503 (sq in)
+
+ Shape origin: (7930.36 11210.02)
+
+ Shape area:    0.015303 (sq in)
+
+ Shape origin: (7915.36 11110.02)
+
+ Shape area:    0.016903 (sq in)
+
+ Shape origin: (7905.36 11010.02)
+
+ Shape area:    0.016103 (sq in)
+
+ Shape origin: (8860.36 10500.02)
+
+ Shape area:    0.045238 (sq in)
+
+ Shape origin: (8888.15 10052.23)
+
+ Shape area:    0.006460 (sq in)
+
+ Shape origin: (8895.02 9905.02)
+
+ Shape area:    0.001189 (sq in)
+
+ Shape origin: (8642.04 9913.34)
+
+ Shape area:    0.142183 (sq in)
+
+ Shape origin: (8625.36 9810.02)
+
+ Shape area:    0.127922 (sq in)
+
+ Shape origin: (9224.94 9800.03)
+
+ Shape area:    0.002901 (sq in)
+
+Shape has been broken into 16 new shapes.
+

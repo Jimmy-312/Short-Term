@@ -1,0 +1,9 @@
+part_number,Transformer,,,,
+class,DISCRETE,,,,
+PHYS_DES_PREFIX,C,,,,
+vendor,*,,,,
+body_name,Transformer,,,,
+jedec_type,Transformer,,,,
+PIN_NUMBER,PIN_NAME,PIN_TYPE,SYMBOL,PIN_LOCATION,PIN_POSITION
+1,1,UNSPEC,1,TOP,0
+2,2,UNSPEC,1,BOTTOM,0

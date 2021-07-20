@@ -1,0 +1,175 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : pcb.brd                                       )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Sat Jul 17 16:26:20 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U1 / STC89C52-41020001,STC89C52 / DIP-40-100-600 at (7757.00 13638.00)
+         Placed symbol:  LCD / LCD1602-15020001,LCD1602 / LCD1602 at (9214.00 13908.00)
+         Placed symbol:  AT1 / AT24C02-43010006,AT24C02 / AT24C02 at (7607.00 14876.00)
+         Placed symbol:  OLED1 / OLED-43010001,OLED / OLED at (8417.15 15264.98)
+         Placed symbol:  SWL1 / SWITCH_LOCK-16050001,SWITCH_LOA / SWITCH_LOCK at (9187.75 14859.07)
+         Placed symbol:  P4 / SOCKET6-14050002,SOCKET6 / SOCKET6 at (9711.26 14776.00)
+         Placed symbol:  P3 / SOCKET5-14050001,SOCKET5 / SOCKET5 at (10399.26 14796.00)
+         Placed symbol:  SW3 / SWITCH-16100002,SWITCH / SWITCH at (10971.35 14880.72)
+         Placed symbol:  SW4 / SWITCH-16100002,SWITCH / SWITCH at (7652.09 16089.12)
+         Placed symbol:  SW1 / SWITCH-16100002,SWITCH / SWITCH at (8132.53 16089.12)
+         Placed symbol:  SW2 / SWITCH-16100002,SWITCH / SWITCH at (8612.97 16089.12)
+         Placed symbol:  P2 / MLX90614-43020001,MLX90614 / MLX90614 at (9117.82 16167.08)
+         Placed symbol:  BJT1 / BJT_PNP-15050001,BJT_PNP / BJT_PNP at (888.81 3484.40)
+         Placed symbol:  D1 / L7805-43010004,L7805 / L7805 at (9196.81 15684.40)
+         Placed symbol:  RP / POTENTIOMETER-07080001,POTENTIA / POTENTIOMETER at (10635.12 16020.23)
+         Placed symbol:  X1 / CRYSTAL-12010001,12.000MHZ / CRYSTAL at (7650.13 16730.20)
+         Placed symbol:  L1 / LED-15020001,LED / LED at (8028.60 16756.18)
+         Placed symbol:  C5 / CAPACITANCE-08070001,10U / CAPACITANCE at (8474.00 16720.75)
+         Placed symbol:  L2 / LED-15020001,LED / LED at (8920.19 16756.18)
+         Placed symbol:  C7 / CAPACITANCE-08070004,0.1U / CAPACITANCE at (9365.59 16720.75)
+         Placed symbol:  C8 / CAPACITANCE-08070004,0.1U / CAPACITANCE at (9973.59 16720.75)
+         Placed symbol:  C3 / CAPACITANCE-08070001,10U / CAPACITANCE at (10581.59 16720.75)
+WARNING: Could not place:  R4 / RESISTOR-07010001,1K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  BZ1 / BUZZ-43010005,BUZZ / BUZZ; outside of drawing extents
+WARNING: Could not place:  C2 / CAPACITANCE-08070002,30P / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  C9 / CAPACITANCE-08070003,0.33U / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  C6 / CAPACITANCE-08070003,0.33U / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  R8 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R9 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R10 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R11 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R12 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R13 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R14 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R15 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R1 / RESISTOR-07010004,330 / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R3 / RESISTOR-07010004,330 / RESISTOR; outside of drawing extents
+WARNING: Could not place:  P1 / SOCKET2-14050003,SOCKET2 / SOCKET2; outside of drawing extents
+WARNING: Could not place:  C1 / CAPACITANCE-08070002,30P / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  R6 / RESISTOR-07010001,1K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  C4 / CAPACITANCE-08070002,30P / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  R2 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  C11 / CAPACITANCE-08070002,30P / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  C10 / CAPACITANCE-08070001,10U / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  R7 / RESISTOR-07010001,1K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R5 / RESISTOR-07010001,1K / RESISTOR; outside of drawing extents
+
+
+Placed 22 of 46 applicable (46 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+         Placed symbol:  U1 / STC89C52-41020001,STC89C52 / DIP-40-100-600 at (7757.00 13638.00)
+         Placed symbol:  LCD / LCD1602-15020001,LCD1602 / LCD1602 at (9214.00 13908.00)
+         Placed symbol:  AT1 / AT24C02-43010006,AT24C02 / AT24C02 at (7607.00 8457.00)
+         Placed symbol:  OLED1 / OLED-43010001,OLED / OLED at (8417.15 8045.58)
+         Placed symbol:  SWL1 / SWITCH_LOCK-16050001,SWITCH_LOA / SWITCH_LOCK at (9187.75 8485.74)
+         Placed symbol:  P4 / SOCKET6-14050002,SOCKET6 / SOCKET6 at (9711.26 8557.00)
+         Placed symbol:  P3 / SOCKET5-14050001,SOCKET5 / SOCKET5 at (10399.26 8537.00)
+         Placed symbol:  SW3 / SWITCH-16100002,SWITCH / SWITCH at (10971.35 8468.02)
+         Placed symbol:  SW4 / SWITCH-16100002,SWITCH / SWITCH at (7652.09 14880.72)
+         Placed symbol:  SW1 / SWITCH-16100002,SWITCH / SWITCH at (8132.53 14880.72)
+         Placed symbol:  SW2 / SWITCH-16100002,SWITCH / SWITCH at (8612.97 14880.72)
+         Placed symbol:  P2 / MLX90614-43020001,MLX90614 / MLX90614 at (9117.82 14958.68)
+         Placed symbol:  BJT1 / BJT_PNP-15050001,BJT_PNP / BJT_PNP at (888.81 2276.00)
+         Placed symbol:  D1 / L7805-43010004,L7805 / L7805 at (9196.81 14476.00)
+         Placed symbol:  RP / POTENTIOMETER-07080001,POTENTIA / POTENTIOMETER at (10635.12 14811.83)
+         Placed symbol:  X1 / CRYSTAL-12010001,12.000MHZ / CRYSTAL at (7650.13 7333.64)
+         Placed symbol:  L1 / LED-15020001,LED / LED at (11003.75 14811.43)
+         Placed symbol:  C5 / CAPACITANCE-08070001,10U / CAPACITANCE at (8190.41 7348.60)
+         Placed symbol:  L2 / LED-15020001,LED / LED at (8636.60 7308.44)
+         Placed symbol:  C7 / CAPACITANCE-08070004,0.1U / CAPACITANCE at (9082.00 7348.60)
+         Placed symbol:  C8 / CAPACITANCE-08070004,0.1U / CAPACITANCE at (9690.00 7348.60)
+         Placed symbol:  C3 / CAPACITANCE-08070001,10U / CAPACITANCE at (10298.00 7348.60)
+         Placed symbol:  R4 / RESISTOR-07010001,1K / RESISTOR at (10872.00 7368.60)
+         Placed symbol:  BZ1 / BUZZ-43010005,BUZZ / BUZZ at (7919.81 15924.16)
+         Placed symbol:  C2 / CAPACITANCE-08070002,30P / CAPACITANCE at (8739.62 15512.35)
+         Placed symbol:  C9 / CAPACITANCE-08070003,0.33U / CAPACITANCE at (9347.62 15512.35)
+         Placed symbol:  C6 / CAPACITANCE-08070003,0.33U / CAPACITANCE at (9955.62 15512.35)
+         Placed symbol:  R8 / RESISTOR-07010003,10K / RESISTOR at (10529.62 15492.35)
+         Placed symbol:  R9 / RESISTOR-07010003,10K / RESISTOR at (11063.62 15492.35)
+         Placed symbol:  R10 / RESISTOR-07010003,10K / RESISTOR at (7674.00 7085.01)
+         Placed symbol:  R11 / RESISTOR-07010003,10K / RESISTOR at (8208.00 7085.01)
+         Placed symbol:  R12 / RESISTOR-07010003,10K / RESISTOR at (8742.00 7085.01)
+         Placed symbol:  R13 / RESISTOR-07010003,10K / RESISTOR at (9276.00 7085.01)
+         Placed symbol:  R14 / RESISTOR-07010003,10K / RESISTOR at (9810.00 7085.01)
+         Placed symbol:  R15 / RESISTOR-07010003,10K / RESISTOR at (10344.00 7085.01)
+         Placed symbol:  R1 / RESISTOR-07010004,330 / RESISTOR at (10878.00 7085.01)
+         Placed symbol:  R3 / RESISTOR-07010004,330 / RESISTOR at (7674.00 16523.97)
+         Placed symbol:  P1 / SOCKET2-14050003,SOCKET2 / SOCKET2 at (8082.00 16533.97)
+         Placed symbol:  C1 / CAPACITANCE-08070002,30P / CAPACITANCE at (8530.00 16543.97)
+         Placed symbol:  R6 / RESISTOR-07010001,1K / RESISTOR at (9104.00 16523.97)
+         Placed symbol:  C4 / CAPACITANCE-08070002,30P / CAPACITANCE at (9672.00 16543.97)
+         Placed symbol:  R2 / RESISTOR-07010003,10K / RESISTOR at (10246.00 16523.97)
+         Placed symbol:  C11 / CAPACITANCE-08070002,30P / CAPACITANCE at (10814.00 16543.97)
+         Placed symbol:  C10 / CAPACITANCE-08070001,10U / CAPACITANCE at (7708.00 6897.01)
+         Placed symbol:  R7 / RESISTOR-07010001,1K / RESISTOR at (8282.00 6917.01)
+         Placed symbol:  R5 / RESISTOR-07010001,1K / RESISTOR at (8816.00 6917.01)
+
+
+Placed 46 of 46 applicable (46 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+State: Placing on layer TOP
+
+         Placed symbol:  U1 / STC89C52-41020001,STC89C52 / DIP-40-100-600 at (7757.00 13638.00)
+         Placed symbol:  LCD / LCD1602-15020001,LCD1602 / LCD1602 at (9214.00 13908.00)
+         Placed symbol:  AT1 / AT24C02-43010006,AT24C02 / AT24C02 at (7607.00 14876.00)
+         Placed symbol:  OLED1 / OLED-43010001,OLED / OLED at (8417.15 15264.98)
+         Placed symbol:  SWL1 / SWITCH_LOCK-16050001,SWITCH_LOA / SWITCH_LOCK at (9187.75 14859.07)
+         Placed symbol:  P4 / SOCKET6-14050002,SOCKET6 / SOCKET6 at (9711.26 14776.00)
+         Placed symbol:  P3 / SOCKET5-14050001,SOCKET5 / SOCKET5 at (10399.26 14796.00)
+         Placed symbol:  SW3 / SWITCH-16100002,SWITCH / SWITCH at (10971.35 14880.72)
+         Placed symbol:  SW4 / SWITCH-16100002,SWITCH / SWITCH at (7652.09 16089.12)
+         Placed symbol:  SW1 / SWITCH-16100002,SWITCH / SWITCH at (8132.53 16089.12)
+         Placed symbol:  SW2 / SWITCH-16100002,SWITCH / SWITCH at (8612.97 16089.12)
+         Placed symbol:  P2 / MLX90614-43020001,MLX90614 / MLX90614 at (9117.82 16167.08)
+         Placed symbol:  BJT1 / BJT_PNP-15050001,BJT_PNP / BJT_PNP at (888.81 3484.40)
+         Placed symbol:  D1 / L7805-43010004,L7805 / L7805 at (9196.81 15684.40)
+         Placed symbol:  RP / POTENTIOMETER-07080001,POTENTIA / POTENTIOMETER at (10635.12 16020.23)
+         Placed symbol:  X1 / CRYSTAL-12010001,12.000MHZ / CRYSTAL at (7650.13 16730.20)
+         Placed symbol:  L1 / LED-15020001,LED / LED at (8028.60 16756.18)
+         Placed symbol:  C5 / CAPACITANCE-08070001,10U / CAPACITANCE at (8474.00 16720.75)
+         Placed symbol:  L2 / LED-15020001,LED / LED at (8920.19 16756.18)
+         Placed symbol:  C7 / CAPACITANCE-08070004,0.1U / CAPACITANCE at (9365.59 16720.75)
+         Placed symbol:  C8 / CAPACITANCE-08070004,0.1U / CAPACITANCE at (9973.59 16720.75)
+         Placed symbol:  C3 / CAPACITANCE-08070001,10U / CAPACITANCE at (10581.59 16720.75)
+WARNING: Could not place:  R4 / RESISTOR-07010001,1K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  BZ1 / BUZZ-43010005,BUZZ / BUZZ; outside of drawing extents
+WARNING: Could not place:  C2 / CAPACITANCE-08070002,30P / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  C9 / CAPACITANCE-08070003,0.33U / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  C6 / CAPACITANCE-08070003,0.33U / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  R8 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R9 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R10 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R11 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R12 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R13 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R14 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R15 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R1 / RESISTOR-07010004,330 / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R3 / RESISTOR-07010004,330 / RESISTOR; outside of drawing extents
+WARNING: Could not place:  P1 / SOCKET2-14050003,SOCKET2 / SOCKET2; outside of drawing extents
+WARNING: Could not place:  C1 / CAPACITANCE-08070002,30P / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  R6 / RESISTOR-07010001,1K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  C4 / CAPACITANCE-08070002,30P / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  R2 / RESISTOR-07010003,10K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  C11 / CAPACITANCE-08070002,30P / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  C10 / CAPACITANCE-08070001,10U / CAPACITANCE; outside of drawing extents
+WARNING: Could not place:  R7 / RESISTOR-07010001,1K / RESISTOR; outside of drawing extents
+WARNING: Could not place:  R5 / RESISTOR-07010001,1K / RESISTOR; outside of drawing extents
+
+
+Placed 22 of 46 applicable (46 total) symbols.
+
+-----------------------------------------------------------------------
+

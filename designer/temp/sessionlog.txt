@@ -1,0 +1,15 @@
+07/17/21  09:27:16		Opening project C:/Users/Jimmy-X/Desktop/短学期/designer/52.cpm
+07/17/21  09:27:17		cdslib C:/Users/Jimmy-X/Desktop/短学期/designer/cds.lib opened
+07/17/21  09:27:17		Project C:/Users/Jimmy-X/Desktop/短学期/designer/52.cpm opened
+07/17/21  09:27:28		Loading cell l7805 from library 52_lib
+07/17/21  09:27:28		Loading view sym_1 of cell l7805
+07/17/21  09:27:28		Loading view chips of cell l7805
+07/17/21  09:27:28		Loading view part_table of cell l7805
+07/17/21  09:27:28		Loading file part.ptf of PTF view part_table of cell l7805
+07/17/21  09:27:28		Loading view entity of cell l7805
+07/17/21  09:27:28		Loading cell l7805 from library 52_lib
+07/17/21  09:27:28		Analyzing view relationships of cell l7805 in library 52_lib
+07/17/21  09:27:28		Completed loading cell l7805 from library 52_lib
+07/17/21  09:27:28		Starting validations on cell l7805 of library 52_lib
+07/17/21  09:27:28		Completed validations on cell l7805 of library 52_lib
+07/17/21  09:27:50		Project C:/Users/Jimmy-X/Desktop/短学期/designer/52.cpm is closed.

@@ -1,0 +1,109 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : pcb.brd                                       )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Jul 17 21:40:06 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/packaged'
+Design Directory:            'C:/Users/Jimmy-X/Desktop/短学期/designer'
+Old design name:             'C:/Users/Jimmy-X/Desktop/短学期/designer/pcb.brd'
+New design name:             'C:/Users/Jimmy-X/Desktop/短学期/designer/pcb.brd'
+
+CmdLine: netrev -$ -i C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/packaged -l -y 1 -q netrev_constraint_report.xml C:/Users/Jimmy-X/Desktop/短学期/designer/#Taaaaag26780.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/packaged/pstchip.dat 
+   Finished reading C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/packaged/pstchip.dat (00:00:00.22)
+Starting to read C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/packaged/pstxprt.dat 
+   Finished reading C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/packaged/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/packaged/pstxnet.dat 
+   Finished reading C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/packaged/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+
+
+===========================================================
+Start Constraint Diff3 Import
+	Constraint File:    C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/packaged/pstcmdb.dat
+	Allegro Baseline:   C:/Users/Jimmy-X/AppData/Local/Temp/#Taaaaae25504.tmp
+	Start time: Sat Jul 17 21:40:06 2021
+===========================================================
+
+
+The constraint difference report file can be viewed using the following command:
+C:\Cadence17\Cadence\Cadence_SPB_17.2-2016\tools\fet\projmgr\bin\firefox.exe -app C:\Cadence17\Cadence\Cadence_SPB_17.2-2016\share\pcb\consmgr\VDD\diff3rptViewer\diff3rptViewer.ini -file file:///C:/Users/Jimmy-X/Desktop/短学期/designer/netrev_constraint_report.xml
+
+===========================================================
+Finished Constraint Update	Time: Sat Jul 17 21:40:06 2021
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence17/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           C:/Users/Jimmy-X/Desktop/短学期/designer/worklib/52/physical/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jul 17 21:40:05 2021
+   DESIGN NAME : '52'
+   PACKAGING ON 17-Jul-2021 AT 21:39:52
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:01:41
+elapsed time  0:00:01
+

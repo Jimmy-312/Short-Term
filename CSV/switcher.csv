@@ -1,0 +1,11 @@
+part_number,Switcher,,,,
+class,DISCRETE,,,,
+PHYS_DES_PREFIX,SW,,,,
+vendor,*,,,,
+body_name,Switcher,,,,
+jedec_type,Switcher,,,,
+PIN_NUMBER,PIN_NAME,PIN_TYPE,SYMBOL,PIN_LOCATION,PIN_POSITION
+1,1,UNSPEC,1,TOP,-2
+2,2,UNSPEC,1,TOP,2
+3,3,UNSPEC,1,BOTTOM,-2
+4,4,UNSPEC,1,BOTTOM,2

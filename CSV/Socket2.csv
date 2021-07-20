@@ -1,0 +1,9 @@
+part_number,Socket2,,,,
+class,DISCRETE,,,,
+PHYS_DES_PREFIX,Socket2,,,,
+vendor,*,,,,
+body_name,Socket2,,,,
+jedec_type,Socket2,,,,
+PIN_NUMBER,PIN_NAME,PIN_TYPE,SYMBOL,PIN_LOCATION,PIN_POSITION
+1,V+,UNSPEC,1,RIGHT,0
+2,GND,UNSPEC,1,RIGHT,2

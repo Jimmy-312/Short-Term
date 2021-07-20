@@ -1,0 +1,13 @@
+Bill of Material for MMA7361.Sch
+On 2011/4/20 at 22:53:31
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 104                 0603             2    C1, C5                       Capacitor            
+ 106                 1206             2    C6, C7                       Capacitor            
+ 1K                  0603             1    R1                                                
+ 3.3nf               0603             3    C2, C3, C4                   Capacitor            
+ CON5                SIP5             2    J1, J2                       Connector            
+ LED                 0603             1    D1                                                
+ MMA7361L            LGA14            1    U1                                                
+ RT9161              SOT-89           1    U2                                                
