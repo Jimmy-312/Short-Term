@@ -1,4 +1,3 @@
-"STARTUP.obj",
 "main.obj" 
 TO "mtem" 
 RAMSIZE(256) 
