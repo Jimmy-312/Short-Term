@@ -80,6 +80,7 @@ uint gettemp(void);
 void mtemp(void);
 void hisswitch(void);
 void SendHis();
+void inital();
 
 uchar flag1;
 uint tem;
@@ -94,45 +95,14 @@ uchar index;
 void main()
 {
 	
-	EX0 = 1;        
-    IT0 = 1;                
-    EX1 = 1;        
-    IT1 = 1;
-	EA=1; 
-	sta=0;
-	his=0;
-	sw=0;
-	setw=0;
-	setd=0;
-	ConfigUART(9600);
-	TMOD &= 0x0F;
-	TMOD |= 0x60;
-	TH1=0xFF;
-	TL1=0xFF;
-	ET1=1;
-	TR1=1;
-	init1602();
-	
-/*	ewrite(Thread1,3);
-	ewrite(Thread2,7);
-	ewrite(Thread3,4);
-	ewrite(Hisn,0);	   */
-	td[0]=eread(Thread1);
-	td[1]=eread(Thread2);
-	td[2]=eread(Thread3);
-	temthread=td[0]*1000+td[1]*100+td[2]*10;
-	hisnum=eread(Hisn);
-	
-	LCD_print("    Welcome!      Press to START",1);
+	inital();
 	
 	while(1)
 	{    
-	/*		 */
 		if(sta)
 		{
 			LCD_print("Result:",1);
 			mtemp();
-			//BlueSend(s,5);
 		 	sta=0;
 			LCD_print(s,0);
 			if(tem>temthread){
@@ -231,10 +201,11 @@ void main()
 				while (!RxdEnd&bluea);
 				
 				SendHis();
-				delay(5000);	
+				delay(5000);
+				LED=1;
 			}
 		}else{
-		 	
+		 
 		}
 	}
 }
@@ -260,6 +231,7 @@ void SendHis()
 		BlueSend(s,10);
 	}
 	//s[0]=0x20;s[1]=0x20;s[2]=0x20;s[3]=0;
+	LCD_print("Bluetooth",1);
 	LCD_print("   ",0);
 	s[0]='O';
 	s[1]='K';
@@ -275,9 +247,9 @@ void int0() interrupt 0
 	delay(100);
 	if(INT0==0)
 	{
-    	LED=~LED;
 		if(his)
 		{
+			//LED=1;
 			set=1;
 			setd=0;
 			his=0;
@@ -288,9 +260,7 @@ void int0() interrupt 0
 			LCD_print("    Welcome!      Press to START",1);
 		}else{
 		 	his=1;
-		}
-		if(his)
-		{
+			//LED=0;
 			sel=hisnum;
 			sw=1;
 		}
@@ -323,11 +293,13 @@ void int2() interrupt 3
 		if(his)
 		{
 			if(bluea){
+				LCD_print("          Sending",0);
 			  	bluea=0;
 				sel=hisnum;
 				sw=1;
 			}else{
 				bluea=1;
+				LED=0;
 				LCD_print("Bluetooth",1);
 			}				
 		}else
@@ -338,6 +310,40 @@ void int2() interrupt 3
 			
 		}
 	}
+}
+
+void inital()
+{
+	EX0 = 1;        
+    IT0 = 1;                
+    EX1 = 1;        
+    IT1 = 1;
+	EA=1; 
+	sta=0;
+	his=0;
+	sw=0;
+	setw=0;
+	setd=0;
+	ConfigUART(9600);
+	TMOD &= 0x0F;
+	TMOD |= 0x60;
+	TH1=0xFF;
+	TL1=0xFF;
+	ET1=1;
+	TR1=1;
+	init1602();
+	
+/*	ewrite(Thread1,3);
+	ewrite(Thread2,7);
+	ewrite(Thread3,4);
+	ewrite(Hisn,0);	   */
+	td[0]=eread(Thread1);
+	td[1]=eread(Thread2);
+	td[2]=eread(Thread3);
+	temthread=td[0]*1000+td[1]*100+td[2]*10;
+	hisnum=eread(Hisn);
+	
+	LCD_print("    Welcome!      Press to START",1);
 }
 
 void mtemp(void)
@@ -501,7 +507,7 @@ void BlueSend(uchar *str,uchar n)
 	for(i=0;i<n;i++){
 		StartTXD(str[i]);
 		while (!TxdEnd); 
-		delay(100);                                                                               
+		delay(50);                                                                               
 	}
 }
 

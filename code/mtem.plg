@@ -1,0 +1,2628 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Jimmy-X\Desktop\short_term\code\mtem.uvproj
+Project File Date:  07/23/2021
+
+<h2>Output:</h2>
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(69): error C202: 'LED': undefined identifier
+main.c - 1 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=32.3 xdata=0 code=2172
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2181
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2181
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2181
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2181
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2183
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2183
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2183
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2183
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2181
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2181
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2181
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2246
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2246
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0003H
+    TO:      0005H
+Program Size: data=32.3 xdata=0 code=2307
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0003H
+    TO:      0005H
+Program Size: data=32.3 xdata=0 code=2307
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2307
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+Program Size: data=32.3 xdata=0 code=2307
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=32.3 xdata=0 code=2298
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=32.3 xdata=0 code=2298
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=32.3 xdata=0 code=2307
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(78): error C141: syntax error near 'void'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=34.3 xdata=0 code=2335
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=34.3 xdata=0 code=2335
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=34.3 xdata=0 code=2335
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=34.3 xdata=0 code=2335
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=34.3 xdata=0 code=2335
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=34.3 xdata=0 code=2335
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=34.3 xdata=0 code=2335
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(341): error C202: 'ISP_CONTR': undefined identifier
+MAIN.C(342): error C202: 'ISP_CONTR': undefined identifier
+MAIN.C(343): error C202: 'ISP_CONTR': undefined identifier
+MAIN.C(350): error C202: 'ISP_CONTR': undefined identifier
+MAIN.C(351): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(352): error C202: 'ISP_TRIG': undefined identifier
+MAIN.C(360): error C202: 'ISP_TRIG': undefined identifier
+MAIN.C(361): error C202: 'ISP_TRIG': undefined identifier
+MAIN.C(372): error C202: 'ISP_ADDRH': undefined identifier
+MAIN.C(373): error C202: 'ISP_ADDRL': undefined identifier
+MAIN.C(375): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(376): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(378): error C202: 'ISP_DATA': undefined identifier
+MAIN.C(389): error C202: 'ISP_ADDRH': undefined identifier
+MAIN.C(390): error C202: 'ISP_ADDRL': undefined identifier
+MAIN.C(392): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(393): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(394): error C202: 'ISP_DATA': undefined identifier
+MAIN.C(404): error C202: 'ISP_ADDRH': undefined identifier
+MAIN.C(405): error C202: 'ISP_ADDRL': undefined identifier
+MAIN.C(407): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(408): error C202: 'ISP_CMD': undefined identifier
+Target not created
+compiling main.c...
+MAIN.C(347): error C202: 'ISP_CONTR': undefined identifier
+MAIN.C(348): error C202: 'ISP_CONTR': undefined identifier
+MAIN.C(349): error C202: 'ISP_CONTR': undefined identifier
+MAIN.C(356): error C202: 'ISP_CONTR': undefined identifier
+MAIN.C(357): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(358): error C202: 'ISP_TRIG': undefined identifier
+MAIN.C(366): error C202: 'ISP_TRIG': undefined identifier
+MAIN.C(367): error C202: 'ISP_TRIG': undefined identifier
+MAIN.C(378): error C202: 'ISP_ADDRH': undefined identifier
+MAIN.C(379): error C202: 'ISP_ADDRL': undefined identifier
+MAIN.C(381): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(382): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(384): error C202: 'ISP_DATA': undefined identifier
+MAIN.C(395): error C202: 'ISP_ADDRH': undefined identifier
+MAIN.C(396): error C202: 'ISP_ADDRL': undefined identifier
+MAIN.C(398): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(399): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(400): error C202: 'ISP_DATA': undefined identifier
+MAIN.C(410): error C202: 'ISP_ADDRH': undefined identifier
+MAIN.C(411): error C202: 'ISP_ADDRL': undefined identifier
+MAIN.C(413): error C202: 'ISP_CMD': undefined identifier
+MAIN.C(414): error C202: 'ISP_CMD': undefined identifier
+main.c - 22 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BYTE_READ?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BYTE_WRITE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=34.3 xdata=0 code=2449
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(88): error C202: 'dat': undefined identifier
+MAIN.C(89): error C202: 'dat': undefined identifier
+main.c - 2 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(90): warning C206: 'Delay_ms': missing function-prototype
+MAIN.C(90): error C267: 'Delay_ms': requires ANSI-style prototype
+Target not created
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=34.3 xdata=0 code=2504
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=34.3 xdata=0 code=2511
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=34.3 xdata=0 code=2530
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BYTE_WRITE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=34.3 xdata=0 code=2498
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BYTE_WRITE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=34.3 xdata=0 code=2498
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BYTE_WRITE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=34.3 xdata=0 code=2505
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BYTE_WRITE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=35.3 xdata=0 code=2505
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BYTE_WRITE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=35.3 xdata=0 code=2505
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BYTE_WRITE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=35.3 xdata=0 code=2505
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=35.3 xdata=0 code=2511
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=35.3 xdata=0 code=2595
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(127): error C141: syntax error near 'delay'
+Target not created
+compiling main.c...
+MAIN.C(127): error C141: syntax error near 'delay'
+main.c - 1 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=35.3 xdata=0 code=2749
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=35.3 xdata=0 code=2703
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?INIT1602?MAIN
+Program Size: data=36.3 xdata=0 code=2871
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=35.3 xdata=0 code=2874
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(503): error C231: 'busy': redefinition
+MAIN.C(514): error C231: 'busy': redefinition
+main.c - 2 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=36.3 xdata=0 code=2873
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=36.3 xdata=0 code=2873
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(150): error C101: ''/': invalid character constant
+MAIN.C(150): error C141: syntax error near '0'
+MAIN.C(150): error C101: '';': invalid character constant
+MAIN.C(150): error C141: syntax error near '';'
+MAIN.C(151): error C141: syntax error near 'hisnum'
+main.c - 5 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=37.3 xdata=0 code=2861
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=37.3 xdata=0 code=2864
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=37.3 xdata=0 code=2882
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=42.3 xdata=0 code=2864
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=42.3 xdata=0 code=2872
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=42.3 xdata=0 code=2874
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=42.3 xdata=0 code=2868
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+compiling main.c...
+MAIN.C(161): warning C206: 'hisswitch': missing function-prototype
+MAIN.C(183): error C231: 'hisswitch': redefinition
+MAIN.C(193): error C231: 'hisswitch': redefinition
+main.c - 2 Error(s), 1 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=51.3 xdata=0 code=2887
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=51.3 xdata=0 code=2893
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 7 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=51.3 xdata=0 code=2893
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 7 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=51.3 xdata=0 code=2902
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=51.3 xdata=0 code=2902
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=51.3 xdata=0 code=2908
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=51.3 xdata=0 code=2930
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=51.3 xdata=0 code=2932
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=51.3 xdata=0 code=2935
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT1?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT1?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=51.3 xdata=0 code=2937
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 7 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2945
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2945
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2939
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2937
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2940
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2913
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2913
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2895
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(157): error C141: syntax error near 's'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2895
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2896
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2893
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2896
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2896
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?HISSWITCH?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2895
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=42.3 xdata=0 code=2868
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=42.3 xdata=0 code=2874
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=43.3 xdata=0 code=2885
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=43.3 xdata=0 code=2917
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=43.3 xdata=0 code=2926
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=43.3 xdata=0 code=2924
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(151): error C202: 'sw': undefined identifier
+MAIN.C(165): error C202: 'sw': undefined identifier
+MAIN.C(192): error C202: 'sw': undefined identifier
+main.c - 3 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=43.3 xdata=0 code=2950
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=43.3 xdata=0 code=2951
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2945
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2976
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2981
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=3008
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2981
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=43.3 xdata=0 code=3009
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+Program Size: data=43.3 xdata=0 code=2975
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(187): error C214: illegal pointer conversion
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=47.3 xdata=0 code=2987
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=47.3 xdata=0 code=2993
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=47.3 xdata=0 code=2999
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=47.3 xdata=0 code=2999
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=47.3 xdata=0 code=2999
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SECTORERASE?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=47.3 xdata=0 code=2999
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=47.3 xdata=0 code=3027
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+compiling main.c...
+MAIN.C(218): warning C206: 'IIC_WaitAck': missing function-prototype
+main.c - 0 Error(s), 1 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(85): warning C206: 'SectorErase': missing function-prototype
+MAIN.C(85): error C267: 'SectorErase': requires ANSI-style prototype
+main.c - 1 Error(s), 1 Warning(s).
+compiling main.c...
+MAIN.C(152): warning C206: 'byte_read': missing function-prototype
+MAIN.C(152): error C267: 'byte_read': requires ANSI-style prototype
+main.c - 1 Error(s), 1 Warning(s).
+compiling main.c...
+MAIN.C(546): warning C206: 'Nop_3': missing function-prototype
+MAIN.C(666): warning C280: 'len': unreferenced local variable
+main.c - 0 Error(s), 2 Warning(s).
+compiling main.c...
+MAIN.C(546): warning C206: 'Nop_3': missing function-prototype
+MAIN.C(666): warning C280: 'len': unreferenced local variable
+main.c - 0 Error(s), 2 Warning(s).
+compiling main.c...
+MAIN.C(665): warning C280: 'len': unreferenced local variable
+main.c - 0 Error(s), 1 Warning(s).
+compiling main.c...
+MAIN.C(154): error C141: syntax error near '/'
+MAIN.C(159): error C202: 'temp': undefined identifier
+MAIN.C(166): error C202: 't': undefined identifier
+MAIN.C(169): error C202: 'temp': undefined identifier
+MAIN.C(170): error C202: 't': undefined identifier
+main.c - 5 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(159): error C202: 'temp': undefined identifier
+MAIN.C(166): error C202: 't': undefined identifier
+MAIN.C(169): error C202: 'temp': undefined identifier
+MAIN.C(170): error C202: 't': undefined identifier
+main.c - 4 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(157): error C202: 'temp': undefined identifier
+MAIN.C(164): error C202: 't': undefined identifier
+MAIN.C(167): error C202: 'temp': undefined identifier
+MAIN.C(168): error C202: 't': undefined identifier
+main.c - 4 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(63): error C132: '_write': not in formal parameter list
+MAIN.C(63): error C141: syntax error near 'void'
+MAIN.C(63): error C132: '_ConfigUART': not in formal parameter list
+MAIN.C(64): error C132: '_StartTXD': not in formal parameter list
+MAIN.C(65): error C132: 'StartRXD': not in formal parameter list
+MAIN.C(66): error C132: '_BlueSend': not in formal parameter list
+MAIN.C(67): error C132: '_delay': not in formal parameter list
+MAIN.C(68): error C132: 'i2c_Init': not in formal parameter list
+MAIN.C(69): error C132: 'start_bit': not in formal parameter list
+MAIN.C(70): error C132: 'stop_bit': not in formal parameter list
+MAIN.C(71): error C132: '_send': not in formal parameter list
+MAIN.C(72): error C132: 'send_bit': not in formal parameter list
+MAIN.C(73): error C132: 'read': not in formal parameter list
+MAIN.C(74): error C132: 'receive_bit': not in formal parameter list
+MAIN.C(75): error C132: 'gettemp': not in formal parameter list
+MAIN.C(76): error C132: 'mtemp': not in formal parameter list
+MAIN.C(77): error C132: 'hisswitch': not in formal parameter list
+MAIN.C(79): error C132: 'flag1': not in formal parameter list
+MAIN.C(80): error C132: 'tem': not in formal parameter list
+MAIN.C(81): error C132: 'otem': not in formal parameter list
+MAIN.C(82): error C132: 'temthread': not in formal parameter list
+MAIN.C(83): error C132: 'hisnum': not in formal parameter list
+MAIN.C(84): error C132: 's': not in formal parameter list
+MAIN.C(85): error C132: 'sel': not in formal parameter list
+MAIN.C(88): error C132: 'main': not in formal parameter list
+MAIN.C(88): error C141: syntax error near '{'
+MAIN.C(90): error C136: 'EX0': 'void' on variable
+MAIN.C(90): error C244: 'EX0': can't initialize, bad type or class
+MAIN.C(90): error C136: 'EX0': 'void' on variable
+MAIN.C(90): error C132: 'EX0': not in formal parameter list
+MAIN.C(91): error C244: 'IT0': can't initialize, bad type or class
+MAIN.C(91): error C132: 'IT0': not in formal parameter list
+MAIN.C(92): error C244: 'EX1': can't initialize, bad type or class
+MAIN.C(92): error C132: 'EX1': not in formal parameter list
+MAIN.C(93): error C244: 'IT1': can't initialize, bad type or class
+MAIN.C(93): error C132: 'IT1': not in formal parameter list
+MAIN.C(94): error C244: 'EA': can't initialize, bad type or class
+MAIN.C(94): error C132: 'EA': not in formal parameter list
+MAIN.C(95): error C279: 'sta': multiple initialization
+MAIN.C(95): error C244: 'sta': can't initialize, bad type or class
+MAIN.C(95): error C132: 'sta': not in formal parameter list
+MAIN.C(96): error C279: 'his': multiple initialization
+MAIN.C(96): error C244: 'his': can't initialize, bad type or class
+MAIN.C(96): error C132: 'his': not in formal parameter list
+MAIN.C(97): error C279: 'sw': multiple initialization
+MAIN.C(97): error C244: 'sw': can't initialize, bad type or class
+MAIN.C(97): error C132: 'sw': not in formal parameter list
+MAIN.C(98): error C141: syntax error near '9600'
+MAIN.C(98): error C132: 'ConfigUART': not in formal parameter list
+MAIN.C(99): error C132: 'init1602': not in formal parameter list
+MAIN.C(104): error C244: 'hisnum': can't initialize, bad type or class
+MAIN.C(104): error C132: 'hisnum': not in formal parameter list
+MAIN.C(108): error C141: syntax error near 'while'
+MAIN.C(108): error C141: syntax error near '1'
+MAIN.C(116): error C129: missing ';' before '{'
+main.c - 55 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(73): warning C236: '_read': different length of parameter lists
+MAIN.C(299): error C236: '_read': different length of parameter lists
+MAIN.C(633): error C158: '_write': function contains unnamed parameter
+MAIN.C(645): error C236: 'read': different length of parameter lists
+MAIN.C(658): error C237: 'read': function already has a body
+main.c - 4 Error(s), 1 Warning(s).
+compiling main.c...
+MAIN.C(633): error C158: '_write': function contains unnamed parameter
+MAIN.C(645): error C236: 'read': different length of parameter lists
+MAIN.C(658): error C237: 'read': function already has a body
+main.c - 3 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(633): error C158: '_ewrite': function contains unnamed parameter
+main.c - 1 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(633): error C236: '_ewrite': different length of parameter lists
+main.c - 1 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+BL51 BANKED LINKER/LOCATER V6.22 - SN: K1DZC-WJR0WC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+"main.obj" 
+TO "mtem" 
+RAMSIZE(256) 
+*** FATAL ERROR L256: MODULE CONTAINS DUPLICATE SEGMENT NAMES
+    SEGMENT: ?PR?I2C_INIT?MAIN
+    MODULE:  main.obj (MAIN)
+Target not created
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+BL51 BANKED LINKER/LOCATER V6.22 - SN: K1DZC-WJR0WC
+COPYRIGHT KEIL ELEKTRONIK GmbH 1987 - 2009
+"main.obj" 
+TO "mtem" 
+RAMSIZE(256) 
+*** FATAL ERROR L256: MODULE CONTAINS DUPLICATE SEGMENT NAMES
+    SEGMENT: ?PR?I2C_INIT?MAIN
+    MODULE:  main.obj (MAIN)
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TACK?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_NOACK?MAIN
+Program Size: data=44.3 xdata=0 code=2797
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TACK?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_NOACK?MAIN
+Program Size: data=44.3 xdata=0 code=2797
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TACK?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_NOACK?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?READ_BYTE?MAIN
+Program Size: data=45.3 xdata=0 code=2805
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TACK?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_NOACK?MAIN
+Program Size: data=44.3 xdata=0 code=2797
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TACK?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_NOACK?MAIN
+Program Size: data=44.3 xdata=0 code=2797
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TACK?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_NOACK?MAIN
+Program Size: data=44.3 xdata=0 code=2793
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TACK?MAIN
+Program Size: data=44.3 xdata=0 code=2782
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_START?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TACK?MAIN
+Program Size: data=44.3 xdata=0 code=2782
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_START?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_STOP?MAIN
+Program Size: data=44.3 xdata=0 code=2756
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_START?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2C_STOP?MAIN
+Program Size: data=44.3 xdata=0 code=2756
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=2760
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=2760
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=2760
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=2939
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?I2C_ACK?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=45.3 xdata=0 code=2949
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=2945
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(98): error C202: 'Tread1': undefined identifier
+MAIN.C(99): error C202: 'Tread2': undefined identifier
+MAIN.C(100): error C202: 'Tread3': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=3059
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=3068
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=3077
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=3077
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=3108
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=3088
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=3061
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=44.3 xdata=0 code=3061
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(143): error C214: illegal pointer conversion
+Target not created
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=47.3 xdata=0 code=3105
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=47.3 xdata=0 code=3117
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=47.3 xdata=0 code=3123
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=47.3 xdata=0 code=3133
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=47.3 xdata=0 code=3146
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=47.3 xdata=0 code=3146
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=47.3 xdata=0 code=3168
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=47.3 xdata=0 code=3170
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=47.3 xdata=0 code=3236
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=48.3 xdata=0 code=3247
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=48.3 xdata=0 code=3280
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=48.3 xdata=0 code=3312
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=48.3 xdata=0 code=3328
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=48.3 xdata=0 code=3328
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+Program Size: data=48.3 xdata=0 code=3334
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=52.3 xdata=0 code=3330
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=52.3 xdata=0 code=3330
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=52.3 xdata=0 code=3330
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=52.3 xdata=0 code=3330
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+compiling main.c...
+MAIN.C(212): error C214: illegal pointer conversion
+main.c - 1 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(212): error C214: illegal pointer conversion
+main.c - 1 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(212): error C214: illegal pointer conversion
+main.c - 1 Error(s), 0 Warning(s).
+compiling main.c...
+MAIN.C(212): error C214: illegal pointer conversion
+main.c - 1 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(216): error C214: illegal pointer conversion
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=53.3 xdata=0 code=3372
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=53.3 xdata=0 code=3384
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=53.3 xdata=0 code=3384
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=53.3 xdata=0 code=3384
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=53.3 xdata=0 code=3384
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=53.3 xdata=0 code=3384
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=53.3 xdata=0 code=3384
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_BLUESEND?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?STARTRXD?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=53.3 xdata=0 code=3384
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=56.3 xdata=0 code=3527
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=56.3 xdata=0 code=3539
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(256): error C141: syntax error near 's'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3551
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(263): error C101: ''/': invalid character constant
+MAIN.C(263): error C141: syntax error near '0'
+MAIN.C(263): error C101: '';': invalid character constant
+MAIN.C(263): error C141: syntax error near '';'
+MAIN.C(264): error C141: syntax error near 'BlueSend'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(265): error C101: ''/': invalid character constant
+MAIN.C(265): error C141: syntax error near '0'
+MAIN.C(265): error C101: '';': invalid character constant
+MAIN.C(265): error C141: syntax error near '';'
+MAIN.C(266): error C141: syntax error near 'BlueSend'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3604
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3604
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3598
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3612
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(337): error C141: syntax error near '}'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3600
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3598
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3605
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3639
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3678
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3648
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3689
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3648
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3648
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
