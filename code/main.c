@@ -11,6 +11,8 @@
 
 #define Hisn 0x00
 #define EEPDa 0x04
+#define Naddr 0x30
+#define Nowaddr 0xE0
    
 sbit RS=P1^2;             
 sbit RW=P1^1;          
@@ -39,6 +41,7 @@ sbit setd=flag^7;
 bdata uchar flag2;
 sbit setm=flag2^0;
 sbit bluea=flag2^1;
+sbit xname=flag2^2;
 
 uchar temH,temL,err;
 
@@ -57,7 +60,7 @@ uchar eread(uchar addr);
 void ewrite(uchar addr,uchar dat);
 
 void ConfigUART(unsigned int baud);
-void BlueSend(uchar *str,uchar n);
+void BlueSend(uchar *str);
 void delay(uint a);
 void i2c_Init(void);
 void start_bit(void);
@@ -73,6 +76,9 @@ void SendHis();
 void inital();
 void BlueReceive();
 void time1int();
+void ewrstr(uchar addr,uchar* str);
+void erdstr(uchar addr);
+void dismain();
 
 uchar flag1;
 uchar RxdB;
@@ -81,9 +87,10 @@ float otem;
 uint temthread;
 uchar hisnum;
 uchar s[10];
+uchar sn[9];
 uchar sel;
 uchar td[3];
-uchar index;
+uchar index[2];
 
 void main()
 {
@@ -94,7 +101,7 @@ void main()
 	{    
 		if(sta)
 		{
-			LCD_print("Result:",1);
+			LCD_print("  Result:",1);
 			mtemp();
 		 	sta=0;
 			LCD_print(s,0);
@@ -114,6 +121,10 @@ void main()
 		    ewrite(EEPDa+hisnum*3,tem/1000);  
 		    ewrite(EEPDa+hisnum*3+1,tem % 1000/100);  
 		 	ewrite(EEPDa+hisnum*3+2,tem%100/10); 
+
+			ewrstr(Naddr+hisnum*8,sn);
+			delay(1500);
+			dismain();
 				
 		}else
 		if(set)
@@ -126,7 +137,7 @@ void main()
 				s[2]='.';
 				s[4]='C';
 				s[5]=0;
-				LCD_print("Set:",1);
+				LCD_print("   Set:",1);
 				LCD_print(s,0);
 				setd=1;
 			}
@@ -170,28 +181,33 @@ void main()
 				s[2]='.';
 				s[4]='C';
 				s[5]='\0';
+
 				if(sel<=hisnum){
-					index=hisnum+1-sel+0x30;
+					index[0]=hisnum+1-sel+0x30;
 				}else{
-					index=9+hisnum-sel+0x30;
+					index[0]=9+hisnum-sel+0x30;
 				}
-				sel--;
-				LCD_print("History:",1);	
+				LCD_print(" History: ",1);	
+				erdstr(Naddr+sel*8); 
 				LCD_print(s,0);
-				s[0]=0x20;
-				s[1]=0x20;
-				s[2]=0x20;
-				s[3]=0x20;
-				s[4]=index;
-				s[5]=0;
-				LCD_print(s,0);
-				sw=0;			   
+				LCD_print("   ",0);
+				index[1]=0;
+				LCD_print(index,0);
+				LCD_print("  ",0);
+				LCD_print(sn,0);	
+				sw=0;	
+				sel--;		   
 			}
 			if(bluea)
 			{
+				LCD_print("   Bluetooth",1);
 				while(bluea);
-				LCD_print("          Sending...",0);
-				SendHis(); 
+				LCD_print("       Sending...",0);
+				SendHis();
+				LCD_print("   Bluetooth            OK!",1);
+				BUZZ=0;
+				delay(1000);
+				BUZZ=1; 
 				time1int();
 				delay(5000);
 				LED=1;				
@@ -199,19 +215,48 @@ void main()
 				sw=1;
 			}
 		}else{
-		 	
+		 	if(xname){ 
+				BlueReceive();
+				time1int();
+				ewrstr(Nowaddr,s);
+				xname=0;  
+				erdstr(Nowaddr);
+				LCD_print(sn,0);
+				cmd_w(0x4C+0x80);
+				LCD_print("OK!",0);
+				delay(2000);
+				dismain();
+			}
 		}
 	}
+}
+
+void erdstr(uchar addr)
+{
+	uchar i=0;
+	do{	 
+		sn[i]=eread(addr+i);
+		i++;	
+	}while(sn[i-1]!=0);
+}
+
+void ewrstr(uchar addr,uchar* str)
+{
+	uchar i=0;
+	do{
+		ewrite(addr+i,str[i]);
+		i++;
+	}while(str[i-1]!=0);
 }
 
 void SendHis()
 {
 	uchar i,j;
 	j=hisnum;
-	for(i=0;i<8;i++,j++)
+	for(i=0;i<8;i++,j--)
 	{
-		if(j==9)
-			j=1;
+		if(j==0)
+			j=8;
 		s[0]=eread(EEPDa+j*3)+0x30;
 		s[1]=eread(EEPDa+j*3+1)+0x30;
 		s[3]=eread(EEPDa+j*3+2)+0x30;
@@ -219,21 +264,23 @@ void SendHis()
 		s[4]='C';
 		s[5]=0x20;
 		s[6]=i+1+0x30;
-		s[7]='\r';
-		s[8]='\n';
-		s[9]='\0';
-		BlueSend(s,10);
+		s[7]=0x20;
+		s[8]=0;
+		BlueSend(s);
+		erdstr(Naddr+j*8);
+		BlueSend(sn);
+		s[0]='\r';
+		s[1]='\n';
+		s[2]=0;
+		BlueSend(s);
+		
 	}
 	//s[0]=0x20;s[1]=0x20;s[2]=0x20;s[3]=0;
-	LCD_print("Bluetooth",1);
-	LCD_print("   ",0);
 	s[0]='O';
 	s[1]='K';
 	s[2]='!';
 	s[3]='\0';
-	BlueSend(s,4);
-	LCD_print(s,0);
-
+	BlueSend(s);
 }
 
 void int0() interrupt 0
@@ -241,7 +288,6 @@ void int0() interrupt 0
 	delay(100);
 	if(INT0==0)
 	{
-		SBUF=0x30;
 		if(his)
 		{
 			//LED=1;
@@ -256,7 +302,7 @@ void int0() interrupt 0
 		if(set){
 			set=0;
 			his=0;
-			LCD_print("    Welcome!      Press to START",1);
+			dismain();
 		}else{
 		 	his=1;
 			//LED=0;
@@ -264,6 +310,14 @@ void int0() interrupt 0
 			sw=1;
 		}
 	}
+}
+
+void dismain()
+{
+	erdstr(Nowaddr);
+	LCD_print(sn,1);
+	cmd_w(0x88);
+	LCD_print("Welcome!  Press to START",0);
 }
 
 void int1() interrupt 2
@@ -283,7 +337,11 @@ void int1() interrupt 2
 		{
 			setw=1;
 		}else{
-			sta=1;
+			if(xname){
+
+			}else{
+				sta=1;
+			}
 		}
 	}
 } 
@@ -300,7 +358,6 @@ void int2() interrupt 3
 			}else{
 				bluea=1;
 				LED=0;
-				LCD_print("Bluetooth",1);
 				ConfigUART(9600);
 			}				
 		}else
@@ -308,7 +365,9 @@ void int2() interrupt 3
 		{
 			setm=1;
 		}else{
-			
+			xname=1;
+			LCD_print("Name: ",1);
+			ConfigUART(9600);
 		}
 	}
 }
@@ -337,17 +396,17 @@ void inital()
 	time1int();
 	init1602();
 	//ConfigUART(9600);
-/*	ewrite(Thread1,3);
+	/*ewrite(Thread1,3);
 	ewrite(Thread2,7);
-	ewrite(Thread3,4);
-	ewrite(Hisn,0);	   */
+	ewrite(Thread3,6);
+	ewrite(Hisn,0);	*/   
 	td[0]=eread(Thread1);
 	td[1]=eread(Thread2);
 	td[2]=eread(Thread3);
 	temthread=td[0]*1000+td[1]*100+td[2]*10;
 	hisnum=eread(Hisn);
 	
-	LCD_print("    Welcome!      Press to START",1);
+	dismain();
 }
 
 void mtemp(void)
@@ -505,18 +564,27 @@ uint getTemp(void)
 	return (temH*256+temL)*2-27315;
 }
 
-void BlueSend(uchar *str,uchar n)
+void BlueSend(uchar *str)
 {
-	uchar i;
-	for(i=0;i<n;i++){
-		SBUF=str[i];  
-		delay(70);                                                                             
+	uchar i=0;
+	while(str[i]!=0){
+		SBUF=str[i++];  
+		delay(70);                                                                     
 	}
 }
 
 void BlueReceive()
 {
-
+	uchar i=0;
+	while(1){
+		while(!RI);
+		RxdB=SBUF;
+		RI=0;
+		if(RxdB=='@')
+			break;
+		s[i++]=RxdB;
+	}
+	s[i]=0;
 }
 
 void ConfigUART(unsigned int baud)
@@ -535,9 +603,11 @@ void InterruptUART() interrupt 4
 {
 	if (RI) 
 	{
-		RI = 0; 
-		RxdB = SBUF;
-		SBUF = 0x21; 
+		//RI = 0; 
+		//RxdB = SBUF;
+		//if(bluea==1&RxdB=='@')
+			bluea=0;
+		//SBUF = 0x21; 
 	}
 	if (TI) 
 	{
