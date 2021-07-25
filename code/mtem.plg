@@ -2626,3 +2626,497 @@ linking...
 Program Size: data=58.3 xdata=0 code=3648
 creating hex file from "mtem"...
 "mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3856
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(264): error C202: 't': undefined identifier
+MAIN.C(266): error C202: 't_H': undefined identifier
+MAIN.C(267): error C202: 't_L': undefined identifier
+MAIN.C(268): error C202: 't_H': undefined identifier
+MAIN.C(269): error C202: 't_L': undefined identifier
+MAIN.C(271): error C202: 't': undefined identifier
+Target not created
+compiling main.c...
+MAIN.C(264): error C202: 't': undefined identifier
+MAIN.C(266): error C202: 't_H': undefined identifier
+MAIN.C(267): error C202: 't_L': undefined identifier
+MAIN.C(268): error C202: 't_H': undefined identifier
+MAIN.C(269): error C202: 't_L': undefined identifier
+MAIN.C(271): error C202: 't': undefined identifier
+main.c - 6 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(247): error C202: 'soundtone': undefined identifier
+MAIN.C(248): error C202: 'soundtone': undefined identifier
+MAIN.C(250): error C202: 'soundlong': undefined identifier
+Target not created
+compiling main.c...
+MAIN.C(237): warning C206: 'song': missing function-prototype
+MAIN.C(243): error C231: 'song': redefinition
+MAIN.C(251): error C231: 'song': redefinition
+main.c - 2 Error(s), 1 Warning(s).
+compiling main.c...
+main.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3682
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3682
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3682
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3688
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3688
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3682
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3648
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3659
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3659
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3688
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3688
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3691
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3691
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3691
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3691
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3691
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3691
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3691
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3690
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT0?MAIN
+    CALLER2: ?PR?INT2?MAIN
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_CMD_W?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_LCD_PRINT?MAIN
+    CALLER1: ?PR?INT2?MAIN
+    CALLER2: ?C_C51STARTUP
+Program Size: data=58.3 xdata=0 code=3690
+creating hex file from "mtem"...
+"mtem" - 0 Error(s), 4 Warning(s).

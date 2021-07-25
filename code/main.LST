@@ -1,4 +1,4 @@
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 1   
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
@@ -51,744 +51,701 @@ line level    source
   42          
   43          uchar temH,temL,err;
   44          
-  45          bit RxdOrTxd = 0; 
-  46          bit RxdEnd = 0; 
-  47          bit TxdEnd = 0; 
-  48          uchar RxdBuf = 0; 
-  49          uchar TxdBuf = 0; 
-  50          sbit PIN_RXD = P3^0; 
-  51          sbit PIN_TXD = P3^1;
-  52          
-  53          void busy(void);
-  54          void cmd_w(uchar cmd);
-  55          void init1602(void);
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 2   
+  45          void busy(void);
+  46          void cmd_w(uchar cmd);
+  47          void init1602(void);
+  48          void dat_wrt(uchar dat); 
+  49          void LCD_print(uchar *str,uchar n);
+  50          
+  51          void I2C_Start(void);
+  52          void I2C_Stop(void);
+  53          void I2C_Ack(void);
+  54          void Write_Byte(uchar wdata);
+  55          uchar Read_Byte(void);
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 2   
 
-  56          void dat_wrt(uchar dat); 
-  57          void LCD_print(uchar *str,uchar n);
+  56          uchar eread(uchar addr);
+  57          void ewrite(uchar addr,uchar dat);
   58          
-  59          void I2C_Start(void);
-  60          void I2C_Stop(void);
-  61          void I2C_Ack(void);
-  62          void Write_Byte(uchar wdata);
-  63          uchar Read_Byte(void);
-  64          uchar eread(uchar addr);
-  65          void ewrite(uchar addr,uchar dat);
-  66          
-  67          void ConfigUART(unsigned int baud);
-  68          void StartTXD(unsigned char dat);
-  69          void StartRXD();
-  70          void BlueSend(uchar *str,uchar n);
-  71          void delay(uint a);
-  72          void i2c_Init(void);
-  73          void start_bit(void);
-  74          void stop_bit(void);
-  75          void send(uchar dat_byte);
-  76          void send_bit(void);
-  77          uchar read(void);
-  78          void receive_bit(void);
-  79          uint gettemp(void);
-  80          void mtemp(void);
-  81          void hisswitch(void);
-  82          void SendHis();
-  83          void inital();
-  84          
-  85          uchar flag1;
-  86          uint tem;
-  87          float otem;
-  88          uint temthread;
-  89          uchar hisnum;
-  90          uchar s[10];
-  91          uchar sel;
-  92          uchar td[3];
-  93          uchar index;
-  94          
-  95          void main()
-  96          {
-  97   1              
-  98   1              inital();
-  99   1              
- 100   1              while(1)
- 101   1              {    
- 102   2                      if(sta)
- 103   2                      {
- 104   3                              LCD_print("Result:",1);
- 105   3                              mtemp();
- 106   3                              sta=0;
- 107   3                              LCD_print(s,0);
- 108   3                              if(tem>temthread){
- 109   4                                      BUZZ=0;
- 110   4                                      LED=0;
- 111   4                                      delay(1000);
- 112   4                                      BUZZ=1;
- 113   4                                      LED=1;
- 114   4                              }  
- 115   3                              
- 116   3                              hisnum++;
- 117   3                              if(hisnum==9)
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 3   
+  59          void ConfigUART(unsigned int baud);
+  60          void BlueSend(uchar *str,uchar n);
+  61          void delay(uint a);
+  62          void i2c_Init(void);
+  63          void start_bit(void);
+  64          void stop_bit(void);
+  65          void send(uchar dat_byte);
+  66          void send_bit(void);
+  67          uchar read(void);
+  68          void receive_bit(void);
+  69          uint gettemp(void);
+  70          void mtemp(void);
+  71          void hisswitch(void);
+  72          void SendHis();
+  73          void inital();
+  74          void BlueReceive();
+  75          void time1int();
+  76          
+  77          uchar flag1;
+  78          uchar RxdB;
+  79          uint tem;
+  80          float otem;
+  81          uint temthread;
+  82          uchar hisnum;
+  83          uchar s[10];
+  84          uchar sel;
+  85          uchar td[3];
+  86          uchar index;
+  87          
+  88          void main()
+  89          {
+  90   1              
+  91   1              inital();
+  92   1              
+  93   1              while(1)
+  94   1              {    
+  95   2                      if(sta)
+  96   2                      {
+  97   3                              LCD_print("Result:",1);
+  98   3                              mtemp();
+  99   3                              sta=0;
+ 100   3                              LCD_print(s,0);
+ 101   3                              if(tem>temthread){
+ 102   4                                      BUZZ=0;
+ 103   4                                      LED=0;
+ 104   4                                      delay(1000);
+ 105   4                                      BUZZ=1;
+ 106   4                                      LED=1;
+ 107   4                              }  
+ 108   3                              
+ 109   3                              hisnum++;
+ 110   3                              if(hisnum==9)
+ 111   3                                      hisnum=1;  
+ 112   3                              
+ 113   3                              ewrite(Hisn,hisnum);
+ 114   3                          ewrite(EEPDa+hisnum*3,tem/1000);  
+ 115   3                          ewrite(EEPDa+hisnum*3+1,tem % 1000/100);  
+ 116   3                              ewrite(EEPDa+hisnum*3+2,tem%100/10); 
+ 117   3                                      
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 3   
 
- 118   3                                      hisnum=1;  
- 119   3                              
- 120   3                              ewrite(Hisn,hisnum);
- 121   3                          ewrite(EEPDa+hisnum*3,tem/1000);  
- 122   3                          ewrite(EEPDa+hisnum*3+1,tem % 1000/100);  
- 123   3                              ewrite(EEPDa+hisnum*3+2,tem%100/10); 
- 124   3                                      
- 125   3                      }else
- 126   2                      if(set)
- 127   2                      {
- 128   3                              if(!setd)
- 129   3                              {
- 130   4                                      s[0]=td[0]+0x30;
- 131   4                                      s[1]=td[1]+0x30;
- 132   4                                      s[3]=td[2]+0x30;
- 133   4                                      s[2]='.';
- 134   4                                      s[4]='C';
- 135   4                                      s[5]=0;
- 136   4                                      LCD_print("Set:",1);
- 137   4                                      LCD_print(s,0);
- 138   4                                      setd=1;
- 139   4                              }
- 140   3                              if(setw)
- 141   3                              {
- 142   4                                      td[2]+=1;
- 143   4                                      if(td[2]==10)
- 144   4                                      {
- 145   5                                              td[1]+=1;
- 146   5                                              td[2]=0;
- 147   5                                      }
- 148   4                                      ewrite(Thread3,td[2]);
- 149   4                                      ewrite(Thread2,td[1]);
- 150   4                                      setd=0;
- 151   4                                      setw=0;
- 152   4                              }
- 153   3                              if(setm)
- 154   3                              {
- 155   4                                      td[2]-=1;
- 156   4                                      if(!td[2])
- 157   4                                      {
- 158   5                                              td[1]-=1;
- 159   5                                              td[2]=9;
- 160   5                                      }
- 161   4                                      ewrite(Thread3,td[2]);
- 162   4                                      ewrite(Thread2,td[1]);
- 163   4                                      setd=0;
- 164   4                                      setm=0;
- 165   4                              }
- 166   3      
- 167   3                      }else
- 168   2                      if(his)
- 169   2                      {       
- 170   3                              if(sw)
- 171   3                              {
- 172   4                                      if(sel==0)
- 173   4                                              sel=8;
- 174   4                                      s[0]=eread(EEPDa+sel*3)+0x30;
- 175   4                                      s[1]=eread(EEPDa+sel*3+1)+0x30;
- 176   4                                      s[3]=eread(EEPDa+sel*3+2)+0x30;
- 177   4                                      s[2]='.';
- 178   4                                      s[4]='C';
- 179   4                                      s[5]='\0';
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 4   
+ 118   3                      }else
+ 119   2                      if(set)
+ 120   2                      {
+ 121   3                              if(!setd)
+ 122   3                              {
+ 123   4                                      s[0]=td[0]+0x30;
+ 124   4                                      s[1]=td[1]+0x30;
+ 125   4                                      s[3]=td[2]+0x30;
+ 126   4                                      s[2]='.';
+ 127   4                                      s[4]='C';
+ 128   4                                      s[5]=0;
+ 129   4                                      LCD_print("Set:",1);
+ 130   4                                      LCD_print(s,0);
+ 131   4                                      setd=1;
+ 132   4                              }
+ 133   3                              if(setw)
+ 134   3                              {
+ 135   4                                      td[2]+=1;
+ 136   4                                      if(td[2]==10)
+ 137   4                                      {
+ 138   5                                              td[1]+=1;
+ 139   5                                              td[2]=0;
+ 140   5                                      }
+ 141   4                                      ewrite(Thread3,td[2]);
+ 142   4                                      ewrite(Thread2,td[1]);
+ 143   4                                      setd=0;
+ 144   4                                      setw=0;
+ 145   4                              }
+ 146   3                              if(setm)
+ 147   3                              {
+ 148   4                                      td[2]-=1;
+ 149   4                                      if(!td[2])
+ 150   4                                      {
+ 151   5                                              td[1]-=1;
+ 152   5                                              td[2]=9;
+ 153   5                                      }
+ 154   4                                      ewrite(Thread3,td[2]);
+ 155   4                                      ewrite(Thread2,td[1]);
+ 156   4                                      setd=0;
+ 157   4                                      setm=0;
+ 158   4                              }
+ 159   3      
+ 160   3                      }else
+ 161   2                      if(his)
+ 162   2                      {       
+ 163   3                              if(sw)
+ 164   3                              {
+ 165   4                                      if(sel==0)
+ 166   4                                              sel=8;
+ 167   4                                      s[0]=eread(EEPDa+sel*3)+0x30;
+ 168   4                                      s[1]=eread(EEPDa+sel*3+1)+0x30;
+ 169   4                                      s[3]=eread(EEPDa+sel*3+2)+0x30;
+ 170   4                                      s[2]='.';
+ 171   4                                      s[4]='C';
+ 172   4                                      s[5]='\0';
+ 173   4                                      if(sel<=hisnum){
+ 174   5                                              index=hisnum+1-sel+0x30;
+ 175   5                                      }else{
+ 176   5                                              index=9+hisnum-sel+0x30;
+ 177   5                                      }
+ 178   4                                      sel--;
+ 179   4                                      LCD_print("History:",1);        
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 4   
 
- 180   4                                      if(sel<=hisnum){
- 181   5                                              index=hisnum+1-sel+0x30;
- 182   5                                      }else{
- 183   5                                              index=9+hisnum-sel+0x30;
- 184   5                                      }
- 185   4                                      sel--;
- 186   4                                      LCD_print("History:",1);        
+ 180   4                                      LCD_print(s,0);
+ 181   4                                      s[0]=0x20;
+ 182   4                                      s[1]=0x20;
+ 183   4                                      s[2]=0x20;
+ 184   4                                      s[3]=0x20;
+ 185   4                                      s[4]=index;
+ 186   4                                      s[5]=0;
  187   4                                      LCD_print(s,0);
- 188   4                                      s[0]=0x20;
- 189   4                                      s[1]=0x20;
- 190   4                                      s[2]=0x20;
- 191   4                                      s[3]=0x20;
- 192   4                                      s[4]=index;
- 193   4                                      s[5]=0;
- 194   4                                      LCD_print(s,0);
- 195   4                                      sw=0;                      
- 196   4                              }
- 197   3                              if(bluea)
- 198   3                              {
- 199   4                                      while (PIN_RXD&bluea); 
- 200   4                                      StartRXD(); 
- 201   4                                      while (!RxdEnd&bluea);
- 202   4                                      
- 203   4                                      SendHis();
- 204   4                                      delay(5000);
- 205   4                                      LED=1;
- 206   4                              }
- 207   3                      }else{
- 208   3                       
- 209   3                      }
- 210   2              }
- 211   1      }
- 212          
- 213          void SendHis()
- 214          {
- 215   1              uchar i,j;
- 216   1              j=hisnum;
- 217   1              for(i=0;i<8;i++,j++)
- 218   1              {
- 219   2                      if(j==9)
- 220   2                              j=1;
- 221   2                      s[0]=eread(EEPDa+j*3)+0x30;
- 222   2                      s[1]=eread(EEPDa+j*3+1)+0x30;
- 223   2                      s[3]=eread(EEPDa+j*3+2)+0x30;
- 224   2                      s[2]='.';
- 225   2                      s[4]='C';
- 226   2                      s[5]=0x20;
- 227   2                      s[6]=i+1+0x30;
- 228   2                      s[7]='\r';
- 229   2                      s[8]='\n';
- 230   2                      s[9]='\0';
- 231   2                      BlueSend(s,10);
- 232   2              }
- 233   1              //s[0]=0x20;s[1]=0x20;s[2]=0x20;s[3]=0;
- 234   1              LCD_print("Bluetooth",1);
- 235   1              LCD_print("   ",0);
- 236   1              s[0]='O';
- 237   1              s[1]='K';
- 238   1              s[2]='!';
- 239   1              s[3]='\0';
- 240   1              BlueSend(s,4);
- 241   1              LCD_print(s,0);
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 5   
+ 188   4                                      sw=0;                      
+ 189   4                              }
+ 190   3                              if(bluea)
+ 191   3                              {
+ 192   4                                      while(bluea);
+ 193   4                                      LCD_print("          Sending...",0);
+ 194   4                                      SendHis(); 
+ 195   4                                      time1int();
+ 196   4                                      delay(5000);
+ 197   4                                      LED=1;                          
+ 198   4                                      sel=hisnum;
+ 199   4                                      sw=1;
+ 200   4                              }
+ 201   3                      }else{
+ 202   3                              
+ 203   3                      }
+ 204   2              }
+ 205   1      }
+ 206          
+ 207          void SendHis()
+ 208          {
+ 209   1              uchar i,j;
+ 210   1              j=hisnum;
+ 211   1              for(i=0;i<8;i++,j++)
+ 212   1              {
+ 213   2                      if(j==9)
+ 214   2                              j=1;
+ 215   2                      s[0]=eread(EEPDa+j*3)+0x30;
+ 216   2                      s[1]=eread(EEPDa+j*3+1)+0x30;
+ 217   2                      s[3]=eread(EEPDa+j*3+2)+0x30;
+ 218   2                      s[2]='.';
+ 219   2                      s[4]='C';
+ 220   2                      s[5]=0x20;
+ 221   2                      s[6]=i+1+0x30;
+ 222   2                      s[7]='\r';
+ 223   2                      s[8]='\n';
+ 224   2                      s[9]='\0';
+ 225   2                      BlueSend(s,10);
+ 226   2              }
+ 227   1              //s[0]=0x20;s[1]=0x20;s[2]=0x20;s[3]=0;
+ 228   1              LCD_print("Bluetooth",1);
+ 229   1              LCD_print("   ",0);
+ 230   1              s[0]='O';
+ 231   1              s[1]='K';
+ 232   1              s[2]='!';
+ 233   1              s[3]='\0';
+ 234   1              BlueSend(s,4);
+ 235   1              LCD_print(s,0);
+ 236   1      
+ 237   1      }
+ 238          
+ 239          void int0() interrupt 0
+ 240          {
+ 241   1              delay(100);
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 5   
 
- 242   1      
- 243   1      }
- 244          
- 245          void int0() interrupt 0
- 246          {
- 247   1              delay(100);
- 248   1              if(INT0==0)
- 249   1              {
- 250   2                      if(his)
- 251   2                      {
- 252   3                              //LED=1;
- 253   3                              set=1;
- 254   3                              setd=0;
- 255   3                              his=0;
- 256   3                      }else
- 257   2                      if(set){
- 258   3                              set=0;
- 259   3                              his=0;
- 260   3                              LCD_print("    Welcome!      Press to START",1);
- 261   3                      }else{
- 262   3                              his=1;
- 263   3                              //LED=0;
- 264   3                              sel=hisnum;
- 265   3                              sw=1;
- 266   3                      }
- 267   2              }
- 268   1      }
- 269          
- 270          void int1() interrupt 2
- 271          {
- 272   1              delay(100);
- 273   1              if(INT1==0)
- 274   1              {
- 275   2                      if(his)
- 276   2                      {
- 277   3                              sw=1;                   
- 278   3                      }else
- 279   2                      if(set)
- 280   2                      {
- 281   3                              setw=1;
- 282   3                      }else{
- 283   3                              sta=1;
- 284   3                      }
- 285   2              }
- 286   1      } 
- 287          
- 288          void int2() interrupt 3
- 289          {
- 290   1              delay(100);
- 291   1              if(INT2==0)
- 292   1              {
- 293   2                      if(his)
- 294   2                      {
- 295   3                              if(bluea){
- 296   4                                      LCD_print("          Sending",0);
- 297   4                                      bluea=0;
- 298   4                                      sel=hisnum;
- 299   4                                      sw=1;
+ 242   1              if(INT0==0)
+ 243   1              {
+ 244   2                      SBUF=0x30;
+ 245   2                      if(his)
+ 246   2                      {
+ 247   3                              //LED=1;
+ 248   3                              if(bluea){
+ 249   4      
+ 250   4                              }else{
+ 251   4                                      set=1;
+ 252   4                                      setd=0;
+ 253   4                                      his=0;
+ 254   4                              }
+ 255   3                      }else
+ 256   2                      if(set){
+ 257   3                              set=0;
+ 258   3                              his=0;
+ 259   3                              LCD_print("    Welcome!      Press to START",1);
+ 260   3                      }else{
+ 261   3                              his=1;
+ 262   3                              //LED=0;
+ 263   3                              sel=hisnum;
+ 264   3                              sw=1;
+ 265   3                      }
+ 266   2              }
+ 267   1      }
+ 268          
+ 269          void int1() interrupt 2
+ 270          {
+ 271   1              delay(100);
+ 272   1              if(INT1==0)
+ 273   1              {
+ 274   2                      if(his)
+ 275   2                      {
+ 276   3                              if(bluea){
+ 277   4                                      bluea=0;
+ 278   4                              }else{
+ 279   4                                      sw=1;
+ 280   4                              }                       
+ 281   3                      }else
+ 282   2                      if(set)
+ 283   2                      {
+ 284   3                              setw=1;
+ 285   3                      }else{
+ 286   3                              sta=1;
+ 287   3                      }
+ 288   2              }
+ 289   1      } 
+ 290          
+ 291          void int2() interrupt 3
+ 292          {
+ 293   1              delay(100);
+ 294   1              if(INT2==0)
+ 295   1              {
+ 296   2                      if(his)
+ 297   2                      {
+ 298   3                              if(bluea){
+ 299   4      
  300   4                              }else{
  301   4                                      bluea=1;
  302   4                                      LED=0;
  303   4                                      LCD_print("Bluetooth",1);
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 6   
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 6   
 
- 304   4                              }                               
- 305   3                      }else
- 306   2                      if(set)
- 307   2                      {
- 308   3                              setm=1;
- 309   3                      }else{
- 310   3                              
- 311   3                      }
- 312   2              }
- 313   1      }
- 314          
- 315          void inital()
+ 304   4                                      ConfigUART(9600);
+ 305   4                              }                               
+ 306   3                      }else
+ 307   2                      if(set)
+ 308   2                      {
+ 309   3                              setm=1;
+ 310   3                      }else{
+ 311   3                              
+ 312   3                      }
+ 313   2              }
+ 314   1      }
+ 315          void time1int()
  316          {
- 317   1              EX0 = 1;        
- 318   1          IT0 = 1;                
- 319   1          EX1 = 1;        
- 320   1          IT1 = 1;
- 321   1              EA=1; 
- 322   1              sta=0;
- 323   1              his=0;
- 324   1              sw=0;
- 325   1              setw=0;
- 326   1              setd=0;
- 327   1              ConfigUART(9600);
- 328   1              TMOD &= 0x0F;
- 329   1              TMOD |= 0x60;
- 330   1              TH1=0xFF;
- 331   1              TL1=0xFF;
- 332   1              ET1=1;
- 333   1              TR1=1;
- 334   1              init1602();
- 335   1              
- 336   1      /*      ewrite(Thread1,3);
- 337   1              ewrite(Thread2,7);
- 338   1              ewrite(Thread3,4);
- 339   1              ewrite(Hisn,0);    */
- 340   1              td[0]=eread(Thread1);
- 341   1              td[1]=eread(Thread2);
- 342   1              td[2]=eread(Thread3);
- 343   1              temthread=td[0]*1000+td[1]*100+td[2]*10;
- 344   1              hisnum=eread(Hisn);
- 345   1              
- 346   1              LCD_print("    Welcome!      Press to START",1);
- 347   1      }
- 348          
- 349          void mtemp(void)
- 350          {
- 351   1              uchar i;
- 352   1              tem=0;
- 353   1              i2c_Init();
- 354   1              for(i=0;i<10;i++)
- 355   1                      tem=tem+gettemp();
- 356   1                      delay(10);
- 357   1              otem=tem/1000;
- 358   1              tem=100*(otem*otem*otem*(-0.0012)+0.1719*otem*otem+125.7-7.06719*otem);
- 359   1              s[0]=tem/1000+0x30;
- 360   1              s[1]=tem % 1000/100+0x30;
- 361   1              s[2]=0x2E;
- 362   1              s[3]=tem%100/10+0x30;
- 363   1              s[4]=0x43;
- 364   1              s[5]='\0';
- 365   1      }
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 7   
+ 317   1              ES=0;
+ 318   1              TMOD &= 0x0F;
+ 319   1              TMOD |= 0x60;
+ 320   1              TH1=0xFF;
+ 321   1              TL1=0xFF;
+ 322   1              ET1=1;
+ 323   1              TR1=1;
+ 324   1      }
+ 325          void inital()
+ 326          {
+ 327   1              EX0 = 1;        
+ 328   1          IT0 = 1;                
+ 329   1          EX1 = 1;        
+ 330   1          IT1 = 1;
+ 331   1              EA=1; 
+ 332   1              sta=0;
+ 333   1              his=0;
+ 334   1              sw=0;
+ 335   1              setw=0;
+ 336   1              setd=0;
+ 337   1              time1int();
+ 338   1              init1602();
+ 339   1              //ConfigUART(9600);
+ 340   1      /*      ewrite(Thread1,3);
+ 341   1              ewrite(Thread2,7);
+ 342   1              ewrite(Thread3,4);
+ 343   1              ewrite(Hisn,0);    */
+ 344   1              td[0]=eread(Thread1);
+ 345   1              td[1]=eread(Thread2);
+ 346   1              td[2]=eread(Thread3);
+ 347   1              temthread=td[0]*1000+td[1]*100+td[2]*10;
+ 348   1              hisnum=eread(Hisn);
+ 349   1              
+ 350   1              LCD_print("    Welcome!      Press to START",1);
+ 351   1      }
+ 352          
+ 353          void mtemp(void)
+ 354          {
+ 355   1              uchar i;
+ 356   1              tem=0;
+ 357   1              i2c_Init();
+ 358   1              for(i=0;i<10;i++)
+ 359   1                      tem=tem+gettemp();
+ 360   1                      delay(10);
+ 361   1              otem=tem/1000;
+ 362   1              tem=100*(otem*otem*otem*(-0.0012)+0.1719*otem*otem+125.7-7.06719*otem);
+ 363   1              s[0]=tem/1000+0x30;
+ 364   1              s[1]=tem % 1000/100+0x30;
+ 365   1              s[2]=0x2E;
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 7   
 
- 366          
- 367          void delay(uint a)
- 368          {                        
- 369   1          uint b;
- 370   1          for(;a>0;a--)
- 371   1                      for(b=125;b>0;b--);
- 372   1      }
- 373          
- 374          
- 375          void i2c_Init(void)
- 376          {
- 377   1              SCL=1;
- 378   1              SDA=1;
- 379   1              _nop_();
- 380   1              _nop_();
- 381   1              _nop_();
- 382   1              _nop_();
- 383   1              SCL=0;
- 384   1              delay(1);
- 385   1              SCL=1;
- 386   1      }
- 387          
- 388          
- 389          void start_bit(void)
- 390          {
- 391   1              SDA=1;
- 392   1              _nop_();_nop_();_nop_();_nop_();_nop_();
- 393   1              SCL=1;
- 394   1              _nop_();_nop_();_nop_();_nop_();_nop_();
- 395   1              SDA=0;
+ 366   1              s[3]=tem%100/10+0x30;
+ 367   1              s[4]=0x43;
+ 368   1              s[5]='\0';
+ 369   1      }
+ 370          
+ 371          void delay(uint a)
+ 372          {                        
+ 373   1          uint b;
+ 374   1          for(;a>0;a--)
+ 375   1                      for(b=125;b>0;b--);
+ 376   1      }
+ 377          
+ 378          
+ 379          void i2c_Init(void)
+ 380          {
+ 381   1              SCL=1;
+ 382   1              SDA=1;
+ 383   1              _nop_();
+ 384   1              _nop_();
+ 385   1              _nop_();
+ 386   1              _nop_();
+ 387   1              SCL=0;
+ 388   1              delay(1);
+ 389   1              SCL=1;
+ 390   1      }
+ 391          
+ 392          
+ 393          void start_bit(void)
+ 394          {
+ 395   1              SDA=1;
  396   1              _nop_();_nop_();_nop_();_nop_();_nop_();
- 397   1              SCL=0;
+ 397   1              SCL=1;
  398   1              _nop_();_nop_();_nop_();_nop_();_nop_();
- 399   1      }
- 400          
- 401          void stop_bit(void)
- 402          {
- 403   1              SCL=0;
- 404   1              _nop_();_nop_();_nop_();_nop_();_nop_();
- 405   1              SDA=0;
- 406   1              _nop_();_nop_();_nop_();_nop_();_nop_();
- 407   1              SCL=1;
+ 399   1              SDA=0;
+ 400   1              _nop_();_nop_();_nop_();_nop_();_nop_();
+ 401   1              SCL=0;
+ 402   1              _nop_();_nop_();_nop_();_nop_();_nop_();
+ 403   1      }
+ 404          
+ 405          void stop_bit(void)
+ 406          {
+ 407   1              SCL=0;
  408   1              _nop_();_nop_();_nop_();_nop_();_nop_();
- 409   1              SDA=1;
- 410   1      }
- 411          
- 412          void send(uchar dat_byte)
- 413          {
- 414   1              char i,n,dat;
- 415   1              n=Nack;
- 416   1      send:
- 417   1              dat=dat_byte;
- 418   1              for(i=0;i<8;i++)
- 419   1              {
- 420   2                      if(dat&0x80)
- 421   2                              bit_out=1;
- 422   2                      else
- 423   2                              bit_out=0;
- 424   2                      send_bit();
- 425   2                      dat=dat<<1;
- 426   2              }
- 427   1              receive_bit();
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 8   
+ 409   1              SDA=0;
+ 410   1              _nop_();_nop_();_nop_();_nop_();_nop_();
+ 411   1              SCL=1;
+ 412   1              _nop_();_nop_();_nop_();_nop_();_nop_();
+ 413   1              SDA=1;
+ 414   1      }
+ 415          
+ 416          void send(uchar dat_byte)
+ 417          {
+ 418   1              char i,n,dat;
+ 419   1              n=Nack;
+ 420   1      send:
+ 421   1              dat=dat_byte;
+ 422   1              for(i=0;i<8;i++)
+ 423   1              {
+ 424   2                      if(dat&0x80)
+ 425   2                              bit_out=1;
+ 426   2                      else
+ 427   2                              bit_out=0;
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 8   
 
- 428   1              if(bit_in==1)
- 429   1              {
- 430   2                      stop_bit();
- 431   2                      if(n!=0)
- 432   2                      {
- 433   3                              n--;
- 434   3                              goto Repeat;
- 435   3                      }
- 436   2              }
- 437   1              goto exit;
- 438   1      Repeat:
- 439   1              start_bit();
- 440   1              goto send;
- 441   1      exit: ;
- 442   1      }
- 443          
- 444          void send_bit(void)
- 445          {
- 446   1              if(bit_out==0)
- 447   1                      SDA=0;
- 448   1              else
- 449   1                      SDA=1;
- 450   1              _nop_();
- 451   1              SCL=1;
- 452   1              _nop_();_nop_();_nop_();_nop_();
- 453   1              _nop_();_nop_();_nop_();_nop_();
- 454   1              SCL=0;
- 455   1              _nop_();_nop_();_nop_();_nop_();
+ 428   2                      send_bit();
+ 429   2                      dat=dat<<1;
+ 430   2              }
+ 431   1              receive_bit();
+ 432   1              if(bit_in==1)
+ 433   1              {
+ 434   2                      stop_bit();
+ 435   2                      if(n!=0)
+ 436   2                      {
+ 437   3                              n--;
+ 438   3                              goto Repeat;
+ 439   3                      }
+ 440   2              }
+ 441   1              goto exit;
+ 442   1      Repeat:
+ 443   1              start_bit();
+ 444   1              goto send;
+ 445   1      exit: ;
+ 446   1      }
+ 447          
+ 448          void send_bit(void)
+ 449          {
+ 450   1              if(bit_out==0)
+ 451   1                      SDA=0;
+ 452   1              else
+ 453   1                      SDA=1;
+ 454   1              _nop_();
+ 455   1              SCL=1;
  456   1              _nop_();_nop_();_nop_();_nop_();
- 457   1      }
- 458          
- 459          uchar read(void)
- 460          {
- 461   1              uchar i,dat;
- 462   1              dat=0;
- 463   1              for(i=0;i<8;i++)
- 464   1              {
- 465   2                      dat=dat<<1;
- 466   2                      receive_bit();
- 467   2                      if(bit_in==1)
- 468   2                              dat=dat+1;
- 469   2              }
- 470   1              send_bit();
- 471   1              return dat;
- 472   1      }
- 473          
- 474          void receive_bit(void)
- 475          {
- 476   1              SDA=1;bit_in=1;
- 477   1              SCL=1;
- 478   1              _nop_();_nop_();_nop_();_nop_();
- 479   1              _nop_();_nop_();_nop_();_nop_();
- 480   1              bit_in=SDA;
- 481   1              _nop_();
- 482   1              SCL=0;
+ 457   1              _nop_();_nop_();_nop_();_nop_();
+ 458   1              SCL=0;
+ 459   1              _nop_();_nop_();_nop_();_nop_();
+ 460   1              _nop_();_nop_();_nop_();_nop_();
+ 461   1      }
+ 462          
+ 463          uchar read(void)
+ 464          {
+ 465   1              uchar i,dat;
+ 466   1              dat=0;
+ 467   1              for(i=0;i<8;i++)
+ 468   1              {
+ 469   2                      dat=dat<<1;
+ 470   2                      receive_bit();
+ 471   2                      if(bit_in==1)
+ 472   2                              dat=dat+1;
+ 473   2              }
+ 474   1              send_bit();
+ 475   1              return dat;
+ 476   1      }
+ 477          
+ 478          void receive_bit(void)
+ 479          {
+ 480   1              SDA=1;bit_in=1;
+ 481   1              SCL=1;
+ 482   1              _nop_();_nop_();_nop_();_nop_();
  483   1              _nop_();_nop_();_nop_();_nop_();
- 484   1              _nop_();_nop_();_nop_();_nop_();
- 485   1      }
- 486          
- 487          uint getTemp(void)
- 488          {
- 489   1              start_bit();
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 9   
+ 484   1              bit_in=SDA;
+ 485   1              _nop_();
+ 486   1              SCL=0;
+ 487   1              _nop_();_nop_();_nop_();_nop_();
+ 488   1              _nop_();_nop_();_nop_();_nop_();
+ 489   1      }
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 9   
 
- 490   1              send(0xB4); 
- 491   1              send(0x07);  
- 492   1              start_bit();
- 493   1              send(0x01);
- 494   1              bit_out=0;
- 495   1              temL=read();
- 496   1              bit_out=0;
- 497   1              temH=read();
- 498   1              bit_out=1;
- 499   1              err=read();
- 500   1              stop_bit();
- 501   1              return (temH*256+temL)*2-27315;
- 502   1      }
- 503          
- 504          void BlueSend(uchar *str,uchar n)
- 505          {
- 506   1              uchar i;
- 507   1              for(i=0;i<n;i++){
- 508   2                      StartTXD(str[i]);
- 509   2                      while (!TxdEnd); 
- 510   2                      delay(50);                                                                               
- 511   2              }
- 512   1      }
- 513          
- 514          void ConfigUART(unsigned int baud)
- 515          {
- 516   1              TMOD &= 0xF0; 
- 517   1              TMOD |= 0x02; 
- 518   1              TH0 = 256 - (11059200/12)/baud; 
- 519   1      }
- 520          
+ 490          
+ 491          uint getTemp(void)
+ 492          {
+ 493   1              start_bit();
+ 494   1              send(0xB4); 
+ 495   1              send(0x07);  
+ 496   1              start_bit();
+ 497   1              send(0x01);
+ 498   1              bit_out=0;
+ 499   1              temL=read();
+ 500   1              bit_out=0;
+ 501   1              temH=read();
+ 502   1              bit_out=1;
+ 503   1              err=read();
+ 504   1              stop_bit();
+ 505   1              return (temH*256+temL)*2-27315;
+ 506   1      }
+ 507          
+ 508          void BlueSend(uchar *str,uchar n)
+ 509          {
+ 510   1              uchar i;
+ 511   1              for(i=0;i<n;i++){
+ 512   2                      SBUF=str[i];  
+ 513   2                      delay(70);                                                                             
+ 514   2              }
+ 515   1      }
+ 516          
+ 517          void BlueReceive()
+ 518          {
+ 519   1      
+ 520   1      }
  521          
- 522          void StartRXD()
+ 522          void ConfigUART(unsigned int baud)
  523          {
- 524   1              TL0 = 256 - ((256-TH0)>>1); 
- 525   1              ET0 = 1; 
- 526   1              TR0 = 1; 
- 527   1              RxdEnd = 0; 
- 528   1              RxdOrTxd = 0; 
- 529   1      }
- 530          
- 531          void StartTXD(unsigned char dat)
- 532          {
- 533   1              TxdBuf = dat; 
- 534   1              TL0 = TH0; 
- 535   1              ET0 = 1; 
- 536   1              TR0 = 1; 
- 537   1              PIN_TXD = 0; 
- 538   1              TxdEnd = 0; 
- 539   1              RxdOrTxd = 1; 
- 540   1      }
- 541          
- 542          void InterruptTimer0() interrupt 1
- 543          {
- 544   1              static unsigned char cnt = 0; 
- 545   1              if (RxdOrTxd) 
- 546   1              {
- 547   2                      cnt++;
- 548   2                      if (cnt <= 8) 
- 549   2                      {
- 550   3                              PIN_TXD = TxdBuf & 0x01;
- 551   3                              TxdBuf >>= 1;
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 10  
+ 524   1              SCON = 0x50; 
+ 525   1              TMOD &= 0x0F; 
+ 526   1              TMOD |= 0x20; 
+ 527   1              TH1 = 256 - (11059200/12/32)/baud; 
+ 528   1              TL1 = TH1; 
+ 529   1              ET1 = 0; 
+ 530   1              ES = 1; 
+ 531   1              TR1 = 1; 
+ 532   1      }
+ 533          
+ 534          void InterruptUART() interrupt 4
+ 535          {
+ 536   1              if (RI) 
+ 537   1              {
+ 538   2                      RI = 0; 
+ 539   2                      RxdB = SBUF;
+ 540   2                      SBUF = 0x21; 
+ 541   2              }
+ 542   1              if (TI) 
+ 543   1              {
+ 544   2                      TI = 0; 
+ 545   2              }
+ 546   1      }
+ 547          
+ 548          void cmd_w(uchar cmd)                                  
+ 549          {
+ 550   1              //LCDE=0;
+ 551   1              busy();                                                 
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 10  
 
- 552   3                      }
- 553   2                      else if (cnt == 9) 
- 554   2                      {
- 555   3                              PIN_TXD = 1;
- 556   3                      }else{
- 557   3                              cnt = 0; 
- 558   3                              TR0 = 0; 
- 559   3                              TxdEnd = 1; 
- 560   3                      }
- 561   2              }else{
- 562   2                      if (cnt == 0) 
- 563   2                      {
- 564   3                              if (!PIN_RXD) 
- 565   3                              {
- 566   4                                      RxdBuf = 0;
- 567   4                                      cnt++;
- 568   4                              }else{
- 569   4                                      TR0 = 0; 
- 570   4                              }
- 571   3                      }else if (cnt <= 8){
- 572   3                              RxdBuf >>= 1; 
- 573   3                              if (PIN_RXD) 
- 574   3                              { 
- 575   4                                      RxdBuf |= 0x80;
- 576   4                              }
- 577   3                              cnt++;
- 578   3                      }else{
- 579   3                              cnt = 0; 
- 580   3                              TR0 = 0; 
- 581   3                              if (PIN_RXD)
- 582   3                              {
- 583   4                                      RxdEnd = 1; 
- 584   4                              }
- 585   3                      }
- 586   2              }
- 587   1      }
- 588          
- 589          void cmd_w(uchar cmd)                                  
- 590          {
- 591   1              //LCDE=0;
- 592   1              busy();                                                 
- 593   1              P2=cmd;                                                 
- 594   1              RS=0;                                                    
- 595   1              RW=0;                                                    
- 596   1              LCDE=1;                                               
- 597   1              LCDE=0;
- 598   1      }
- 599          
- 600          void init1602(void)                            
- 601          {
- 602   1              cmd_w(0x01);                                 //Clean
- 603   1              cmd_w(0x0c);                                 //Inital Settings
- 604   1              cmd_w(0x06);
- 605   1              cmd_w(0x38);  
- 606   1      }
- 607                                         
- 608          
- 609          void busy(void)                                 //LCD is busy ?
- 610          {
- 611   1              flag1=0x80;                                    
- 612   1              while(flag1&0x80)                          
- 613   1              {
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 11  
-
- 614   2                      P2=0xff;
- 615   2                      RS=0;                                               
- 616   2                      RW=1;                                             
- 617   2                      LCDE=1;                                       
- 618   2                      flag1=P2;                                       
- 619   2                      LCDE=0;
- 620   2              }
- 621   1      }
- 622          
- 623          void dat_w(uchar dat)                                  
- 624          {
- 625   1              busy();                                               
- 626   1      //      LCDE=0;
- 627   1              if(flag1==16)
- 628   1              {       
- 629   2                      P2=0xC0;
- 630   2                  RS=0;                                               
- 631   2                  RW=0;                                                                                        
- 632   2                  LCDE=1;                                               
- 633   2                  LCDE=0;
- 634   2              }
- 635   1              P2=dat;
- 636   1              RS=1;                                                       
- 637   1              RW=0;                                                                                                    
+ 552   1              P2=cmd;                                                 
+ 553   1              RS=0;                                                    
+ 554   1              RW=0;                                                    
+ 555   1              LCDE=1;                                               
+ 556   1              LCDE=0;
+ 557   1      }
+ 558          
+ 559          void init1602(void)                            
+ 560          {
+ 561   1              cmd_w(0x01);                                 //Clean
+ 562   1              cmd_w(0x0c);                                 //Inital Settings
+ 563   1              cmd_w(0x06);
+ 564   1              cmd_w(0x38);  
+ 565   1      }
+ 566                                         
+ 567          
+ 568          void busy(void)                                 //LCD is busy ?
+ 569          {
+ 570   1              flag1=0x80;                                    
+ 571   1              while(flag1&0x80)                          
+ 572   1              {
+ 573   2                      P2=0xff;
+ 574   2                      RS=0;                                               
+ 575   2                      RW=1;                                             
+ 576   2                      LCDE=1;                                       
+ 577   2                      flag1=P2;                                       
+ 578   2                      LCDE=0;
+ 579   2              }
+ 580   1      }
+ 581          
+ 582          void dat_w(uchar dat)                                  
+ 583          {
+ 584   1              busy();                                               
+ 585   1      //      LCDE=0;
+ 586   1              if(flag1==16)
+ 587   1              {       
+ 588   2                      P2=0xC0;
+ 589   2                  RS=0;                                               
+ 590   2                  RW=0;                                                                                        
+ 591   2                  LCDE=1;                                               
+ 592   2                  LCDE=0;
+ 593   2              }
+ 594   1              P2=dat;
+ 595   1              RS=1;                                                       
+ 596   1              RW=0;                                                                                                    
              - 
- 638   1              LCDE=1;                                                   
- 639   1              LCDE=0;
- 640   1      }
- 641          
- 642          void LCD_print(uchar *str,uchar n)                                      
- 643          {
- 644   1              if(n)
- 645   1                      cmd_w(0x01);
- 646   1              while(*str!='\0')                                   
- 647   1              {
- 648   2                      dat_w(*str);                                  
- 649   2                      str++;                                                
- 650   2              }
- 651   1      }
- 652          
- 653          void I2C_Start(void)
- 654          {
- 655   1              SDA=1;
- 656   1              delay(1);
- 657   1              SCL=1;
- 658   1              delay(1);
- 659   1              SDA=0;
- 660   1              delay(1);
- 661   1              SCL=0;
- 662   1                      
- 663   1      }
- 664          
- 665          void I2C_Stop(void)
- 666          {
- 667   1              SDA=0;
- 668   1              delay(1);
- 669   1              SCL=1;
- 670   1              delay(1);
- 671   1              SDA=1;
- 672   1              delay(1);       
- 673   1      }
- 674          
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 12  
+ 597   1              LCDE=1;                                                   
+ 598   1              LCDE=0;
+ 599   1      }
+ 600          
+ 601          void LCD_print(uchar *str,uchar n)                                      
+ 602          {
+ 603   1              if(n)
+ 604   1                      cmd_w(0x01);
+ 605   1              while(*str!='\0')                                   
+ 606   1              {
+ 607   2                      dat_w(*str);                                  
+ 608   2                      str++;                                                
+ 609   2              }
+ 610   1      }
+ 611          
+ 612          void I2C_Start(void)
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 11  
 
- 675          void I2C_Ack(void)
- 676          {
- 677   1              uchar i;
- 678   1              SCL=1;
- 679   1              delay(1);
- 680   1              while((SDA==1)&&(i<255)) i++;
- 681   1              SCL=0;
- 682   1              delay(1);
- 683   1              SDA=1;
- 684   1      }
- 685          
- 686          void Write_Byte(uchar wdata)
- 687          {
- 688   1              uchar i;
- 689   1              EEP=wdata;
- 690   1              for(i=0;i<8;i++)
- 691   1              {       
- 692   2                      SDA=EEP_7;
- 693   2                      SCL=1;
- 694   2                      delay(1);
- 695   2                      EEP<<=1;
- 696   2                      SCL=0;
- 697   2                      delay(1);
- 698   2              }
- 699   1              SDA=1;
- 700   1              delay(1);
- 701   1              SCL=0;
- 702   1      }
- 703          
- 704          uchar Read_Byte(void)
- 705          {
- 706   1              uchar i;
- 707   1              SDA=1;
- 708   1              EEP=0;
- 709   1              for(i=0;i<8;i++)
- 710   1              {
- 711   2                      EEP<<=1;
- 712   2                      SCL=1;
- 713   2                  delay(1);
- 714   2                      EEP_0=SDA;
- 715   2                      SCL=0;
- 716   2                      delay(1);
- 717   2              }
- 718   1              return EEP;
- 719   1      }
- 720          
- 721          void ewrite(uchar addr,uchar dat)
- 722          {
- 723   1              I2C_Start();
- 724   1              Write_Byte(0xa0);
- 725   1              I2C_Ack();
- 726   1              Write_Byte(addr);  
- 727   1              I2C_Ack();
- 728   1              Write_Byte(dat);
- 729   1              I2C_Ack();
- 730   1              I2C_Stop();
- 731   1      }
- 732          
- 733          uchar eread(uchar addr)
- 734          {
- 735   1              uchar dat;
- 736   1              I2C_Start();
-C51 COMPILER V9.01   MAIN                                                                  07/25/2021 01:07:13 PAGE 13  
+ 613          {
+ 614   1              SDA=1;
+ 615   1              delay(1);
+ 616   1              SCL=1;
+ 617   1              delay(1);
+ 618   1              SDA=0;
+ 619   1              delay(1);
+ 620   1              SCL=0;
+ 621   1                      
+ 622   1      }
+ 623          
+ 624          void I2C_Stop(void)
+ 625          {
+ 626   1              SDA=0;
+ 627   1              delay(1);
+ 628   1              SCL=1;
+ 629   1              delay(1);
+ 630   1              SDA=1;
+ 631   1              delay(1);       
+ 632   1      }
+ 633          
+ 634          void I2C_Ack(void)
+ 635          {
+ 636   1              uchar i;
+ 637   1              SCL=1;
+ 638   1              delay(1);
+ 639   1              while((SDA==1)&&(i<255)) i++;
+ 640   1              SCL=0;
+ 641   1              delay(1);
+ 642   1              SDA=1;
+ 643   1      }
+ 644          
+ 645          void Write_Byte(uchar wdata)
+ 646          {
+ 647   1              uchar i;
+ 648   1              EEP=wdata;
+ 649   1              for(i=0;i<8;i++)
+ 650   1              {       
+ 651   2                      SDA=EEP_7;
+ 652   2                      SCL=1;
+ 653   2                      delay(1);
+ 654   2                      EEP<<=1;
+ 655   2                      SCL=0;
+ 656   2                      delay(1);
+ 657   2              }
+ 658   1              SDA=1;
+ 659   1              delay(1);
+ 660   1              SCL=0;
+ 661   1      }
+ 662          
+ 663          uchar Read_Byte(void)
+ 664          {
+ 665   1              uchar i;
+ 666   1              SDA=1;
+ 667   1              EEP=0;
+ 668   1              for(i=0;i<8;i++)
+ 669   1              {
+ 670   2                      EEP<<=1;
+ 671   2                      SCL=1;
+ 672   2                  delay(1);
+ 673   2                      EEP_0=SDA;
+ 674   2                      SCL=0;
+C51 COMPILER V9.01   MAIN                                                                  07/25/2021 11:19:44 PAGE 12  
 
- 737   1              Write_Byte(0xa0);
- 738   1              I2C_Ack();
- 739   1              Write_Byte(addr);  
- 740   1              I2C_Ack();
- 741   1              I2C_Start();
- 742   1              Write_Byte(0xa1);
- 743   1              I2C_Ack();
- 744   1              dat=Read_Byte();
- 745   1              I2C_Stop();
- 746   1              return dat;
- 747   1      }
+ 675   2                      delay(1);
+ 676   2              }
+ 677   1              return EEP;
+ 678   1      }
+ 679          
+ 680          void ewrite(uchar addr,uchar dat)
+ 681          {
+ 682   1              I2C_Start();
+ 683   1              Write_Byte(0xa0);
+ 684   1              I2C_Ack();
+ 685   1              Write_Byte(addr);  
+ 686   1              I2C_Ack();
+ 687   1              Write_Byte(dat);
+ 688   1              I2C_Ack();
+ 689   1              I2C_Stop();
+ 690   1      }
+ 691          
+ 692          uchar eread(uchar addr)
+ 693          {
+ 694   1              uchar dat;
+ 695   1              I2C_Start();
+ 696   1              Write_Byte(0xa0);
+ 697   1              I2C_Ack();
+ 698   1              Write_Byte(addr);  
+ 699   1              I2C_Ack();
+ 700   1              I2C_Start();
+ 701   1              Write_Byte(0xa1);
+ 702   1              I2C_Ack();
+ 703   1              dat=Read_Byte();
+ 704   1              I2C_Stop();
+ 705   1              return dat;
+ 706   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =   2270    ----
-   CONSTANT SIZE    =     87    ----
+   CODE SIZE        =   2156    ----
+   CONSTANT SIZE    =     90    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
-   DATA SIZE        =     34      19
+   DATA SIZE        =     32      19
    IDATA SIZE       =   ----    ----
-   BIT SIZE         =      3    ----
+   BIT SIZE         =   ----    ----
 END OF MODULE INFORMATION.
 
 

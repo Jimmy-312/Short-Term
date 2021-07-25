@@ -42,14 +42,6 @@ sbit bluea=flag2^1;
 
 uchar temH,temL,err;
 
-bit RxdOrTxd = 0; 
-bit RxdEnd = 0; 
-bit TxdEnd = 0; 
-uchar RxdBuf = 0; 
-uchar TxdBuf = 0; 
-sbit PIN_RXD = P3^0; 
-sbit PIN_TXD = P3^1;
-
 void busy(void);
 void cmd_w(uchar cmd);
 void init1602(void);
@@ -65,8 +57,6 @@ uchar eread(uchar addr);
 void ewrite(uchar addr,uchar dat);
 
 void ConfigUART(unsigned int baud);
-void StartTXD(unsigned char dat);
-void StartRXD();
 void BlueSend(uchar *str,uchar n);
 void delay(uint a);
 void i2c_Init(void);
@@ -81,8 +71,11 @@ void mtemp(void);
 void hisswitch(void);
 void SendHis();
 void inital();
+void BlueReceive();
+void time1int();
 
 uchar flag1;
+uchar RxdB;
 uint tem;
 float otem;
 uint temthread;
@@ -196,16 +189,17 @@ void main()
 			}
 			if(bluea)
 			{
-				while (PIN_RXD&bluea); 
-				StartRXD(); 
-				while (!RxdEnd&bluea);
-				
-				SendHis();
+				while(bluea);
+				LCD_print("          Sending...",0);
+				SendHis(); 
+				time1int();
 				delay(5000);
-				LED=1;
+				LED=1;				
+				sel=hisnum;
+				sw=1;
 			}
 		}else{
-		 
+		 	
 		}
 	}
 }
@@ -247,12 +241,17 @@ void int0() interrupt 0
 	delay(100);
 	if(INT0==0)
 	{
+		SBUF=0x30;
 		if(his)
 		{
 			//LED=1;
-			set=1;
-			setd=0;
-			his=0;
+			if(bluea){
+
+			}else{
+				set=1;
+				setd=0;
+				his=0;
+			}
 		}else
 		if(set){
 			set=0;
@@ -274,7 +273,11 @@ void int1() interrupt 2
 	{
 		if(his)
 		{
-			sw=1;			
+			if(bluea){
+			  	bluea=0;
+			}else{
+				sw=1;
+			}			
 		}else
 		if(set)
 		{
@@ -293,14 +296,12 @@ void int2() interrupt 3
 		if(his)
 		{
 			if(bluea){
-				LCD_print("          Sending",0);
-			  	bluea=0;
-				sel=hisnum;
-				sw=1;
+
 			}else{
 				bluea=1;
 				LED=0;
 				LCD_print("Bluetooth",1);
+				ConfigUART(9600);
 			}				
 		}else
 		if(set)
@@ -311,7 +312,16 @@ void int2() interrupt 3
 		}
 	}
 }
-
+void time1int()
+{
+	ES=0;
+	TMOD &= 0x0F;
+	TMOD |= 0x60;
+	TH1=0xFF;
+	TL1=0xFF;
+	ET1=1;
+	TR1=1;
+}
 void inital()
 {
 	EX0 = 1;        
@@ -324,15 +334,9 @@ void inital()
 	sw=0;
 	setw=0;
 	setd=0;
-	ConfigUART(9600);
-	TMOD &= 0x0F;
-	TMOD |= 0x60;
-	TH1=0xFF;
-	TL1=0xFF;
-	ET1=1;
-	TR1=1;
+	time1int();
 	init1602();
-	
+	//ConfigUART(9600);
 /*	ewrite(Thread1,3);
 	ewrite(Thread2,7);
 	ewrite(Thread3,4);
@@ -505,84 +509,39 @@ void BlueSend(uchar *str,uchar n)
 {
 	uchar i;
 	for(i=0;i<n;i++){
-		StartTXD(str[i]);
-		while (!TxdEnd); 
-		delay(50);                                                                               
+		SBUF=str[i];  
+		delay(70);                                                                             
 	}
+}
+
+void BlueReceive()
+{
+
 }
 
 void ConfigUART(unsigned int baud)
 {
-	TMOD &= 0xF0; 
-	TMOD |= 0x02; 
-	TH0 = 256 - (11059200/12)/baud; 
+	SCON = 0x50; 
+	TMOD &= 0x0F; 
+	TMOD |= 0x20; 
+	TH1 = 256 - (11059200/12/32)/baud; 
+	TL1 = TH1; 
+	ET1 = 0; 
+	ES = 1; 
+	TR1 = 1; 
 }
 
-
-void StartRXD()
+void InterruptUART() interrupt 4
 {
-	TL0 = 256 - ((256-TH0)>>1); 
-	ET0 = 1; 
-	TR0 = 1; 
-	RxdEnd = 0; 
-	RxdOrTxd = 0; 
-}
-
-void StartTXD(unsigned char dat)
-{
-	TxdBuf = dat; 
-	TL0 = TH0; 
-	ET0 = 1; 
-	TR0 = 1; 
-	PIN_TXD = 0; 
-	TxdEnd = 0; 
-	RxdOrTxd = 1; 
-}
-
-void InterruptTimer0() interrupt 1
-{
-	static unsigned char cnt = 0; 
-	if (RxdOrTxd) 
+	if (RI) 
 	{
-		cnt++;
-		if (cnt <= 8) 
-		{
-			PIN_TXD = TxdBuf & 0x01;
-			TxdBuf >>= 1;
-		}
-		else if (cnt == 9) 
-		{
-			PIN_TXD = 1;
-		}else{
-			cnt = 0; 
-			TR0 = 0; 
-			TxdEnd = 1; 
-		}
-	}else{
-		if (cnt == 0) 
-		{
-			if (!PIN_RXD) 
-			{
-				RxdBuf = 0;
-				cnt++;
-			}else{
-				TR0 = 0; 
-			}
-		}else if (cnt <= 8){
-			RxdBuf >>= 1; 
-			if (PIN_RXD) 
-			{ 
-				RxdBuf |= 0x80;
-			}
-			cnt++;
-		}else{
-			cnt = 0; 
-			TR0 = 0; 
-			if (PIN_RXD)
-			{
-				RxdEnd = 1; 
-			}
-		}
+		RI = 0; 
+		RxdB = SBUF;
+		SBUF = 0x21; 
+	}
+	if (TI) 
+	{
+		TI = 0; 
 	}
 }
 
