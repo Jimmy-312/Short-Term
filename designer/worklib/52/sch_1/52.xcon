@@ -5,7 +5,7 @@
     <schemaVersion>17.2</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2021-07-17T21:39:47</modificationTime>
+    <modificationTime>2021-07-27T20:38:18</modificationTime>
     <savedLibrary>52_lib</savedLibrary>
   </header>
   <designs>
@@ -14,7 +14,7 @@
         <instanceid>97</instanceid>
         <netid>73</netid>
         <insttermid>346</insttermid>
-        <netgroupid>1</netgroupid>
+        <netgroupid>2</netgroupid>
       </lastids>
       <cells>
         <cell>
@@ -1703,6 +1703,7 @@
               <id>M207</id>
               <termid>T75</termid>
               <connections>
+                <connection net="N41" />
               </connections>
             </pin>
             <pin>

@@ -351,6 +351,16 @@
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
             </File>
+            <File>
+              <FileName>LQ12864.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\LQ12864.h</FilePath>
+            </File>
+            <File>
+              <FileName>codetab.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\codetab.h</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

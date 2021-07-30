@@ -1,30 +1,251 @@
 \t (00:00:01) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Fri Jul 23 23:53:47 2021
-\t (00:00:01)         Host=JIMMY-STATION User=Jimmy-X Pid=21112 CPUs=8
-\t (00:00:01) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\short_term\designer\52.cpm -product Allegro_performance -option Allegro_PCB_HighSpeed_Option -option Allegro_PCB_Mini_Option -mpssession Jimmy-X_ProjectMgr13311 -mpshost Jimmy-Station
+\t (00:00:01)     Journal start - Tue Jul 27 17:47:00 2021
+\t (00:00:01)         Host=JIMMY-STATION User=Jimmy-X Pid=8956 CPUs=8
+\t (00:00:01) CmdLine= allegro -proj C:\Users\Jimmy-X\Desktop\short_term\designer\52.cpm -product Allegro_performance -option Allegro_PCB_HighSpeed_Option -option Allegro_PCB_Mini_Option -mpssession Jimmy-X_ProjectMgr27865 -mpshost Jimmy-Station
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
 \t (00:00:02) Opening existing design...
 \d (00:00:02) Design opened: C:/Users/Jimmy-X/Desktop/short_term/designer/worklib/52/physical/pcb.brd
-\i (00:00:03) trapsize 1729
-\i (00:00:03) trapsize 1759
-\i (00:00:03) trapsize 1759
-\i (00:00:03) generaledit 
-\i (00:00:05) zoom in 1 
+\i (00:00:02) trapsize 1729
+\i (00:00:02) trapsize 1759
+\i (00:00:02) trapsize 1759
+\i (00:00:02) generaledit 
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in 9847.53 11971.36
+\i (00:00:04) trapsize 879
+\i (00:00:04) zoom in 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom in 9847.54 11971.37
+\i (00:00:04) trapsize 440
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 9847.54 11968.73
+\i (00:00:04) trapsize 879
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 9842.26 11919.48
+\i (00:00:04) trapsize 1759
+\i (00:00:05) zoom out 1 
 \i (00:00:05) setwindow pcb
-\i (00:00:05) zoom in 8081.51 10096.29
-\i (00:00:05) trapsize 879
-\i (00:00:05) zoom in 1 
-\i (00:00:05) setwindow pcb
-\i (00:00:05) zoom in 8081.52 10096.29
-\i (00:00:05) trapsize 440
+\i (00:00:05) zoom out 9842.26 11919.48
+\i (00:00:05) trapsize 3518
 \i (00:00:06) zoom in 1 
 \i (00:00:06) setwindow pcb
-\i (00:00:06) zoom in 8152.75 10054.95
-\i (00:00:06) trapsize 220
-\i (00:00:07) zoom out 1 
-\i (00:00:07) setwindow pcb
-\i (00:00:07) zoom out 8152.75 10054.95
-\i (00:00:07) trapsize 440
-\i (00:08:35) exit 
-\t (00:08:35)     Journal end - Sat Jul 24 00:02:21 2021
+\i (00:00:06) zoom in 10272.46 12566.78
+\i (00:00:06) trapsize 1759
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 10272.46 12566.78
+\i (00:00:06) trapsize 879
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 10575.01 12060.20
+\i (00:00:10) trapsize 1759
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 10532.80 12000.39
+\i (00:00:10) trapsize 3518
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 11398.21 12000.39
+\i (00:00:10) trapsize 7036
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 22798.02 11821.19
+\i (00:00:10) trapsize 7036
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 8950.33 11384.94
+\i (00:00:11) trapsize 3518
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 8950.34 11384.94
+\i (00:00:11) trapsize 1759
+\i (00:00:19) QtSignal CVPLayerGrid CVPConductorsPin clicked false
+\i (00:00:20) QtSignal CVPLayerGrid CVPConductorsPin clicked true
+\i (00:00:32) QtSignal CVPLayerGrid CVPConductorsDrc clicked false
+\i (00:00:33) QtSignal CVPLayerGrid CVPConductorsDrc clicked true
+\i (00:00:34) QtSignal CVPLayerGrid CVPConductorsDrc clicked false
+\i (00:00:35) QtSignal CVPLayerGrid CVPConductorsDrc clicked true
+\i (00:00:37) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
+\i (00:00:37) QtSignal CVPLayerGrid CVPAll_LayersPin clicked true
+\i (00:00:38) QtSignal CVPLayerGrid CVPAll_LayersVia clicked false
+\i (00:00:39) QtSignal CVPLayerGrid CVPAll_LayersVia clicked true
+\i (00:00:40) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked false
+\i (00:00:41) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked true
+\i (00:00:45) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: SILK_TOP"
+\i (00:00:46) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: SILK_TOP"
+\i (00:00:48) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: SILK_BOTTOM"
+\i (00:00:48) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: SILK_BOTTOM"
+\i (00:00:50) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: SOLDERMASK_TOP"
+\i (00:00:50) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: SOLDERMASK_TOP"
+\i (00:00:53) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: TOP"
+\i (00:00:53) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: TOP"
+\i (00:00:56) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged "Film: DRILL"
+\i (00:00:56) QtSignal ColorVisibilityPane CVPViewDropdown activated "Film: DRILL"
+\i (00:00:59) QtSignal ColorVisibilityPane CVPViewDropdown CurrentIndexChanged
+\i (00:00:59) QtSignal ColorVisibilityPane CVPViewDropdown activated
+\i (00:01:00) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:01:05) QtSignal ColorVisibilityPane CVPGlobalVisRestore clicked
+\i (00:01:06) QtSignal ColorVisibilityPane CVPGlobalVisOn clicked
+\i (00:01:08) QtSignal CVPLayerGrid CVPAll_LayersPlan clicked false
+\i (00:01:10) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked false
+\i (00:01:12) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked true
+\i (00:01:12) QtSignal CVPLayerGrid CVPAll_LayersVia clicked false
+\i (00:01:14) QtSignal CVPLayerGrid CVPAll_LayersVia clicked true
+\i (00:01:15) QtSignal CVPLayerGrid CVPAll_LayersVia clicked false
+\i (00:01:15) QtSignal CVPLayerGrid CVPAll_LayersVia clicked true
+\i (00:01:19) QtSignal CVPLayerGrid CVPAll_LayersVia clicked false
+\i (00:01:21) QtSignal CVPLayerGrid CVPAll_LayersVia clicked true
+\i (00:01:22) QtSignal CVPLayerGrid CVPAll_LayersVia clicked false
+\i (00:01:25) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
+\i (00:01:27) QtSignal CVPLayerGrid CVPAll_LayersPin clicked true
+\i (00:01:28) QtSignal CVPLayerGrid CVPAll_LayersDrc clicked false
+\i (00:01:29) QtSignal CVPLayerGrid CVPAll_LayersDrc clicked true
+\i (00:01:41) QtSignal CVPLayerGrid CVPAll_LayersDrc clicked false
+\i (00:01:42) QtSignal CVPLayerGrid CVPAll_LayersDrc clicked true
+\i (00:01:42) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
+\i (00:01:47) QtSignal CVPLayerGrid CVPAll_LayersVia clicked true
+\i (00:01:48) QtSignal CVPLayerGrid CVPAll_LayersVia clicked false
+\i (00:01:49) QtSignal CVPLayerGrid CVPAll_LayersPin clicked true
+\i (00:01:49) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
+\i (00:01:50) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked false
+\i (00:01:51) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked true
+\i (00:01:53) QtSignal CVPLayerGrid CVPPlanesEtch clicked false
+\i (00:01:54) QtSignal CVPLayerGrid CVPPlanesEtch clicked false
+\i (00:01:55) QtSignal CVPLayerGrid CVPPlanesEtch clicked false
+\i (00:01:56) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked false
+\i (00:01:57) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked true
+\i (00:01:58) QtSignal CVPLayerGrid CVPAll_LayersPin clicked true
+\i (00:02:05) QtSignal CVPLayerGrid CVPButtonPinBottom clicked
+\i (00:02:06) QtSignal CVPLayerGrid CVPButtonPinBottom clicked
+\i (00:02:06) QtSignal CVPLayerGrid CVPButtonDrcBottom clicked
+\i (00:02:07) QtSignal CVPLayerGrid CVPButtonDrcBottom clicked
+\i (00:02:08) QtSignal CVPLayerGrid CVPButtonPinTop clicked
+\i (00:02:09) QtSignal CVPLayerGrid CVPButtonPinTop clicked
+\i (00:02:10) QtSignal CVPLayerGrid CVPButtonPinTop clicked
+\i (00:02:13) QtSignal CVPLayerGrid CVPButtonPinBottom clicked
+\i (00:02:14) QtSignal CVPLayerGrid CVPButtonPinBottom clicked
+\i (00:02:15) QtSignal CVPLayerGrid CVPButtonPinTop clicked
+\i (00:02:15) QtSignal CVPLayerGrid CVPButtonEtchTop clicked
+\i (00:02:17) QtSignal CVPLayerGrid CVPButtonEtchBottom clicked
+\i (00:02:17) QtSignal CVPLayerGrid CVPButtonEtchBottom clicked
+\i (00:02:18) QtSignal CVPLayerGrid CVPButtonEtchTop clicked
+\i (00:02:21) QtSignal CVPLayerGrid CVPButtonPlanTop clicked
+\i (00:02:21) QtSignal CVPLayerGrid CVPButtonPlanTop clicked
+\i (00:02:35) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:02:36) QtSignal CVPLayerGrid CVPAllConductors clicked false
+\i (00:02:37) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:02:37) QtSignal CVPLayerGrid CVPAllConductors clicked false
+\i (00:02:39) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:02:39) QtSignal CVPLayerGrid CVPAllConductors clicked false
+\i (00:02:41) QtSignal CVPLayerGrid CVPButtonDrcThrough_All clicked
+\i (00:02:42) QtSignal CVPLayerGrid CVPBoxAllAll clicked true
+\i (00:02:43) QtSignal CVPLayerGrid CVPBoxAllAll clicked false
+\i (00:02:45) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:02:46) QtSignal CVPLayerGrid CVPAllConductors clicked false
+\i (00:02:46) QtSignal CVPLayerGrid CVPAllPlanes clicked false
+\i (00:02:47) QtSignal CVPLayerGrid CVPAllPlanes clicked false
+\i (00:02:48) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:02:48) QtSignal CVPLayerGrid CVPAllPlanes clicked false
+\i (00:02:49) QtSignal CVPLayerGrid CVPAllPlanes clicked false
+\i (00:02:50) QtSignal CVPLayerGrid CVPPlanesDrc clicked false
+\i (00:02:51) QtSignal CVPLayerGrid CVPAllMasks clicked false
+\i (00:02:52) QtSignal CVPLayerGrid CVPAllAll_Layers clicked true
+\i (00:02:53) QtSignal CVPLayerGrid CVPAllAll_Layers clicked false
+\i (00:02:55) QtSignal CVPLayerGrid CVPAllConductors clicked true
+\i (00:02:56) QtSignal CVPLayerGrid CVPAll_LayersEtch clicked false
+\i (00:02:58) QtSignal CVPLayerGrid CVPAll_LayersVia clicked false
+\i (00:02:59) QtSignal CVPLayerGrid CVPAll_LayersPin clicked false
+\i (00:03:03) QtSignal CVPLayerGrid CVPConductorsEtch clicked true
+\i (00:03:03) QtSignal CVPLayerGrid CVPConductorsVia clicked true
+\i (00:03:04) QtSignal CVPLayerGrid CVPConductorsPin clicked true
+\i (00:03:06) zoom out 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom out 9566.03 10892.39
+\i (00:03:06) trapsize 3518
+\i (00:03:06) zoom out 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom out 9833.41 10836.11
+\i (00:03:06) trapsize 7036
+\i (00:03:06) zoom out 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom out 11990.07 9344.37
+\i (00:03:06) trapsize 7036
+\i (00:03:06) zoom in 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom in 11413.08 11427.15
+\i (00:03:06) trapsize 3518
+\i (00:03:08) zoom in 1 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom in 6459.44 11722.69
+\i (00:03:08) trapsize 1759
+\i (00:03:08) zoom out 1 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom out 6899.22 11494.01
+\i (00:03:08) trapsize 3518
+\i (00:03:09) zoom in 1 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom in 5921.15 10818.51
+\i (00:03:09) trapsize 1759
+\i (00:03:10) zoom out 1 
+\i (00:03:10) setwindow pcb
+\i (00:03:10) zoom out 6280.01 10667.23
+\i (00:03:10) trapsize 3518
+\i (00:03:10) zoom in 1 
+\i (00:03:10) setwindow pcb
+\i (00:03:10) zoom in 6188.54 10547.61
+\i (00:03:10) trapsize 1759
+\i (00:03:11) zoom out 1 
+\i (00:03:11) setwindow pcb
+\i (00:03:11) zoom out 6265.95 10519.46
+\i (00:03:11) trapsize 3518
+\i (00:03:13) zoom in 1 
+\i (00:03:13) setwindow pcb
+\i (00:03:13) zoom in 5667.84 9858.04
+\i (00:03:13) trapsize 1759
+\i (00:03:13) zoom out 1 
+\i (00:03:13) setwindow pcb
+\i (00:03:13) zoom out 6125.21 9805.27
+\i (00:03:13) trapsize 3518
+\i (00:03:26) zoom in 1 
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom in 9777.12 12134.32
+\i (00:03:26) trapsize 1759
+\i (00:03:26) zoom in 1 
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom in 9777.13 12134.33
+\i (00:03:26) trapsize 880
+\i (00:59:18) zoom out 1 
+\i (00:59:18) setwindow pcb
+\i (00:59:18) zoom out 10025.17 11761.40
+\i (00:59:18) trapsize 1759
+\i (00:59:18) zoom out 1 
+\i (00:59:18) setwindow pcb
+\i (00:59:18) zoom out 10021.65 11708.63
+\i (00:59:18) trapsize 3518
+\i (00:59:19) zoom out 1 
+\i (00:59:19) setwindow pcb
+\i (00:59:19) zoom out 9733.15 11448.29
+\i (00:59:19) trapsize 7036
+\i (00:59:19) zoom in 1 
+\i (00:59:19) setwindow pcb
+\i (00:59:19) zoom in 8176.33 10737.58
+\i (00:59:19) trapsize 3518
+\i (00:59:20) zoom in 1 
+\i (00:59:20) setwindow pcb
+\i (00:59:20) zoom in 8563.34 11173.84
+\i (00:59:20) trapsize 1759
+\i (00:59:22) zoom out 
+\i (00:59:22) setwindow pcb
+\i (00:59:22) zoom out 9836.94 10392.80
+\i (00:59:22) trapsize 3518
+\i (00:59:23) zoom in 
+\i (00:59:23) setwindow pcb
+\i (00:59:23) zoom in 9836.93 10392.80
+\i (00:59:23) trapsize 1759
+\i (00:59:24) zoom fit 
+\i (00:59:24) trapsize 1640
+\i (02:51:08) exit 
+\t (02:51:08)     Journal end - Tue Jul 27 20:38:07 2021

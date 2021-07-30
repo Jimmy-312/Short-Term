@@ -1,0 +1,21 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 1)
+   (short_msg "ERROR(SPCOCN-2004): Two pins on one body shorted by one wire segment.")
+   (long_msg "ERROR(SPCOCN-2004): Two pins on one body shorted by one wire segment. (pinshorted)")
+   (location
+    (
+     (object_kind "pin")
+     (canonical_name "_!drawerror (225,5000);")
+     (parent_canonical_name "unused")
+     (drawing_name "@\52_lib\.\52\(sch_1):page1")
+    )
+   )
+  )
+ )
+)

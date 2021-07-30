@@ -5,7 +5,7 @@
     <schemaVersion>17.2</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2021-07-17T19:20:34</modificationTime>
+    <modificationTime>2021-07-17T21:21:44</modificationTime>
     <savedLibrary>52_lib</savedLibrary>
   </header>
   <designs>
@@ -1540,6 +1540,7 @@
               <id>M225</id>
               <termid>T67</termid>
               <connections>
+                <connection net="N8" />
               </connections>
             </pin>
           </pins>
